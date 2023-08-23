@@ -1,0 +1,29 @@
+# Plataforma de Innovación Abierta INNDICO ¡Bienvenido a la Plataforma de
+Innovación Abierta INNDICO! Aquí encontrarás un espacio colaborativo para
+impulsar la creatividad, la colaboración y la innovación en diversos sectores.
+## Acerca de INNDICO INNDICO es una plataforma en línea diseñada para conectar a
+emprendedores, empresas, instituciones académicas y otros actores interesados en
+la innovación abierta. A través de INNDICO, podrás: - Explorar desafíos y
+oportunidades de innovación. - Colaborar en proyectos interdisciplinarios. -
+Acceder a recursos de formación y capacitación. - Conectar con expertos y
+líderes en diversas industrias. ## Características Principales - **Desafíos
+Innovadores:** Participa en desafíos propuestos por empresas y organizaciones,
+aportando soluciones creativas y disruptivas. - **Colaboración Multisectorial:**
+Conecta con profesionales y expertos de diferentes sectores para crear equipos
+multidisciplinarios y potenciar la innovación. - **Recursos Educativos:** Accede
+a tutoriales, cursos y materiales de formación que te ayudarán a expandir tus
+habilidades en innovación y emprendimiento. - **Networking:** Establece
+conexiones valiosas con personas que comparten tus intereses y objetivos,
+creando oportunidades de colaboración a largo plazo. ## Cómo Empezar 1.
+Regístrate en la plataforma utilizando tu dirección de correo electrónico. 2.
+Explora los desafíos disponibles y los proyectos en curso. 3. Únete a equipos,
+comparte tus ideas y colabora en soluciones innovadoras. 4. Aprovecha los
+recursos de formación para mejorar tus habilidades. 5. Amplía tu red profesional
+al conectarte con otros miembros de la comunidad. ## Contribución Si estás
+interesado en contribuir al desarrollo de INNDICO, ¡te damos la bienvenida!
+Puedes enviar pull requests y ayudar a mejorar la plataforma para beneficio de
+toda la comunidad. ## Contacto Si tienes preguntas o comentarios, no dudes en
+contactarnos en [contacto@inndico.com](mailto:contacto@inndico.com). ¡Esperamos
+que disfrutes tu experiencia en INNDICO y que juntos podamos llevar la
+innovación abierta a nuevos niveles! --- © 2023 INNDICO. Todos los derechos
+reservados.
