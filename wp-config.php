@@ -1,4 +1,5 @@
 <?php
+define( 'WP_CACHE', true );
 /**
  * The base configuration for WordPress
  *
@@ -39,6 +40,8 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 define('FS_METHOD', 'direct');
+define('JWT_AUTH_SECRET_KEY', '23VeCeS***');
+define('JWT_AUTH_CORS_ENABLE', true);
 /**#@+
  * Authentication unique keys and salts.
  *

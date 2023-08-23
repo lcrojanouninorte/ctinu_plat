@@ -1385,6 +1385,18 @@ class ET_Core_SupportCenter {
 				'learn_more'     => 'https://wordpress.org/support/article/changing-file-permissions/',
 			),
 			array(
+				'name'           => esc_attr__( 'Writable et-cache Directory', 'et-core' ),
+				'environment'    => 'server',
+				'type'           => 'truthy_falsy',
+				'pass_minus_one' => null,
+				'pass_zero'      => null,
+				'minimum'        => null,
+				'recommended'    => true,
+				'actual'         => wp_is_writable( WP_CONTENT_DIR . '/et-cache' ),
+				'help_text'      => et_core_intentionally_unescaped( __( 'We recommend that the et-cache directory on your server be writable by WordPress in order to ensure the full functionality of Divi Builder themes and plugins.', 'et-core' ), 'html' ),
+				'learn_more'     => 'https://wordpress.org/support/article/changing-file-permissions/',
+			),
+			array(
 				'name'           => esc_attr__( 'PHP: Version', 'et-core' ),
 				'environment'    => 'server',
 				'type'           => 'version',
@@ -2048,6 +2060,7 @@ class ET_Core_SupportCenter {
 			'add_library'                        => true,
 			'disable_module'                     => true,
 			'divi_builder_control'               => true,
+			'divi_ai'                            => true,
 			'divi_library'                       => true,
 			'edit_borders'                       => true,
 			'edit_buttons'                       => true,
@@ -3035,12 +3048,31 @@ class ET_Core_SupportCenter {
 												. '</a>';
 						}
 
+						$vip_support_content = '<div class="et_vip_support">'
+							. '<div class="et_vip_support__left">'
+								. '<a target="_blank" href="https://www.elegantthemes.com/vip/?utm_source=Divi+VIP&utm_medium=Support+Center&utm_campaign=Native">'
+									. '<img src="' . esc_url( ET_CORE_URL ) . 'admin/images/blurb-vip.jpg" alt="Divi VIP Support" />'
+								. '</a>'
+							. '</div>'
+							. '<div class="et_vip_support__right">'
+								. '<h2>' . esc_html__( 'Get More With Divi VIP', 'et-core' ) . '</h2>'
+								. '<h2>' . esc_html__( 'The Best Support, Even Faster.', 'et-core' ) . '</h2>'
+								. '<p>'
+									. esc_html__( 'We want to provide exactly the level of support any of our customers need to be successful. With Divi VIP, you get faster support (Under 30 minutes response times around the clock). Keep your clients happy by letting us solve their problems faster.', 'et-core' )
+								. '</p>'
+								. '<a target="_blank" href="https://www.elegantthemes.com/vip/?utm_source=Divi+VIP&utm_medium=Support+Center&utm_campaign=Native">'
+									. esc_html__( 'Get Divi VIP Today!', 'et-core' )
+								. '</a>'
+							. '</div>'
+						. '</div>';
+
 						$card_content .= '<div class="et_card_cta">'
-										 . '<a target="_blank" href="https://www.elegantthemes.com/members-area/help/">'
-										 . esc_html__( 'Chat With Support', 'et-core' )
-										 . '</a>'
-										 . $support_token_cta
-										 . '</div>';
+										. '<a target="_blank" href="https://www.elegantthemes.com/members-area/help/">'
+										. esc_html__( 'Chat With Support', 'et-core' )
+										. '</a>'
+										. $support_token_cta
+										. $vip_support_content
+										. '</div>';
 
 						print $this->add_support_center_card( array(
 							'title'              => $card_title,

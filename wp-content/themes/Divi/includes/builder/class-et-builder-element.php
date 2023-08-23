@@ -746,6 +746,15 @@ class ET_Builder_Element {
 	protected $_use_unique_id = false;
 
 	/**
+	 * Whether WordPress lazy load is disabled or not.
+	 *
+	 * @since 4.21.1
+	 *
+	 * @var boolean
+	 */
+	public static $is_wp_lazy_load_disabled = false;
+
+	/**
 	 * ET_Builder_Element constructor.
 	 */
 	public function __construct() {
@@ -4539,42 +4548,45 @@ class ET_Builder_Element {
 			}
 
 			if ( isset( $option_settings['header_level'] ) ) {
-				$additional_options[ "{$option_name}_level" ] = array(
-					'label'           => sprintf( esc_html__( '%1$s Heading Level', 'et_builder' ), $option_settings['label'] ),
-					'description'     => sprintf( esc_html__( 'Module %1$s are created using HTML headings. You can change the heading level for this module by choosing anything from H1 through H6. Higher heading levels are smaller and less significant.', 'et_builder' ), $option_settings['label'] ),
-					'type'            => 'multiple_buttons',
-					'option_category' => 'font_option',
-					'options'         => array(
-						'h1' => array(
-							'title' => 'H1',
-							'icon'  => 'text-h1',
+				$additional_options[ "{$option_name}_level" ] = wp_parse_args(
+					$option_settings['header_level'],
+					array(
+						'label'           => sprintf( esc_html__( '%1$s Heading Level', 'et_builder' ), $option_settings['label'] ),
+						'description'     => sprintf( esc_html__( 'Module %1$s are created using HTML headings. You can change the heading level for this module by choosing anything from H1 through H6. Higher heading levels are smaller and less significant.', 'et_builder' ), $option_settings['label'] ),
+						'type'            => 'multiple_buttons',
+						'option_category' => 'font_option',
+						'options'         => array(
+							'h1' => array(
+								'title' => 'H1',
+								'icon'  => 'text-h1',
+							),
+							'h2' => array(
+								'title' => 'H2',
+								'icon'  => 'text-h2',
+							),
+							'h3' => array(
+								'title' => 'H3',
+								'icon'  => 'text-h3',
+							),
+							'h4' => array(
+								'title' => 'H4',
+								'icon'  => 'text-h4',
+							),
+							'h5' => array(
+								'title' => 'H5',
+								'icon'  => 'text-h5',
+							),
+							'h6' => array(
+								'title' => 'H6',
+								'icon'  => 'text-h6',
+							),
 						),
-						'h2' => array(
-							'title' => 'H2',
-							'icon'  => 'text-h2',
-						),
-						'h3' => array(
-							'title' => 'H3',
-							'icon'  => 'text-h3',
-						),
-						'h4' => array(
-							'title' => 'H4',
-							'icon'  => 'text-h4',
-						),
-						'h5' => array(
-							'title' => 'H5',
-							'icon'  => 'text-h5',
-						),
-						'h6' => array(
-							'title' => 'H6',
-							'icon'  => 'text-h6',
-						),
-					),
-					'default'         => isset( $option_settings['header_level']['default'] ) ? $option_settings['header_level']['default'] : 'h2',
-					'tab_slug'        => $tab_slug,
-					'toggle_slug'     => $toggle_slug,
-					'sub_toggle'      => $sub_toggle,
-					'advanced_fields' => true,
+						'default'         => isset( $option_settings['header_level']['default'] ) ? $option_settings['header_level']['default'] : 'h2',
+						'tab_slug'        => $tab_slug,
+						'toggle_slug'     => $toggle_slug,
+						'sub_toggle'      => $sub_toggle,
+						'advanced_fields' => true,
+					)
 				);
 
 				if ( isset( $option_settings['header_level']['computed_affects'] ) ) {
@@ -4647,18 +4659,21 @@ class ET_Builder_Element {
 					? $option_settings['text_color']['label']
 					: sprintf( $i18n['font']['color']['label'], $option_settings['label'] );
 
-				$additional_options[ "{$option_name}_text_color" ] = array(
-					'label'           => $label,
-					'description'     => sprintf( $i18n['font']['color']['description'], $option_settings['label'] ),
-					'type'            => 'color-alpha',
-					'option_category' => 'font_option',
-					'custom_color'    => true,
-					'tab_slug'        => $tab_slug,
-					'toggle_slug'     => $toggle_slug,
-					'sub_toggle'      => $sub_toggle,
-					'hover'           => 'tabs',
-					'mobile_options'  => true,
-					'sticky'          => true,
+				$additional_options[ "{$option_name}_text_color" ] = wp_parse_args(
+					self::$_->array_get( $option_settings, 'text_color', array() ),
+					array(
+						'label'           => $label,
+						'description'     => sprintf( $i18n['font']['color']['description'], $option_settings['label'] ),
+						'type'            => 'color-alpha',
+						'option_category' => 'font_option',
+						'custom_color'    => true,
+						'tab_slug'        => $tab_slug,
+						'toggle_slug'     => $toggle_slug,
+						'sub_toggle'      => $sub_toggle,
+						'hover'           => 'tabs',
+						'mobile_options'  => true,
+						'sticky'          => true,
+					)
 				);
 
 				// add reference to the obsolete color option if needed.
@@ -4814,15 +4829,18 @@ class ET_Builder_Element {
 			// Add text-shadow to font options.
 			if ( ! isset( $option_settings['hide_text_shadow'] ) || ! $option_settings['hide_text_shadow'] ) {
 				$option             = $this->text_shadow->get_fields(
-					array(
-						// Don't use an additional label for 'text' or else we'll end up with 'Text Text Shadow....'.
-						'label'           => 'text' === $option_name ? '' : $option_settings['label'],
-						'prefix'          => $option_name,
-						'option_category' => 'font_option',
-						'tab_slug'        => $tab_slug,
-						'toggle_slug'     => $toggle_slug,
-						'sub_toggle'      => $sub_toggle,
-						'mobile_options'  => true,
+					wp_parse_args(
+						self::$_->array_get( $option_settings, 'text_shadow', array() ),
+						array(
+							// Don't use an additional label for 'text' or else we'll end up with 'Text Text Shadow....'.
+							'label'           => 'text' === $option_name ? '' : $option_settings['label'],
+							'prefix'          => $option_name,
+							'option_category' => 'font_option',
+							'tab_slug'        => $tab_slug,
+							'toggle_slug'     => $toggle_slug,
+							'sub_toggle'      => $sub_toggle,
+							'mobile_options'  => true,
+						)
 					)
 				);
 				$additional_options = array_merge( $additional_options, $option );
@@ -14751,7 +14769,7 @@ class ET_Builder_Element {
 				 * @param string             $function_name Module slug (e.g. et_pb_section).
 				 * @param ET_Builder_Element $this          Module object.
 				 *
-				 * @since ??
+				 * @since 4.17.4
 				 */
 				$overflow = apply_filters( 'et_builder_process_advanced_borders_options_radii_overflow_enabled', $overflow, $function_name, $this );
 
@@ -15616,6 +15634,8 @@ class ET_Builder_Element {
 	 * @param string $function_name Module slug.
 	 */
 	public function process_scroll_effects( $function_name ) {
+		global $wp_version;
+
 		$advanced_fields = self::$_->array_get( $this->advanced_fields, 'scroll_effects', array( 'default' => array() ) );
 
 		if ( ! $advanced_fields ) {
@@ -15649,6 +15669,13 @@ class ET_Builder_Element {
 
 		if ( ! $scroll_effects_enabled ) {
 			return;
+		}
+
+		// Disable WordPress lazy load if it's not already disabled. The wp_lazy_loading_enabled filter is available since WordPress 5.5.0.
+		if ( false === self::$is_wp_lazy_load_disabled && version_compare( $wp_version, '5.5.0', '>=' ) ) {
+			self::$is_wp_lazy_load_disabled = true;
+
+			add_filter( 'wp_lazy_loading_enabled', '__return_false' );
 		}
 
 		foreach ( $options as $id => $option ) {
@@ -22289,7 +22316,7 @@ class ET_Builder_Element {
 	/**
 	 * Public access provider for self::contains().
 	 *
-	 * @since ??
+	 * @since 4.17.4
 	 *
 	 * @param string   $content Element content.
 	 * @param string[] $module_slugs Module slug to search.
