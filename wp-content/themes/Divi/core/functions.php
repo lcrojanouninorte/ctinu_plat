@@ -1510,13 +1510,13 @@ function et_get_attachment_size_by_url( $url, $default_size = 'full' ) {
 
 	$metadata = wp_get_attachment_metadata( $attachment_id );
 
-	if ( ! $metadata ) {
+	if ( ! is_array( $metadata ) ) {
 		return $default_size;
 	}
 
 	$size = $default_size;
 
-	if ( strpos( $url, $metadata['file'] ) === ( strlen( $url ) - strlen( $metadata['file'] ) ) ) {
+	if ( isset( $metadata['file'] ) && strpos( $url, $metadata['file'] ) === ( strlen( $url ) - strlen( $metadata['file'] ) ) ) {
 		$size = array( $metadata['width'], $metadata['height'] );
 	} elseif ( preg_match( '/-(\d+)x(\d+)\.(jpg|jpeg|gif|png|svg|webp)$/', $url, $match ) ) {
 		// Get the image width and height.
@@ -1751,9 +1751,13 @@ function et_core_get_et_account() {
 	$utils           = ET_Core_Data_Utils::instance();
 	$updates_options = get_site_option( 'et_automatic_updates_options', array() );
 
+	// Improve performance by NOT using $utils->array_get().
+	$username = isset( $updates_options['username'] ) ? $updates_options['username'] : '';
+	$api_key  = isset( $updates_options['api_key'] ) ? $updates_options['api_key'] : '';
+
 	return array(
-		'et_username' => $utils->array_get( $updates_options, 'username', '' ),
-		'et_api_key'  => $utils->array_get( $updates_options, 'api_key', '' ),
+		'et_username' => $username,
+		'et_api_key'  => $api_key,
 		'status'      => get_site_option( 'et_account_status', 'not_active' ),
 	);
 }
@@ -2108,3 +2112,103 @@ if ( ! function_exists( 'et_defer_gb_css' ) ) :
 		return $html;
 	}
 endif;
+
+/**
+ * Enqueue Code snippets library scripts on theme options page.
+ *
+ * @since 4.19.0
+ *
+ * @param string $hook_suffix Page hook suffix.
+ * @return void
+ */
+function et_code_snippets_admin_enqueue_scripts( $hook_suffix ) {
+	global $shortname;
+
+	// phpcs:disable WordPress.Security.NonceVerification -- This function does not change any state and is therefore not susceptible to CSRF.
+	$is_templates_page = isset( $_GET['page'] ) && 'et_theme_builder' === $_GET['page'];
+	$is_options_page   = 'toplevel_page_et_' . $shortname . '_options' === $hook_suffix;
+
+	$current_screen          = get_current_screen();
+	$is_layouts_library_page = isset( $current_screen->id ) && 'edit-et_pb_layout' === $current_screen->id;
+
+	if ( ! $is_templates_page && ! $is_options_page && ! $is_layouts_library_page && ! et_builder_bfb_enabled() ) {
+		return;
+	}
+
+	if ( ! class_exists( 'ET_Code_Snippets_App' ) ) {
+		require_once ET_CORE_PATH . 'code-snippets/code-snippets-app.php';
+	}
+
+	if ( $is_layouts_library_page ) {
+		// Avoids et_cloud_data not defined error.
+		ET_Cloud_App::load_js();
+	}
+	ET_Code_Snippets_App::load_js();
+}
+
+add_action( 'admin_enqueue_scripts', 'et_code_snippets_admin_enqueue_scripts' );
+
+/**
+ * Enqueue Code snippets library scripts in VB.
+ *
+ * @since 4.19.0
+ *
+ * @return void
+ */
+function et_code_snippets_vb_enqueue_scripts() {
+	if ( ! et_core_is_fb_enabled() ) {
+		return;
+	}
+
+	if ( ! class_exists( 'ET_Code_Snippets_App' ) ) {
+		require_once ET_CORE_PATH . 'code-snippets/code-snippets-app.php';
+	}
+
+	ET_Code_Snippets_App::load_js();
+}
+add_action( 'wp_enqueue_scripts', 'et_code_snippets_vb_enqueue_scripts' );
+
+/**
+ * Enqueue AI scripts on BFB page.
+ *
+ * @since 4.22.0
+ *
+ * @return void
+ */
+function et_ai_admin_enqueue_scripts() {
+	if ( ! et_builder_bfb_enabled() ) {
+		return;
+	}
+
+	if ( ! class_exists( 'ET_AI_App' ) ) {
+		$path = defined( 'ET_BUILDER_PLUGIN_ACTIVE' ) ? ET_BUILDER_PLUGIN_DIR : get_template_directory();
+		require_once $path . '/ai-app/ai-app.php';
+	}
+
+	if ( et_pb_is_allowed( 'divi_ai' ) ) {
+		ET_AI_App::load_js();
+	}
+}
+
+add_action( 'admin_enqueue_scripts', 'et_ai_admin_enqueue_scripts' );
+
+/**
+ * Load Cloud Snippets App on `Export To Divi Cloud` btn click.
+ *
+ * @since 4.21.1
+ *
+ * @return void
+ */
+function et_save_to_cloud_modal() {
+	$current_screen    = get_current_screen();
+	$current_screen_id = $current_screen ? $current_screen->id : '';
+
+	if ( 'edit-et_pb_layout' !== $current_screen_id ) {
+		return;
+	}
+	?>
+		<div id="et-cloud-app--layouts"></div>
+	<?php
+}
+
+add_action( 'admin_footer', 'et_save_to_cloud_modal' );

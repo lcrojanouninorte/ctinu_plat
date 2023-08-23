@@ -113,26 +113,27 @@ class ET_Core_Portability {
 			 */
 			do_action( 'et_core_portability_import_file', $upload['file'] );
 
-			$temp_file = $this->temp_file( $temp_file_id, 'et_core_import', $upload['file'] );
-			$import = json_decode( $filesystem->get_contents( $temp_file ), true );
-			$import = $this->validate( $import );
+			$temp_file    = $this->temp_file( $temp_file_id, 'et_core_import', $upload['file'] );
+			$file_content = preg_replace( '/\x{FEFF}/u', '', $filesystem->get_contents( $temp_file ) ); // Replace BOM with empty string.
+			$import       = json_decode( $file_content, true );
+			$import       = $this->validate( $import );
 
 			if ( $return_json ) {
 				return array( 'jsonFromFile' => $import );
 			}
 
 			// Check if Import contains Google Api Settings.
-			if ( isset( $import['data']['et_google_api_settings'] ) && 'epanel' === $this->instance->context ) {
+			if ( isset( $import['data']['et_google_api_settings'] ) && ( 'epanel' === $this->instance->context || 'epanel_temp' === $this->instance->context ) ) {
 				$et_google_api_settings = $import['data']['et_google_api_settings'];
 			}
-
-			$import['data'] = $this->apply_query( $import['data'], 'set' );
 
 			if ( ! isset( $import['context'] ) || ( isset( $import['context'] ) && $import['context'] !== $this->instance->context ) ) {
 				$this->delete_temp_files( 'et_core_import', [ $temp_file_id => $temp_file ] );
 
 				return array( 'message' => 'importContextFail' );
 			}
+
+			$import['data'] = $this->apply_query( $import['data'], 'set' );
 
 			$filesystem->put_contents( $upload['file'], wp_json_encode( (array) $import ) );
 		}
@@ -392,7 +393,7 @@ class ET_Core_Portability {
 			$data = $this->apply_query( $data, 'set' );
 
 			// Export Google API settings.
-			if ( 'epanel' === $this->instance->context ) {
+			if ( 'epanel' === $this->instance->context || 'epanel_temp' === $this->instance->context ) {
 				$et_google_api_settings = get_option( 'et_google_api_settings', array() );
 
 				// Unset google api_key settings to prevent exporting it.
@@ -413,22 +414,23 @@ class ET_Core_Portability {
 				foreach ( $data as $post ) {
 					$shortcode_object = et_fb_process_shortcode( $post->post_content );
 
+					// We have to always process global presets to get the global colors correctly.
+					$global_presets_from_post = $this->get_used_global_presets( $shortcode_object, $used_global_presets );
+					$used_global_presets      = array_merge(
+						$global_presets_from_post,
+						$used_global_presets
+					);
+
+					$used_global_colors = $this->_get_used_global_colors( $shortcode_object, $used_global_colors, $global_presets_from_post );
+
 					if ( $apply_global_presets ) {
-						$post->post_content = et_fb_process_to_shortcode( $shortcode_object, $options, '', false );
-					} else {
-						$used_global_presets = array_merge(
-							$this->get_used_global_presets( $shortcode_object, $used_global_presets ),
-							$used_global_presets
-						);
+						$shortcode_object   = et_fb_process_to_shortcode( $shortcode_object, $options, '', false );
+						$post->post_content = $shortcode_object;
 					}
 				}
 
 				if ( ! empty ( $used_global_presets ) ) {
 					$global_presets = (object) $used_global_presets;
-				}
-
-				if ( 'post_type' === $this->instance->type ) {
-					$used_global_colors = $this->_get_used_global_colors( $shortcode_object, $used_global_colors, $global_presets );
 				}
 
 				if ( ! empty( $used_global_colors ) ) {
@@ -461,7 +463,7 @@ class ET_Core_Portability {
 
 		// Return exported content instead of printing it
 		if ( $return ) {
-			return $data;
+			return array_merge( $data, [ 'timestamp' => $timestamp ] );
 		}
 
 		$filesystem->put_contents( $temp_file, wp_json_encode( (array) $data ) );
@@ -496,18 +498,27 @@ class ET_Core_Portability {
 			'ID'           => $post_id,
 		);
 
-		$post_data = $this->validate( $post_data, $fields_validatation );
-		$data      = array( $post_data['ID'] => $post_data['post_content'] );
-		$data      = $this->apply_query( $data, 'set' );
-		$images    = $this->get_data_images( $data );
-		$images    = $this->chunk_images( $images, 'encode_images', $id, $chunk );
-		$data      = array(
+		$shortcode_object   = et_fb_process_shortcode( $post_data['post_content'] );
+		$used_global_colors = $this->get_theme_builder_library_used_global_colors( $shortcode_object );
+		$post_data          = $this->validate( $post_data, $fields_validatation );
+		$data               = array( $post_data['ID'] => $post_data['post_content'] );
+		$data               = $this->apply_query( $data, 'set' );
+		$images             = $this->get_data_images( $data );
+		$images             = $this->chunk_images( $images, 'encode_images', $id, $chunk );
+
+		// Generate list of used global colors.
+		if ( ! empty( $used_global_colors ) ) {
+			$global_colors = $this->_get_global_colors_data( $used_global_colors );
+		}
+
+		$data   = array(
 			'context'       => 'et_builder',
 			'data'          => $data,
 			'images'        => $images['images'],
 			'post_title'    => get_post_field( 'post_title', $post_id ),
 			'post_type'     => get_post_type( $post_id ),
 			'theme_builder' => $theme_builder_meta,
+			'global_colors' => $global_colors,
 		);
 		$chunks    = $images['chunks'];
 		$ready     = $images['ready'];
@@ -721,6 +732,7 @@ class ET_Core_Portability {
 			$import['data']   = $this->replace_images_urls( $result['images'], $import['data'] );
 			$post_type        = self::$_->array_get( $import, 'post_type', 'post' );
 			$post_title       = self::$_->array_get( $import, 'post_title', '' );
+			$post_status      = self::$_->array_get( $import, 'post_status', 'publish' );
 			$post_meta        = self::$_->array_get( $import, 'post_meta', array() );
 			$post_type_object = get_post_type_object( $post_type );
 
@@ -731,6 +743,7 @@ class ET_Core_Portability {
 			$content = array_values( $import['data'] );
 			$content = $content[0];
 			$args    = array(
+				'post_status'  => $post_status,
 				'post_type'    => $post_type,
 				'post_content' => current_user_can( 'unfiltered_html' ) ? $content : wp_kses_post( $content ),
 			);
@@ -747,6 +760,11 @@ class ET_Core_Portability {
 
 			foreach ( $post_meta as $entry ) {
 				update_post_meta( $post_id, $entry['key'], $entry['value'] );
+			}
+
+			// Import Global Colors for each layout.
+			if ( ! empty( $import['global_colors'] ) ) {
+				$this->import_global_colors( $import['global_colors'] );
 			}
 		}
 
@@ -1176,7 +1194,8 @@ class ET_Core_Portability {
 			}
 		}
 
-		et_update_option( ET_Builder_Global_Presets_Settings::GLOBAL_PRESETS_OPTION, $global_presets );
+		// Update option for product setting (last attr in args list).
+		et_update_option( ET_Builder_Global_Presets_Settings::GLOBAL_PRESETS_OPTION, $global_presets, false, '', '', true );
 
 		if ( ! $is_temp_presets ) {
 			$global_presets_history = ET_Builder_Global_Presets_History::instance();
@@ -2531,6 +2550,61 @@ class ET_Core_Portability {
 	}
 
 	/**
+	 * Returns Global Colors used for a given theme builder shortcode.
+	 *
+	 * @since 4.18.0
+	 *
+	 * @param array $shortcode_object - The multidimensional array representing a page structure.
+	 *
+	 * @return array The list of the Global Colors
+	 */
+	public function get_theme_builder_library_used_global_colors( $shortcode_object ) {
+		return $this->_get_used_global_colors( $shortcode_object );
+	}
+
+	/**
+	 * Returns Global Presets used for a given theme builder shortcode.
+	 *
+	 * @since 4.18.0
+	 *
+	 * @param array $shortcode_object - The multidimensional array representing a page structure.
+	 *
+	 * @return array The list of the Global Presets
+	 */
+	public function get_theme_builder_library_used_global_presets( $shortcode_object ) {
+		return $this->get_used_global_presets( $shortcode_object );
+	}
+
+	/**
+	 * Returns images used for a given theme builder shortcode.
+	 *
+	 * @since 4.18.0
+	 *
+	 * @param array $data - ID and Post content.
+	 *
+	 * @return array The list of the encoded images
+	 */
+	public function get_theme_builder_library_images( $data ) {
+		$timestamp = $this->get_timestamp();
+		$images    = $this->get_data_images( $data );
+
+		return $this->maybe_paginate_images( $images, 'encode_images', $timestamp );
+	}
+
+	/**
+	 * Returns thumbnails used for a given theme builder shortcode.
+	 *
+	 * @since 4.18.0
+	 *
+	 * @param array $data - ID and Post content.
+	 *
+	 * @return array The list of the thumbnails
+	 */
+	public function get_theme_builder_library_thumbnail_images( $data ) {
+		return $this->_get_thumbnail_images( $data );
+	}
+
+	/**
 	 * Enqueue assets.
 	 *
 	 * @since ?.? Script `et-core-portability` now loads in footer along with `et-core-admin`.
@@ -2565,15 +2639,18 @@ class ET_Core_Portability {
 			'postMaxSize'   => $this->to_megabytes( @ini_get( 'post_max_size' ) ),
 			'uploadMaxSize' => $this->to_megabytes( @ini_get( 'upload_max_filesize' ) ),
 			'text'          => array(
-				'browserSupport'      => esc_html__( 'The browser version you are currently using is outdated. Please update to the newest version.', ET_CORE_TEXTDOMAIN ),
-				'memoryExhausted'     => esc_html__( 'You reached your server memory limit. Please try increasing your PHP memory limit.', ET_CORE_TEXTDOMAIN ),
-				'maxSizeExceeded'     => esc_html__( 'This file cannot be imported. It may be caused by file_uploads being disabled in your php.ini. It may also be caused by post_max_size or/and upload_max_filesize being smaller than file selected. Please increase it or transfer more substantial data at the time.', ET_CORE_TEXTDOMAIN ),
-				'invalideFile'        => esc_html__( 'Invalid File format. You should be uploading a JSON file.', ET_CORE_TEXTDOMAIN ),
-				'importContextFail'   => esc_html__( 'This file should not be imported in this context.', ET_CORE_TEXTDOMAIN ),
-				'noItemsSelected'     => esc_html__( 'Please select at least one item to export or disable the "Only export selected items" option', ET_CORE_TEXTDOMAIN ),
-				'importing'           => sprintf( esc_html__( 'Import estimated time remaining: %smin', ET_CORE_TEXTDOMAIN ), $time ),
-				'exporting'           => sprintf( esc_html__( 'Export estimated time remaining: %smin', ET_CORE_TEXTDOMAIN ), $time ),
-				'backuping'           => sprintf( esc_html__( 'Backup estimated time remaining: %smin', ET_CORE_TEXTDOMAIN ), $time ),
+				// phpcs:disable WordPress.WP.I18n.NonSingularStringLiteralDomain -- Following the standard.
+				'browserSupport'    => esc_html__( 'The browser version you are currently using is outdated. Please update to the newest version.', ET_CORE_TEXTDOMAIN ),
+				'memoryExhausted'   => esc_html__( 'You reached your server memory limit. Please try increasing your PHP memory limit.', ET_CORE_TEXTDOMAIN ),
+				'maxSizeExceeded'   => esc_html__( 'This file cannot be imported. It may be caused by file_uploads being disabled in your php.ini. It may also be caused by post_max_size or/and upload_max_filesize being smaller than file selected. Please increase it or transfer more substantial data at the time.', ET_CORE_TEXTDOMAIN ),
+				'invalideFile'      => esc_html__( 'Invalid File format. You should be uploading a JSON file.', ET_CORE_TEXTDOMAIN ),
+				'importContextFail' => esc_html__( 'This file should not be imported in this context.', ET_CORE_TEXTDOMAIN ),
+				'noItemsSelected'   => esc_html__( 'Please select at least one item to export or disable the "Only export selected items" option', ET_CORE_TEXTDOMAIN ),
+				'noItemsToExport'   => esc_html__( 'There are no items to export.', ET_CORE_TEXTDOMAIN ),
+				'importing'         => sprintf( esc_html__( 'Import estimated time remaining: %smin', ET_CORE_TEXTDOMAIN ), $time ),
+				'exporting'         => sprintf( esc_html__( 'Export estimated time remaining: %smin', ET_CORE_TEXTDOMAIN ), $time ),
+				'backuping'         => sprintf( esc_html__( 'Backup estimated time remaining: %smin', ET_CORE_TEXTDOMAIN ), $time ),
+				// phpcs:enable
 			),
 		) );
 	}
@@ -2594,11 +2671,12 @@ class ET_Core_Portability {
 
 		$is_etdev_plugin_activated = is_plugin_active( 'etdev/etdev.php' );
 
+		// phpcs:disable WordPress.WP.I18n.NonSingularStringLiteralDomain -- Existing codebase.
 		?>
 		<div class="et-core-modal-overlay et-core-form" data-et-core-portability="<?php echo esc_attr( $this->instance->context ); ?>">
 			<div class="et-core-modal">
 				<div class="et-core-modal-header">
-					<h3 class="et-core-modal-title"><?php esc_html_e( 'Portability', ET_CORE_TEXTDOMAIN ); ?></h3><a href="#" class="et-core-modal-close" data-et-core-modal="close"></a>
+					<h3 class="et-core-modal-title"><?php echo esc_html( $this->instance->title ); ?></h3><a href="#" class="et-core-modal-close" data-et-core-modal="close"></a>
 				</div>
 				<div data-et-core-tabs class="et-core-modal-tabs-enabled">
 					<ul class="et-core-tabs">
@@ -2621,8 +2699,15 @@ class ET_Core_Portability {
 								<?php endif; ?>
 							</form>
 						</div>
-						<a class="et-core-modal-action" href="#" data-et-core-portability-export="<?php echo esc_url( $export_url ); ?>"><?php printf( esc_html__( 'Export %s', ET_CORE_TEXTDOMAIN ), esc_html( $this->instance->name ) ); ?></a>
-						<a class="et-core-modal-action et-core-button-danger" href="#" data-et-core-portability-cancel><?php esc_html_e( 'Cancel Export', ET_CORE_TEXTDOMAIN ); ?></a>
+						<div class="et-core-action-buttons-container">
+							<a class="et-core-modal-action et-core-button-primary" href="#" data-et-core-portability-export="<?php echo esc_url( $export_url ); ?>"><?php esc_html_e( 'Download Export', ET_CORE_TEXTDOMAIN ); ?></a>
+							<?php if ( 'et_builder_layouts' === $this->instance->context ) { ?>
+								<a class="et-core-modal-action et-core-button-secondary" href="#" data-et-core-portability-export-to-cloud="1"><?php esc_html_e( 'Export To Divi Cloud', 'et-core' ); ?></a>
+							<?php } ?>
+						</div>
+						<div class="et-core-action-buttons-container__during_action">
+							<a class="et-core-modal-action et-core-button-danger" href="#" data-et-core-portability-cancel><?php esc_html_e( 'Cancel Export', ET_CORE_TEXTDOMAIN ); ?></a>
+						</div>
 					</div>
 					<div id="et-core-portability-import">
 						<div class="et-core-modal-content">
@@ -2654,6 +2739,7 @@ class ET_Core_Portability {
 			</div>
 		</div>
 		<?php
+		// phpcs:enable
 	}
 }
 
@@ -2683,6 +2769,7 @@ if ( ! function_exists( 'et_core_portability_register' ) ) :
 function et_core_portability_register( $context, $args ) {
 	$defaults = array(
 		'context' => $context,
+		'title'   => esc_html__( 'Portability', ET_CORE_TEXTDOMAIN ), // phpcs:ignore WordPress.WP.I18n.NonSingularStringLiteralDomain -- intentional use of ET_CORE_TEXTDOMAIN
 		'name'    => false,
 		'view'    => false,
 		'type'    => false,
@@ -2823,31 +2910,43 @@ endif;
 
 
 if ( ! function_exists( 'et_core_portability_ajax_export' ) ) :
-/**
- * Ajax portability Export.
- *
- * @since 2.7.0
- */
-function et_core_portability_ajax_export() {
-	if ( ! isset( $_POST['context'] ) ) {
-		et_core_die();
+	/**
+	 * Ajax portability Export.
+	 *
+	 * @since 2.7.0
+	 */
+	function et_core_portability_ajax_export() {
+		if ( ! isset( $_POST['context'] ) ) {
+				wp_send_json_error();
+				return;
+		}
+
+		$context = sanitize_text_field( $_POST['context'] );
+
+		// phpcs:ignore Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure, WordPress.CodeAnalysis.AssignmentInCondition.Found -- Existing codebase.
+		if ( ! $capability = et_core_portability_cap( $context ) ) {
+				wp_send_json_error();
+				return;
+		}
+
+		if ( ! et_core_security_check_passed( $capability, 'et_core_portability_export', 'nonce' ) ) {
+				wp_send_json_error();
+				return;
+		}
+
+		$return = isset( $_POST['return'] ) && sanitize_text_field( $_POST['return'] );
+
+		if ( $return ) {
+			$data = et_core_portability_load( $context )->export( $return );
+
+			wp_send_json_success( $data );
+		} else {
+			et_core_portability_load( $context )->export();
+		}
+
+		wp_send_json_error();
 	}
-
-	$context = sanitize_text_field( $_POST['context'] );
-
-	if ( ! $capability = et_core_portability_cap( $context ) ) {
-		et_core_die();
-	}
-
-	if ( ! et_core_security_check_passed( $capability, 'et_core_portability_export', 'nonce' ) ) {
-		et_core_die();
-	}
-
-	et_core_portability_load( $context )->export();
-
-	wp_send_json_error();
-}
-add_action( 'wp_ajax_et_core_portability_export', 'et_core_portability_ajax_export' );
+	add_action( 'wp_ajax_et_core_portability_export', 'et_core_portability_ajax_export' );
 endif;
 
 
@@ -2915,14 +3014,16 @@ function et_core_portability_cap( $context ) {
 	$capability       = '';
 	$options_contexts = array(
 		'et_pb_roles',
-		'et_builder_layouts',
 		'epanel',
+		'epanel_temp',
 		'et_divi_mods',
 		'et_extra_mods',
 	);
 	$post_contexts    = array(
 		'et_builder',
 		'et_theme_builder',
+		'et_code_snippets',
+		'et_builder_layouts',
 	);
 
 	if ( in_array( $context, $options_contexts, true ) ) {

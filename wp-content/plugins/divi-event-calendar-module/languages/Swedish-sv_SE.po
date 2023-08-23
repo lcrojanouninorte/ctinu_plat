@@ -1,0 +1,4405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Events Calendar\n"
+"POT-Creation-Date: 2021-12-24 11:39+0500\n"
+"PO-Revision-Date: 2021-12-24 18:30+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: divi-event-calendar-module.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: divi-event-calendar-module.php:43
+#, fuzzy
+msgid ""
+"Divi Events Calendar requires The Events Calendar to be installed and "
+"active. You can download "
+msgstr ""
+"Divi-händelsekalendern kräver att händelsekalendern installeras och är "
+"aktiv. Du kan ladda ner "
+
+#: divi-event-calendar-module.php:43
+#, fuzzy
+msgid " here."
+msgstr " Här."
+
+#: divi-event-calendar-module.php:300
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1575
+#: includes/modules/EventDisplay/EventDisplay.php:3884
+#: includes/modules/EventDisplay/EventDisplay.php:4949
+#: includes/modules/EventPage/EventPage.php:2760
+#: includes/modules/EventPage/EventPage.php:3763
+#, fuzzy
+msgid "View Events Website"
+msgstr "Visa evenemangswebbplats"
+
+#: divi-event-calendar-module.php:308 divi-event-calendar-module.php:331
+#: divi-event-calendar-module.php:339 divi-event-calendar-module.php:347
+#: divi-event-calendar-module.php:355
+msgid "All Day Event"
+msgstr "Alla Dag Evenemang"
+
+#: divi-event-calendar-module.php:309
+msgid "all-day"
+msgstr "hela dagen"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:15
+msgid "Events Calendar"
+msgstr "Aktivitetskalender"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:63
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:183
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:297
+#: includes/modules/EventCarousel/EventCarousel.php:45
+#: includes/modules/EventDisplay/EventDisplay.php:187
+msgid "Events"
+msgstr "Evenemang"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:64
+#, fuzzy
+msgid ""
+"Add and customize the border for the upcoming events with all the standard "
+"border settings."
+msgstr ""
+"Lägg till och anpassa kantlinjen för de kommande händelserna med alla "
+"standardinställningar för kantlinje."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:81
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:298
+#, fuzzy
+msgid "Navigation Buttons"
+msgstr "Navigeringsknappar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:82
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:98
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:116
+#, fuzzy
+msgid ""
+"Add and customize the border for the calendar month navigation with all the "
+"standard border settings."
+msgstr ""
+"Lägg till och anpassa kantlinjen för navigeringen i kalendermånaden med alla "
+"standardinställningar för kantlinjen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:97
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:299
+#, fuzzy
+msgid "View Buttons"
+msgstr "Visa knappar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:115
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:283
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:300
+msgid "Tooltip"
+msgstr "Tips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:131
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:301
+#, fuzzy
+msgid "Tooltip Image"
+msgstr "Bild av verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:132
+#, fuzzy
+msgid ""
+"Add and customize the border for the tooltip image with all the standard "
+"border settings."
+msgstr ""
+"Lägg till och anpassa kantlinjen för verktygstipsbilden med alla "
+"standardinställningar för kantlinje."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:148
+msgid "Heading"
+msgstr "Rubrik"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:149
+#, fuzzy
+msgid ""
+"Customize and style the calendar Heading text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera kalendern Rubriktext med alla standardteckensnitt och "
+"textinställningar."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:163
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:295
+msgid "Days of the Week"
+msgstr "Veckans dagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:164
+#, fuzzy
+msgid ""
+"Customize and style the days of the week text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera veckotexten med alla standardteckensnitt och "
+"textinställningar."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:173
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:296
+#, fuzzy
+msgid "Calendar Days"
+msgstr "Kalenderdagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:174
+#, fuzzy
+msgid ""
+"Customize and style the days on the calendar number text with all the "
+"standard font and text settings."
+msgstr ""
+"Anpassa och formatera dagarna på kalendernummertexten med alla "
+"standardteckensnitt och textinställningar."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:184
+#, fuzzy
+msgid ""
+"Customize and style the upcoming events text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera den kommande händelsetexten med alla "
+"standardteckensnitt och textinställningar."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:195
+msgid "Tooltip Title"
+msgstr "Verktygstipsrubrik"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:196
+#, fuzzy
+msgid ""
+"Customize and style the tooltip title text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera verktygstipsrubriktexten med alla standardteckensnitt "
+"och textinställningar."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:211
+#, fuzzy
+msgid "Tooltip Details"
+msgstr "Information om verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:212
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:223
+#: includes/modules/EventCarousel/EventCarousel.php:403
+#: includes/modules/EventDisplay/EventDisplay.php:894
+#: includes/modules/EventPage/EventPage.php:501
+#, fuzzy
+msgid "Choose to show or hide the event time zone."
+msgstr "Välj att visa eller dölja händelsetidszonen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:222
+#, fuzzy
+msgid "Tooltip Excerpt"
+msgstr "Utdrag för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:240
+#, fuzzy
+msgid "Navigation Button Box Shadow Settings"
+msgstr "Skugginställningar för navigeringsknappsruta"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:241
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:254
+#: includes/modules/EventCarousel/EventCarousel.php:146
+#: includes/modules/EventDisplay/EventDisplay.php:400
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the event featured image with all the "
+"standard box shadow settings."
+msgstr ""
+"Lägg till och anpassa lådskuggan för den händelse som visas med alla "
+"standardinställningar för ruta."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:253
+#, fuzzy
+msgid "View Buttons Box Shadow Settings"
+msgstr "Skugginställningar för rutan Visa knappar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:275
+#: includes/modules/EventCarousel/EventCarousel.php:25
+#: includes/modules/EventDisplay/EventDisplay.php:126
+#: includes/modules/EventPage/EventPage.php:28
+msgid "Content"
+msgstr "Innehåll"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:279
+msgid "Views"
+msgstr "Visningar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:287
+#: includes/modules/EventPage/EventPage.php:36
+msgid "Links"
+msgstr "Länkar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:294
+msgid "Heading Text"
+msgstr "Rubriktext"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:302
+#, fuzzy
+msgid "Tooltip Title Text"
+msgstr "Rubriktext för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:303
+#, fuzzy
+msgid "Tooltip Details Text"
+msgstr "Information om verktygstips Text"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:304
+#, fuzzy
+msgid "Tooltip Excerpt Text"
+msgstr "Verktygstips utdrag text"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:324
+#: includes/modules/EventDisplay/EventDisplay.php:742
+#, fuzzy
+msgid "Dynamic Events"
+msgstr "Dynamiska händelser"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:328
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:351
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:390
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:408
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:426
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:445
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:464
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:492
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:510
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:529
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:560
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:594
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:614
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:637
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:660
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:688
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:711
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:734
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:757
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:780
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:803
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:821
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:840
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:858
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:924
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1221
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1259
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1275
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1291
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1339
+#: includes/modules/EventCarousel/EventCarousel.php:293
+#: includes/modules/EventCarousel/EventCarousel.php:320
+#: includes/modules/EventCarousel/EventCarousel.php:337
+#: includes/modules/EventCarousel/EventCarousel.php:353
+#: includes/modules/EventCarousel/EventCarousel.php:368
+#: includes/modules/EventCarousel/EventCarousel.php:384
+#: includes/modules/EventCarousel/EventCarousel.php:400
+#: includes/modules/EventCarousel/EventCarousel.php:421
+#: includes/modules/EventCarousel/EventCarousel.php:436
+#: includes/modules/EventCarousel/EventCarousel.php:452
+#: includes/modules/EventCarousel/EventCarousel.php:471
+#: includes/modules/EventCarousel/EventCarousel.php:490
+#: includes/modules/EventCarousel/EventCarousel.php:505
+#: includes/modules/EventCarousel/EventCarousel.php:525
+#: includes/modules/EventCarousel/EventCarousel.php:541
+#: includes/modules/EventCarousel/EventCarousel.php:558
+#: includes/modules/EventCarousel/EventCarousel.php:576
+#: includes/modules/EventCarousel/EventCarousel.php:727
+#: includes/modules/EventCarousel/EventCarousel.php:1003
+#: includes/modules/EventCarousel/EventCarousel.php:1023
+#: includes/modules/EventCarousel/EventCarousel.php:1037
+#: includes/modules/EventCarousel/EventCarousel.php:1051
+#: includes/modules/EventCarousel/EventCarousel.php:1064
+#: includes/modules/EventCarousel/EventCarousel.php:1118
+#: includes/modules/EventCarousel/EventCarousel.php:1154
+#: includes/modules/EventDisplay/EventDisplay.php:718
+#: includes/modules/EventDisplay/EventDisplay.php:746
+#: includes/modules/EventDisplay/EventDisplay.php:777
+#: includes/modules/EventDisplay/EventDisplay.php:793
+#: includes/modules/EventDisplay/EventDisplay.php:808
+#: includes/modules/EventDisplay/EventDisplay.php:841
+#: includes/modules/EventDisplay/EventDisplay.php:874
+#: includes/modules/EventDisplay/EventDisplay.php:891
+#: includes/modules/EventDisplay/EventDisplay.php:911
+#: includes/modules/EventDisplay/EventDisplay.php:926
+#: includes/modules/EventDisplay/EventDisplay.php:950
+#: includes/modules/EventDisplay/EventDisplay.php:971
+#: includes/modules/EventDisplay/EventDisplay.php:992
+#: includes/modules/EventDisplay/EventDisplay.php:1013
+#: includes/modules/EventDisplay/EventDisplay.php:1034
+#: includes/modules/EventDisplay/EventDisplay.php:1053
+#: includes/modules/EventDisplay/EventDisplay.php:1072
+#: includes/modules/EventDisplay/EventDisplay.php:1087
+#: includes/modules/EventDisplay/EventDisplay.php:1107
+#: includes/modules/EventDisplay/EventDisplay.php:1123
+#: includes/modules/EventDisplay/EventDisplay.php:1140
+#: includes/modules/EventDisplay/EventDisplay.php:1169
+#: includes/modules/EventDisplay/EventDisplay.php:1201
+#: includes/modules/EventDisplay/EventDisplay.php:1236
+#: includes/modules/EventDisplay/EventDisplay.php:1273
+#: includes/modules/EventDisplay/EventDisplay.php:1305
+#: includes/modules/EventDisplay/EventDisplay.php:1320
+#: includes/modules/EventDisplay/EventDisplay.php:1335
+#: includes/modules/EventDisplay/EventDisplay.php:1353
+#: includes/modules/EventDisplay/EventDisplay.php:1448
+#: includes/modules/EventDisplay/EventDisplay.php:1467
+#: includes/modules/EventDisplay/EventDisplay.php:1697
+#: includes/modules/EventDisplay/EventDisplay.php:1900
+#: includes/modules/EventDisplay/EventDisplay.php:2031
+#: includes/modules/EventDisplay/EventDisplay.php:2052
+#: includes/modules/EventDisplay/EventDisplay.php:2073
+#: includes/modules/EventDisplay/EventDisplay.php:2095
+#: includes/modules/EventDisplay/EventDisplay.php:2236
+#: includes/modules/EventDisplay/EventDisplay.php:2252
+#: includes/modules/EventDisplay/EventDisplay.php:2268
+#: includes/modules/EventDisplay/EventDisplay.php:2314
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:108
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:130
+#: includes/modules/EventFilter/EventFilter.php:217
+#: includes/modules/EventFilter/EventFilter.php:233
+#: includes/modules/EventPage/EventPage.php:290
+#: includes/modules/EventPage/EventPage.php:317
+#: includes/modules/EventPage/EventPage.php:334
+#: includes/modules/EventPage/EventPage.php:352
+#: includes/modules/EventPage/EventPage.php:385
+#: includes/modules/EventPage/EventPage.php:401
+#: includes/modules/EventPage/EventPage.php:416
+#: includes/modules/EventPage/EventPage.php:449
+#: includes/modules/EventPage/EventPage.php:482
+#: includes/modules/EventPage/EventPage.php:498
+#: includes/modules/EventPage/EventPage.php:519
+#: includes/modules/EventPage/EventPage.php:541
+#: includes/modules/EventPage/EventPage.php:559
+#: includes/modules/EventPage/EventPage.php:577
+#: includes/modules/EventPage/EventPage.php:595
+#: includes/modules/EventPage/EventPage.php:613
+#: includes/modules/EventPage/EventPage.php:628
+#: includes/modules/EventPage/EventPage.php:644
+#: includes/modules/EventPage/EventPage.php:659
+#: includes/modules/EventPage/EventPage.php:674
+#: includes/modules/EventPage/EventPage.php:694
+#: includes/modules/EventPage/EventPage.php:709
+#: includes/modules/EventPage/EventPage.php:725
+#: includes/modules/EventPage/EventPage.php:740
+#: includes/modules/EventPage/EventPage.php:759
+#: includes/modules/EventPage/EventPage.php:775
+#: includes/modules/EventPage/EventPage.php:794
+#: includes/modules/EventPage/EventPage.php:814
+#: includes/modules/EventPage/EventPage.php:830
+#: includes/modules/EventPage/EventPage.php:845
+#: includes/modules/EventPage/EventPage.php:870
+#: includes/modules/EventPage/EventPage.php:886
+#: includes/modules/EventPage/EventPage.php:902
+#: includes/modules/EventPage/EventPage.php:918
+#: includes/modules/EventPage/EventPage.php:934
+#: includes/modules/EventPage/EventPage.php:952
+#: includes/modules/EventPage/EventPage.php:992
+#: includes/modules/EventPage/EventPage.php:1122
+#: includes/modules/EventPage/EventPage.php:1426
+#: includes/modules/EventPage/EventPage.php:1496
+#: includes/modules/EventPage/EventPage.php:1576
+#: includes/modules/EventPage/EventPage.php:1597
+#: includes/modules/EventPage/EventPage.php:1617
+#: includes/modules/EventPage/EventPage.php:1637
+#: includes/modules/EventTicket/EventTicket.php:57
+#: includes/modules/EventTicket/EventTicket.php:85
+msgid "No"
+msgstr "Nej"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:329
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:352
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:391
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:409
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:427
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:446
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:465
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:493
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:511
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:530
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:561
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:595
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:615
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:638
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:661
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:689
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:712
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:735
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:758
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:781
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:804
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:822
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:841
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:859
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:925
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1222
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1260
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1276
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1292
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1340
+#: includes/modules/EventCarousel/EventCarousel.php:294
+#: includes/modules/EventCarousel/EventCarousel.php:321
+#: includes/modules/EventCarousel/EventCarousel.php:338
+#: includes/modules/EventCarousel/EventCarousel.php:354
+#: includes/modules/EventCarousel/EventCarousel.php:369
+#: includes/modules/EventCarousel/EventCarousel.php:385
+#: includes/modules/EventCarousel/EventCarousel.php:401
+#: includes/modules/EventCarousel/EventCarousel.php:422
+#: includes/modules/EventCarousel/EventCarousel.php:437
+#: includes/modules/EventCarousel/EventCarousel.php:453
+#: includes/modules/EventCarousel/EventCarousel.php:472
+#: includes/modules/EventCarousel/EventCarousel.php:491
+#: includes/modules/EventCarousel/EventCarousel.php:506
+#: includes/modules/EventCarousel/EventCarousel.php:526
+#: includes/modules/EventCarousel/EventCarousel.php:542
+#: includes/modules/EventCarousel/EventCarousel.php:559
+#: includes/modules/EventCarousel/EventCarousel.php:577
+#: includes/modules/EventCarousel/EventCarousel.php:728
+#: includes/modules/EventCarousel/EventCarousel.php:1004
+#: includes/modules/EventCarousel/EventCarousel.php:1024
+#: includes/modules/EventCarousel/EventCarousel.php:1038
+#: includes/modules/EventCarousel/EventCarousel.php:1052
+#: includes/modules/EventCarousel/EventCarousel.php:1065
+#: includes/modules/EventCarousel/EventCarousel.php:1117
+#: includes/modules/EventCarousel/EventCarousel.php:1153
+#: includes/modules/EventDisplay/EventDisplay.php:719
+#: includes/modules/EventDisplay/EventDisplay.php:747
+#: includes/modules/EventDisplay/EventDisplay.php:778
+#: includes/modules/EventDisplay/EventDisplay.php:794
+#: includes/modules/EventDisplay/EventDisplay.php:809
+#: includes/modules/EventDisplay/EventDisplay.php:842
+#: includes/modules/EventDisplay/EventDisplay.php:875
+#: includes/modules/EventDisplay/EventDisplay.php:892
+#: includes/modules/EventDisplay/EventDisplay.php:912
+#: includes/modules/EventDisplay/EventDisplay.php:927
+#: includes/modules/EventDisplay/EventDisplay.php:951
+#: includes/modules/EventDisplay/EventDisplay.php:972
+#: includes/modules/EventDisplay/EventDisplay.php:993
+#: includes/modules/EventDisplay/EventDisplay.php:1014
+#: includes/modules/EventDisplay/EventDisplay.php:1035
+#: includes/modules/EventDisplay/EventDisplay.php:1054
+#: includes/modules/EventDisplay/EventDisplay.php:1073
+#: includes/modules/EventDisplay/EventDisplay.php:1088
+#: includes/modules/EventDisplay/EventDisplay.php:1108
+#: includes/modules/EventDisplay/EventDisplay.php:1124
+#: includes/modules/EventDisplay/EventDisplay.php:1141
+#: includes/modules/EventDisplay/EventDisplay.php:1170
+#: includes/modules/EventDisplay/EventDisplay.php:1202
+#: includes/modules/EventDisplay/EventDisplay.php:1237
+#: includes/modules/EventDisplay/EventDisplay.php:1274
+#: includes/modules/EventDisplay/EventDisplay.php:1306
+#: includes/modules/EventDisplay/EventDisplay.php:1321
+#: includes/modules/EventDisplay/EventDisplay.php:1336
+#: includes/modules/EventDisplay/EventDisplay.php:1354
+#: includes/modules/EventDisplay/EventDisplay.php:1449
+#: includes/modules/EventDisplay/EventDisplay.php:1468
+#: includes/modules/EventDisplay/EventDisplay.php:1696
+#: includes/modules/EventDisplay/EventDisplay.php:1901
+#: includes/modules/EventDisplay/EventDisplay.php:2032
+#: includes/modules/EventDisplay/EventDisplay.php:2053
+#: includes/modules/EventDisplay/EventDisplay.php:2074
+#: includes/modules/EventDisplay/EventDisplay.php:2094
+#: includes/modules/EventDisplay/EventDisplay.php:2237
+#: includes/modules/EventDisplay/EventDisplay.php:2253
+#: includes/modules/EventDisplay/EventDisplay.php:2269
+#: includes/modules/EventDisplay/EventDisplay.php:2315
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:107
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:129
+#: includes/modules/EventFilter/EventFilter.php:218
+#: includes/modules/EventFilter/EventFilter.php:234
+#: includes/modules/EventPage/EventPage.php:291
+#: includes/modules/EventPage/EventPage.php:318
+#: includes/modules/EventPage/EventPage.php:335
+#: includes/modules/EventPage/EventPage.php:353
+#: includes/modules/EventPage/EventPage.php:386
+#: includes/modules/EventPage/EventPage.php:402
+#: includes/modules/EventPage/EventPage.php:417
+#: includes/modules/EventPage/EventPage.php:450
+#: includes/modules/EventPage/EventPage.php:483
+#: includes/modules/EventPage/EventPage.php:499
+#: includes/modules/EventPage/EventPage.php:520
+#: includes/modules/EventPage/EventPage.php:542
+#: includes/modules/EventPage/EventPage.php:560
+#: includes/modules/EventPage/EventPage.php:578
+#: includes/modules/EventPage/EventPage.php:596
+#: includes/modules/EventPage/EventPage.php:614
+#: includes/modules/EventPage/EventPage.php:629
+#: includes/modules/EventPage/EventPage.php:645
+#: includes/modules/EventPage/EventPage.php:660
+#: includes/modules/EventPage/EventPage.php:675
+#: includes/modules/EventPage/EventPage.php:695
+#: includes/modules/EventPage/EventPage.php:710
+#: includes/modules/EventPage/EventPage.php:726
+#: includes/modules/EventPage/EventPage.php:741
+#: includes/modules/EventPage/EventPage.php:760
+#: includes/modules/EventPage/EventPage.php:776
+#: includes/modules/EventPage/EventPage.php:795
+#: includes/modules/EventPage/EventPage.php:815
+#: includes/modules/EventPage/EventPage.php:831
+#: includes/modules/EventPage/EventPage.php:846
+#: includes/modules/EventPage/EventPage.php:871
+#: includes/modules/EventPage/EventPage.php:887
+#: includes/modules/EventPage/EventPage.php:903
+#: includes/modules/EventPage/EventPage.php:919
+#: includes/modules/EventPage/EventPage.php:935
+#: includes/modules/EventPage/EventPage.php:953
+#: includes/modules/EventPage/EventPage.php:993
+#: includes/modules/EventPage/EventPage.php:1123
+#: includes/modules/EventPage/EventPage.php:1427
+#: includes/modules/EventPage/EventPage.php:1497
+#: includes/modules/EventPage/EventPage.php:1577
+#: includes/modules/EventPage/EventPage.php:1598
+#: includes/modules/EventPage/EventPage.php:1618
+#: includes/modules/EventPage/EventPage.php:1638
+#: includes/modules/EventTicket/EventTicket.php:58
+#: includes/modules/EventTicket/EventTicket.php:86
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:331
+#, fuzzy
+msgid ""
+"Choose to turn on or off dynamic content for the module, which allows you to "
+"place the module in a Divi Theme Builder layout to dynamically display "
+"events for the current category or page."
+msgstr ""
+"Välj att aktivera eller inaktivera dynamiskt innehåll för modulen, vilket "
+"gör att du kan placera modulen i en Divi Theme Builder-layout för att "
+"dynamiskt visa händelser för den aktuella kategorin eller sidan."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:347
+#, fuzzy
+msgid "Show Upcoming Event Time In Calendar"
+msgstr "Visa kommande händelsetid i kalendern"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:354
+#, fuzzy
+msgid "Choose to show or hide the upcoming event time above the title."
+msgstr "Välj att visa eller dölja den kommande händelsetiden ovanför titeln."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:366
+msgid "Default View"
+msgstr "Standardvy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:367
+#, fuzzy
+msgid "Choose which view is set by default."
+msgstr "Välj vilken vy som ska anges som standard."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:371
+msgid "Month View"
+msgstr "Månadsvisning"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:372
+#, fuzzy
+msgid "Week View"
+msgstr "Veckovy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:373
+#, fuzzy
+msgid "Days View"
+msgstr "Vyn Dagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:374
+msgid "List View"
+msgstr "Listvy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:386
+#, fuzzy
+msgid "Show Month View Button"
+msgstr "Knappen Visa månadsvy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:393
+#, fuzzy
+msgid "Choose to show or hide the button that toggles the month view."
+msgstr "Välj att visa eller dölja knappen som växlar månadsvyn."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:404
+#, fuzzy
+msgid "Show Week View Button"
+msgstr "Knappen Visa veckovy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:411
+#, fuzzy
+msgid "Choose to show or hide the button that toggles the week view."
+msgstr "Välj att visa eller dölja knappen som växlar veckovyn."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:422
+#, fuzzy
+msgid "Show Day View Button"
+msgstr "Knappen Visa dagvy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:429
+#, fuzzy
+msgid "Choose to show or hide the button that toggles the day view."
+msgstr "Välj att visa eller dölja knappen som växlar dagsvyn."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:441
+#, fuzzy
+msgid "Show List View Button"
+msgstr "Knappen Visa listvy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:448
+#, fuzzy
+msgid "Choose to show or hide the button that toggles the list view."
+msgstr "Välj att visa eller dölja knappen som växlar listvyn."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:460
+msgid "Show Tooltip"
+msgstr "Visa verktygsbeskrivning"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:467
+#, fuzzy
+msgid "Choose to show or hide the entire tooltip."
+msgstr "Välj att visa eller dölja hela verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:488
+#, fuzzy
+msgid "Show Tooltip Image"
+msgstr "Visa verktygstipsbild"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:495
+#, fuzzy
+msgid "Choose to show or hide the event featured image in the tooltip."
+msgstr ""
+"Välj att visa eller dölja händelsens presenterade bild i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:506
+#, fuzzy
+msgid "Show Tooltip Title"
+msgstr "Visa verktygstipsrubrik"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:513
+#, fuzzy
+msgid "Choose to show or hide the event title in the tooltip."
+msgstr "Välj att visa eller dölja händelserubriken i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:525
+#, fuzzy
+msgid "Show Tooltip Date"
+msgstr "Visa datum för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:532
+#, fuzzy
+msgid "Choose to show or hide the event date in the tooltip."
+msgstr "Välj att visa eller dölja händelsedatumet i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:543
+#, fuzzy
+msgid "Tooltip Date Format"
+msgstr "Datumformat för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:546
+#: includes/modules/EventCarousel/EventCarousel.php:663
+#: includes/modules/EventDisplay/EventDisplay.php:823
+#: includes/modules/EventDisplay/EventDisplay.php:1183
+#: includes/modules/EventDisplay/EventDisplay.php:1216
+#: includes/modules/EventDisplay/EventDisplay.php:1255
+#: includes/modules/EventDisplay/EventDisplay.php:1287
+#: includes/modules/EventPage/EventPage.php:431
+#, fuzzy
+msgid ""
+"By default, the module will use the the same date format that you have set "
+"in WordPress Settings>General. However, if you would like to override those, "
+"you can input the appropriate PHP date format here."
+msgstr ""
+"Som standard använder modulen samma datumformat som du har angett i "
+"WordPress-inställningar>General. Men om du vill åsidosätta dem kan du mata "
+"in lämpligt PHP-datumformat här."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:556
+#, fuzzy
+msgid "Show Tooltip Time"
+msgstr "Visa verktygstipstid"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:563
+#, fuzzy
+msgid "Choose to show or hide the event time in the tooltip."
+msgstr "Välj att visa eller dölja händelsetiden i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:578
+#, fuzzy
+msgid "Tooltip Time Format"
+msgstr "Tidsformat för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:581
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1193
+#: includes/modules/EventCarousel/EventCarousel.php:679
+#: includes/modules/EventDisplay/EventDisplay.php:857
+#: includes/modules/EventPage/EventPage.php:465
+#: includes/modules/EventPage/EventPage.php:1079
+#, fuzzy
+msgid ""
+"By default, the module will use the the same time format that you have set "
+"in WordPress Settings>General. However, if you would like to override those, "
+"you can input the appropriate PHP time format here."
+msgstr ""
+"Som standard använder modulen samma tidsformat som du har angett i WordPress-"
+"inställningar>General. Men om du vill åsidosätta dem kan du mata in lämpligt "
+"PHP-tidsformat här."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:590
+#, fuzzy
+msgid "Show Tooltip End Time"
+msgstr "Visa sluttid för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:597
+#, fuzzy
+msgid "Choose to show or hide the event end time."
+msgstr "Välj att visa eller dölja händelsens sluttid."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:610
+#, fuzzy
+msgid "Show Tooltip Time Zone"
+msgstr "Visa tidszon för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:617
+#, fuzzy
+msgid "Choose to show or hide the event time zone in the tooltip"
+msgstr "Välj att visa eller dölja händelsetidszonen i verktygstipset"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:633
+#, fuzzy
+msgid "Show Tooltip Venue"
+msgstr "Visa verktygstipsplats"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:640
+#, fuzzy
+msgid "Choose to show or hide the event venue in the tooltip."
+msgstr "Välj att visa eller dölja händelseplatsen i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:656
+#, fuzzy
+msgid "Show Tooltip Location"
+msgstr "Visa plats för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:663
+#, fuzzy
+msgid "Choose to show or hide the event location in the tooltip."
+msgstr "Välj att visa eller dölja händelseplatsen i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:684
+#, fuzzy
+msgid "Show Tooltip Location Street Address"
+msgstr "Visa adress för verktygstipsplatsgatan"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:691
+#: includes/modules/EventPage/EventPage.php:544
+#, fuzzy
+msgid ""
+"Choose to show or hide the event location street address in the tooltip."
+msgstr ""
+"Välj att visa eller dölja gatuadressen för händelseplats i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:707
+#, fuzzy
+msgid "Show Tooltip Location Locality"
+msgstr "Visa platsplats för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:714
+#: includes/modules/EventPage/EventPage.php:562
+#, fuzzy
+msgid "Choose to show or hide the event location locality in the tooltip."
+msgstr ""
+"Välj att visa eller dölja platsen för händelseplatsen i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:730
+#, fuzzy
+msgid "Show Tooltip Location Postal Code"
+msgstr "Visa postnummer för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:737
+#: includes/modules/EventPage/EventPage.php:580
+#, fuzzy
+msgid "Choose to show or hide the event location postal code in the tooltip."
+msgstr "Välj att visa eller dölja händelseplatspostnumret i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:753
+#, fuzzy
+msgid "Show Tooltip Location Country"
+msgstr "Visa platsland för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:760
+#: includes/modules/EventPage/EventPage.php:598
+#, fuzzy
+msgid "Choose to show or hide the event location country in the tooltip."
+msgstr "Välj att visa eller dölja händelseplatslandet i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:776
+#, fuzzy
+msgid "Show Tooltip Organizer"
+msgstr "Visa organisatör för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:783
+#, fuzzy
+msgid "Choose to show or hide the event Organizer in the tooltip."
+msgstr "Välj att visa eller dölja händelsen Organizer i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:799
+#, fuzzy
+msgid "Show Tooltip Price"
+msgstr "Visa verktygstipspris"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:806
+#, fuzzy
+msgid "Choose to show or hide the event price in the tooltip."
+msgstr "Välj att visa eller dölja händelsepriset i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:817
+#, fuzzy
+msgid "Show Tooltip Category"
+msgstr "Visa verktygstipskategori"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:824
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:861
+#, fuzzy
+msgid "Choose to show or hide the event excerpt in the tooltip."
+msgstr "Välj att visa eller dölja händelseutdraget i verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:836
+#, fuzzy
+msgid "Show Tooltip Website"
+msgstr "Visa webbplats för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:843
+#, fuzzy
+msgid "Choose to show or hide the event website URL in the tooltip."
+msgstr ""
+"Välj att visa eller dölja webbadressen till händelsewebbplatsen i "
+"verktygstipset."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:854
+#, fuzzy
+msgid "Show Tooltip Excerpt"
+msgstr "Visa utdrag i verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:874
+#: includes/modules/EventCarousel/EventCarousel.php:628
+#: includes/modules/EventDisplay/EventDisplay.php:1418
+#: includes/modules/EventPage/EventPage.php:1027
+msgid "Included Categories"
+msgstr "Inkluderade kategorier"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:886
+#, fuzzy
+msgid "Choose which event categories you would like to show in the calendar."
+msgstr "Välj vilka händelsekategorier du vill visa i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:896
+#, fuzzy
+msgid "Number Of Past Months To Load"
+msgstr "Antal senaste månader att läsa in"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:899
+#, fuzzy
+msgid ""
+"Enter a number of months to set the limit on how far in the past events "
+"should load and show in the calendar."
+msgstr ""
+"Ange ett antal månader för att ange gränsen för hur långt i tidigare "
+"händelser ska läsas in och visas i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:908
+#, fuzzy
+msgid "Number Of Future Months To Load"
+msgstr "Antal framtida månader att läsa in"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:911
+#, fuzzy
+msgid ""
+"Enter a number of months to set the limit on how far in the future events "
+"should load and show in the calendar."
+msgstr ""
+"Ange ett antal månader för att ange gränsen för hur långt i framtida "
+"händelser ska läsas in och visas i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:920
+#: includes/modules/EventDisplay/EventDisplay.php:1444
+#, fuzzy
+msgid "Only Show Featured Events"
+msgstr "Visa endast utvalda händelser"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:927
+#, fuzzy
+msgid "Choose to only show featured events in the calendar."
+msgstr "Välj att bara visa aktuella händelser i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:938
+#, fuzzy
+msgid "Day of the Week Name"
+msgstr "Veckonamn"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:939
+#, fuzzy
+msgid ""
+"Choose whether the days of the week should be abbreviated to show the full "
+"name."
+msgstr ""
+"Välj om veckodagarna ska förkortas för att visa det fullständiga namnet."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:943
+#, fuzzy
+msgid "Abbreviated"
+msgstr "Förkortad"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:944
+msgid "Full Name"
+msgstr "Fullständigt namn"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:955
+#, fuzzy
+msgid "Days of Week Background Color"
+msgstr "Veckobakgrundsfärg för veckodagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:956
+#, fuzzy
+msgid "Add a background color to the days of the week."
+msgstr "Lägg till en bakgrundsfärg till veckodagarna."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:966
+#, fuzzy
+msgid "Calendars Days Background Color"
+msgstr "Bakgrundsfärg för kalendrar dagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:967
+#, fuzzy
+msgid "Add a background color to the days on the calendar."
+msgstr "Lägg till en bakgrundsfärg i dagarna i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:977
+#, fuzzy
+msgid "Current Calendar Day Background Color"
+msgstr "Bakgrundsfärg för kalenderdag"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:978
+#, fuzzy
+msgid "Set the background color for the current day on the calendar."
+msgstr "Ange bakgrundsfärgen för den aktuella dagen i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:989
+#, fuzzy
+msgid "Current Calendar Day Text Color"
+msgstr "Textfärg för kalenderdag"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:990
+#, fuzzy
+msgid "Set the text color for the current day on the calendar."
+msgstr "Ange textfärgen för den aktuella dagen i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1000
+#, fuzzy
+msgid "Past Calendar Days Background Color"
+msgstr "Bakgrundsfärg för tidigare kalenderdagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1001
+#, fuzzy
+msgid "Set the background color for the past days on the calendar."
+msgstr "Ange bakgrundsfärgen för de senaste dagarna i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1011
+#, fuzzy
+msgid "Past Calendar Days Text Color"
+msgstr "Textfärg för tidigare kalenderdagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1012
+#, fuzzy
+msgid "Set the text color for the past days on the calendar."
+msgstr "Ange textfärgen för de senaste dagarna i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1022
+#, fuzzy
+msgid "Events Background Color"
+msgstr "Bakgrundsfärg för händelser"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1023
+#, fuzzy
+msgid "Set the background color for the upcoming events."
+msgstr "Ange bakgrundsfärgen för de kommande händelserna."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1032
+#, fuzzy
+msgid "Navigation Button Background Color"
+msgstr "Bakgrundsfärg för navigeringsknapp"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1033
+#, fuzzy
+msgid "Set the background color for the calendar navigation."
+msgstr "Ange bakgrundsfärgen för kalendernavigeringen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1043
+#, fuzzy
+msgid "Navigation Button Text Color"
+msgstr "Textfärg för navigeringsknapp"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1044
+#, fuzzy
+msgid "Set the text color for the calendar navigation."
+msgstr "Ange textfärg för kalendernavigeringen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1055
+#, fuzzy
+msgid "View Buttons Background Color"
+msgstr "Bakgrundsfärg för Visa knappar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1056
+#, fuzzy
+msgid "Set the background color for the view buttons."
+msgstr "Ange bakgrundsfärgen för visningsknapparna."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1066
+#, fuzzy
+msgid "View Buttons Text Color"
+msgstr "Visa knappar Textfärg"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1067
+#, fuzzy
+msgid "Set the text color for the view buttons."
+msgstr "Ange textfärg för visningsknapparna."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1078
+#, fuzzy
+msgid "Current View Button Background Color"
+msgstr "Bakgrundsfärg för knappen Aktuell vy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1079
+#, fuzzy
+msgid "Set the background color for the current view button."
+msgstr "Ange bakgrundsfärg för den aktuella vyknappen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1092
+#, fuzzy
+msgid "Current View Button Text Color"
+msgstr "Textfärg för knappen Aktuell vy"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1093
+#, fuzzy
+msgid "Set the text color for the current view button."
+msgstr "Ange textfärg för den aktuella vyknappen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1102
+msgid "Tooltip Background Color"
+msgstr "Bakgrundsfärg för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1103
+#, fuzzy
+msgid "Set the background color for the calendar tooltip."
+msgstr "Ange bakgrundsfärgen för kalenderns verktygstips."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1115
+#, fuzzy
+msgid "Tooltip Details Link Color"
+msgstr "Länkfärg för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1116
+#, fuzzy
+msgid "Choose a color for the link text in the event tooltip details."
+msgstr "Välj en färg för länktexten i informationen om händelseverktygstips."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1129
+#, fuzzy
+msgid "Events Margin"
+msgstr "Marginal för händelser"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1131
+#, fuzzy
+msgid "Adjust the spacing around the outside of the upcoming events."
+msgstr "Justera avståndet runt utsidan av de kommande evenemangen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1138
+#, fuzzy
+msgid "Events Padding"
+msgstr "Utfyllnad av händelser"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1140
+#, fuzzy
+msgid "Adjust the spacing around the inside of the upcoming events."
+msgstr "Justera avståndet runt insidan av de kommande evenemangen."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1147
+#, fuzzy
+msgid "Calendar Days Border Width"
+msgstr "Kantbredd för kalenderdagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1149
+#, fuzzy
+msgid "Set the border width for the days on the calendar."
+msgstr "Ange kantbredden för dagarna i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1157
+#, fuzzy
+msgid "Calendar Days Border Color"
+msgstr "Kantlinjefärg för kalenderdagar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1158
+#, fuzzy
+msgid "Choose a border color for the days on the calendar."
+msgstr "Välj en kantlinjefärg för dagarna i kalendern."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1168
+#, fuzzy
+msgid "Days of Week Border Width"
+msgstr "Veckobredd för veckokantlinje"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1170
+#, fuzzy
+msgid "Set the border width for the days of the week."
+msgstr "Ange kantbredden för veckodagarna."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1178
+#, fuzzy
+msgid "Days of Week Border Color"
+msgstr "Veckogränsfärg"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1179
+#, fuzzy
+msgid "Choose a border color for the days of the week."
+msgstr "Välj en kantfärg för veckodagarna."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1190
+#, fuzzy
+msgid "Week Start On"
+msgstr "Vecka börja på"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1201
+#, fuzzy
+msgid "Same Day Event Order"
+msgstr "Händelseorder samma dag"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1202
+#, fuzzy
+msgid ""
+"Choose the criteria for showing the order of events in a single day grid "
+"from top to bottom. "
+msgstr ""
+"Välj villkor för att visa händelseordningen i ett endagsrutnät uppifrån och "
+"ned. "
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1206
+msgid "Start Time"
+msgstr "Starttid"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1207
+msgid "Duration"
+msgstr "Varaktighet"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1208
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:764
+msgid "All Day"
+msgstr "Hela dagen"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1209
+#: includes/modules/EventCarousel/EventCarousel.php:192
+#: includes/modules/EventDisplay/EventDisplay.php:505
+msgid "Title"
+msgstr "Titel"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1217
+#: includes/modules/EventDisplay/EventDisplay.php:1463
+#, fuzzy
+msgid "Show Recurring Events"
+msgstr "Visa återkommande händelser"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1224
+#, fuzzy
+msgid "Choose to show all recurring events in the calendar. "
+msgstr "Välj att visa alla återkommande händelser i kalendern. "
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1235
+#: includes/modules/EventDisplay/EventDisplay.php:2214
+#, fuzzy
+msgid "Single Event Page Links"
+msgstr "Sidlänkar för en händelse"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1236
+#: includes/modules/EventDisplay/EventDisplay.php:2215
+#, fuzzy
+msgid "Choose to disable or replace the links to the single event page."
+msgstr ""
+"Välj att inaktivera eller ersätta länkarna till sidan för en enskild "
+"händelse."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1240
+#: includes/modules/EventDisplay/EventDisplay.php:2219
+msgid "Default"
+msgstr "Standard"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1241
+#: includes/modules/EventDisplay/EventDisplay.php:2220
+msgid "Disable Links"
+msgstr "Inaktivera länkar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1242
+#: includes/modules/EventDisplay/EventDisplay.php:2221
+#, fuzzy
+msgid "Replace With Custom Link"
+msgstr "Ersätt med anpassad länk"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1243
+#: includes/modules/EventDisplay/EventDisplay.php:2222
+#, fuzzy
+msgid "Redirect To Website Link"
+msgstr "Omdirigera till webbplatslänk"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1254
+#, fuzzy
+msgid "Disable Event Calendar Title Link"
+msgstr "Inaktivera rubriklänk för händelsekalender"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1255
+#, fuzzy
+msgid ""
+"Choose to disable the event calendar title from linking to the single event "
+"page."
+msgstr ""
+"Välj att inaktivera händelsekalenderrubriken från att länka till sidan för "
+"en enskild händelse."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1270
+#, fuzzy
+msgid "Disable Event Tooltip Title Link"
+msgstr "Inaktivera titellänk för händelsetips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1271
+#, fuzzy
+msgid ""
+"Choose to disable the event tooltip title from linking to the single event "
+"page."
+msgstr ""
+"Välj att inaktivera titeln på händelsetips från att länka till sidan för en "
+"enskild händelse."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1286
+#, fuzzy
+msgid "Disable Event Tooltip Image Link"
+msgstr "Inaktivera bildlänk för händelsetips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1287
+#, fuzzy
+msgid ""
+"Choose to disable the event tooltip featured image from linking to the "
+"single event page."
+msgstr ""
+"Välj att inaktivera den presenterade händelsens verktygstips från att länka "
+"till sidan för en enskild händelse."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1303
+#: includes/modules/EventDisplay/EventDisplay.php:2279
+#, fuzzy
+msgid "Custom Single Event Page Link URL"
+msgstr "Anpassad URL för en händelsesida"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1306
+#: includes/modules/EventDisplay/EventDisplay.php:2282
+#, fuzzy
+msgid ""
+"Enter a custom URL to use instead of the default single event page link."
+msgstr ""
+"Ange en anpassad URL som ska användas i stället för standardlänken för en "
+"händelsesida."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1318
+#: includes/modules/EventDisplay/EventDisplay.php:2291
+#, fuzzy
+msgid "Custom Single Event Page Link Target"
+msgstr "Anpassat länkmål för en händelsesida"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1319
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1409
+#: includes/modules/EventDisplay/EventDisplay.php:2292
+#: includes/modules/EventPage/EventPage.php:1555
+#, fuzzy
+msgid ""
+"Choose whether the custom single event page link opens in the same window or "
+"new tab."
+msgstr ""
+"Välj om den anpassade länken för en händelsesida ska öppnas i samma fönster "
+"eller på en ny flik."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1323
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1358
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1413
+#: includes/modules/EventDisplay/EventDisplay.php:2296
+#: includes/modules/EventDisplay/EventDisplay.php:2363
+#: includes/modules/EventPage/EventPage.php:1559
+msgid "In The Same Window"
+msgstr "I samma fönster"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1324
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1359
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1414
+#: includes/modules/EventDisplay/EventDisplay.php:2297
+#: includes/modules/EventDisplay/EventDisplay.php:2364
+#: includes/modules/EventPage/EventPage.php:1560
+#, fuzzy
+msgid "In A New Tab"
+msgstr "På en ny flik"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1335
+#: includes/modules/EventDisplay/EventDisplay.php:2309
+#: includes/modules/EventPage/EventPage.php:1613
+#, fuzzy
+msgid "Enable Category Links"
+msgstr "Aktivera kategorilänkar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1342
+#: includes/modules/EventDisplay/EventDisplay.php:2310
+#: includes/modules/EventPage/EventPage.php:1620
+#, fuzzy
+msgid ""
+"Choose to add links to the categories to link to their own archive pages."
+msgstr ""
+"Välj att lägga till länkar till kategorierna för att länka till sina egna "
+"arkivsidor."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1353
+#, fuzzy
+msgid "Category Links Target"
+msgstr "Mål för kategorilänkar"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1354
+#, fuzzy
+msgid ""
+"Choose whether the category page links open in the same window or new tab."
+msgstr "Välj om kategorisidan länkar öppna i samma fönster eller ny flik."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1375
+#: includes/modules/EventDisplay/EventDisplay.php:2323
+#: includes/modules/EventPage/EventPage.php:1519
+#, fuzzy
+msgid "Website Link"
+msgstr "Länk till webbplats"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1376
+#: includes/modules/EventDisplay/EventDisplay.php:2324
+#: includes/modules/EventPage/EventPage.php:1520
+#, fuzzy
+msgid "Choose an option for displaying the website link."
+msgstr "Välj ett alternativ för att visa webbplatslänken."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1380
+#: includes/modules/EventDisplay/EventDisplay.php:2328
+#: includes/modules/EventPage/EventPage.php:1524
+#, fuzzy
+msgid "Show Default Text"
+msgstr "Visa standardtext"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1381
+#: includes/modules/EventDisplay/EventDisplay.php:2329
+#: includes/modules/EventPage/EventPage.php:1525
+#, fuzzy
+msgid "Show URL"
+msgstr "Visa URL"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1382
+#: includes/modules/EventDisplay/EventDisplay.php:2330
+#: includes/modules/EventPage/EventPage.php:1526
+#, fuzzy
+msgid "Show Custom Text"
+msgstr "Visa anpassad text"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1393
+#: includes/modules/EventDisplay/EventDisplay.php:2342
+#: includes/modules/EventPage/EventPage.php:1538
+#, fuzzy
+msgid "Custom Website Link Text"
+msgstr "Anpassad länktext för webbplats"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1396
+#: includes/modules/EventDisplay/EventDisplay.php:2345
+#: includes/modules/EventPage/EventPage.php:1541
+#, fuzzy
+msgid "Enter custom text for the website link."
+msgstr "Ange anpassad text för webbplatslänken."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1408
+#: includes/modules/EventDisplay/EventDisplay.php:2358
+#: includes/modules/EventPage/EventPage.php:1554
+#, fuzzy
+msgid "Website Link Target"
+msgstr "Mål för webbplatslänk"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1431
+#, fuzzy
+msgid "Tooltip Image Width"
+msgstr "Bildbredd för verktygstips"
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1432
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1451
+#: includes/modules/EventDisplay/EventDisplay.php:2008
+#: includes/modules/EventPage/EventPage.php:1406
+#, fuzzy
+msgid "Manually set a fixed width for the event featured image."
+msgstr "Ange en fast bredd manuellt för händelsens presenterade bild."
+
+#: includes/modules/DiviEventCalendar/DiviEventCalendar.php:1450
+#, fuzzy
+msgid "Tooltip Image Height"
+msgstr "Bildhöjd för verktygstips"
+
+#: includes/modules/EventCarousel/EventCarousel.php:15
+msgid "Events Carousel"
+msgstr "Events Carousel"
+
+#: includes/modules/EventCarousel/EventCarousel.php:29
+#: includes/modules/EventDisplay/EventDisplay.php:130
+msgid "Elements"
+msgstr "Element"
+
+#: includes/modules/EventCarousel/EventCarousel.php:33
+msgid "Carousel Options"
+msgstr "Karusellalternativ"
+
+#: includes/modules/EventCarousel/EventCarousel.php:37
+#: includes/modules/EventCarousel/EventCarousel.php:232
+#: includes/modules/EventDisplay/EventDisplay.php:153
+#: includes/modules/EventDisplay/EventDisplay.php:645
+#, fuzzy
+msgid "More Info Button"
+msgstr "Knappen Mer information"
+
+#: includes/modules/EventCarousel/EventCarousel.php:44
+#: includes/modules/EventDisplay/EventDisplay.php:134
+#: includes/modules/EventDisplay/EventDisplay.php:1529
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:29
+#: includes/modules/EventFilter/EventFilter.php:21
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/modules/EventCarousel/EventCarousel.php:46
+#: includes/modules/EventDisplay/EventDisplay.php:188
+msgid "Image"
+msgstr "Bild"
+
+#: includes/modules/EventCarousel/EventCarousel.php:47
+msgid "Carousel"
+msgstr "Karusell"
+
+#: includes/modules/EventCarousel/EventCarousel.php:97
+#: includes/modules/EventDisplay/EventDisplay.php:251
+#, fuzzy
+msgid "Image Border"
+msgstr "Bildkantlinje"
+
+#: includes/modules/EventCarousel/EventCarousel.php:111
+#, fuzzy
+msgid "Navigation Border"
+msgstr "Navigeringskantlinje"
+
+#: includes/modules/EventCarousel/EventCarousel.php:125
+#: includes/modules/EventDisplay/EventDisplay.php:270
+#, fuzzy
+msgid "Event Border"
+msgstr "Händelse kantlinje"
+
+#: includes/modules/EventCarousel/EventCarousel.php:145
+#: includes/modules/EventDisplay/EventDisplay.php:399
+#, fuzzy
+msgid "Image Box Shadow Settings"
+msgstr "Skugginställningar för bildruta"
+
+#: includes/modules/EventCarousel/EventCarousel.php:156
+#: includes/modules/EventDisplay/EventDisplay.php:413
+#, fuzzy
+msgid "Event Box Shadow Settings"
+msgstr "Skugginställningar för händelseruta"
+
+#: includes/modules/EventCarousel/EventCarousel.php:157
+#: includes/modules/EventDisplay/EventDisplay.php:414
+#: includes/modules/EventDisplay/EventDisplay.php:448
+#: includes/modules/EventDisplay/EventDisplay.php:460
+#: includes/modules/EventDisplay/EventDisplay.php:472
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the individual events with all the "
+"standard box shadow settings."
+msgstr ""
+"Lägg till och anpassa lådskuggan för de enskilda händelserna med alla "
+"standardinställningar för rutans skugga."
+
+#: includes/modules/EventCarousel/EventCarousel.php:193
+#: includes/modules/EventDisplay/EventDisplay.php:506
+#, fuzzy
+msgid ""
+"Customize and style the event title text with all the standard font and text "
+"settings."
+msgstr ""
+"Anpassa och formatera händelserubriktexten med alla standardteckensnitt och "
+"textinställningar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:202
+#: includes/modules/EventDisplay/EventDisplay.php:143
+#: includes/modules/EventDisplay/EventDisplay.php:189
+#: includes/modules/EventDisplay/EventDisplay.php:518
+#: includes/modules/EventPage/EventPage.php:32
+#: includes/modules/EventPage/EventPage.php:218
+msgid "Details"
+msgstr "Detaljer"
+
+#: includes/modules/EventCarousel/EventCarousel.php:212
+#: includes/modules/EventDisplay/EventDisplay.php:148
+#: includes/modules/EventDisplay/EventDisplay.php:537
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: includes/modules/EventCarousel/EventCarousel.php:213
+#: includes/modules/EventDisplay/EventDisplay.php:538
+#: includes/modules/EventDisplay/EventDisplay.php:548
+#: includes/modules/EventDisplay/EventDisplay.php:566
+#: includes/modules/EventDisplay/EventDisplay.php:580
+#: includes/modules/EventDisplay/EventDisplay.php:593
+#, fuzzy
+msgid ""
+"Customize and style the event excerpt text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera händelseutdragstexten med alla standardteckensnitt och "
+"textinställningar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:221
+#: includes/modules/EventDisplay/EventDisplay.php:635
+#: includes/modules/EventPage/EventPage.php:243
+msgid "Sizing"
+msgstr "Storlek"
+
+#: includes/modules/EventCarousel/EventCarousel.php:233
+#: includes/modules/EventDisplay/EventDisplay.php:646
+#: includes/modules/EventDisplay/EventDisplay.php:656
+#, fuzzy
+msgid "Enable this feature to customize the appearance of the button"
+msgstr "Aktivera den här funktionen för att anpassa knappens utseende"
+
+#: includes/modules/EventCarousel/EventCarousel.php:250
+#: includes/modules/EventCarousel/EventCarousel.php:254
+msgid ""
+"Rows can be aligned to the left, right or center. By default, rows are "
+"centered within their parent section."
+msgstr ""
+"Rader kan justeras till vänster, höger eller centreras. Som standard är "
+"raderna centrerade inom deras överordnade del."
+
+#: includes/modules/EventCarousel/EventCarousel.php:289
+#: includes/modules/EventDisplay/EventDisplay.php:714
+#: includes/modules/EventPage/EventPage.php:286
+#: includes/modules/EventTicket/EventTicket.php:53
+#, fuzzy
+msgid "Use Event Calendar Short Code"
+msgstr "Använd kortkod för händelsekalender"
+
+#: includes/modules/EventCarousel/EventCarousel.php:301
+#: includes/modules/EventDisplay/EventDisplay.php:726
+#: includes/modules/EventPage/EventPage.php:298
+#: includes/modules/EventTicket/EventTicket.php:65
+#, fuzzy
+msgid "Use Event Calendar Short Code "
+msgstr "Använd kortkod för händelsekalender "
+
+#: includes/modules/EventCarousel/EventCarousel.php:305
+#: includes/modules/EventDisplay/EventDisplay.php:730
+#: includes/modules/EventPage/EventPage.php:302
+#: includes/modules/EventTicket/EventTicket.php:69
+#, fuzzy
+msgid "shortcode_param"
+msgstr "shortcode_param"
+
+#: includes/modules/EventCarousel/EventCarousel.php:308
+#: includes/modules/EventDisplay/EventDisplay.php:733
+#: includes/modules/EventPage/EventPage.php:305
+#: includes/modules/EventTicket/EventTicket.php:72
+#, fuzzy
+msgid "Total number of events to show."
+msgstr "Totalt antal händelser som ska visas."
+
+#: includes/modules/EventCarousel/EventCarousel.php:316
+#: includes/modules/EventPage/EventPage.php:313
+#, fuzzy
+msgid "Dynamic Event Content"
+msgstr "Dynamiskt händelseinnehåll"
+
+#: includes/modules/EventCarousel/EventCarousel.php:323
+#: includes/modules/EventPage/EventPage.php:320
+#, fuzzy
+msgid ""
+"Choose to turn on or off dynamic content for the module, which allows you to "
+"place the module in a Divi Theme Builder layout to dynamically display event "
+"categories for the current category or page. This will also work on the "
+"single event pages and for the Theme Builder search results page!"
+msgstr ""
+"Välj att aktivera eller inaktivera dynamiskt innehåll för modulen, vilket "
+"gör att du kan placera modulen i en Divi Theme Builder-layout för att "
+"dynamiskt visa händelsekategorier för den aktuella kategorin eller sidan. "
+"Detta fungerar också på de enskilda evenemangssidorna och för "
+"sökresultatsidan för Theme Builder!"
+
+#: includes/modules/EventCarousel/EventCarousel.php:333
+#: includes/modules/EventDisplay/EventDisplay.php:773
+#: includes/modules/EventPage/EventPage.php:381
+msgid "Show Featured Image"
+msgstr "Visa utvald bild"
+
+#: includes/modules/EventCarousel/EventCarousel.php:340
+#: includes/modules/EventDisplay/EventDisplay.php:780
+#: includes/modules/EventPage/EventPage.php:388
+#, fuzzy
+msgid "Choose to show or hide the event featured image."
+msgstr "Välj att visa eller dölja den aktuella händelsens bild."
+
+#: includes/modules/EventCarousel/EventCarousel.php:349
+#: includes/modules/EventDisplay/EventDisplay.php:789
+#: includes/modules/EventPage/EventPage.php:397
+msgid "Show Title"
+msgstr "Visa rubrik"
+
+#: includes/modules/EventCarousel/EventCarousel.php:356
+#: includes/modules/EventDisplay/EventDisplay.php:796
+#: includes/modules/EventPage/EventPage.php:404
+#, fuzzy
+msgid "Choose to show or hide the event title."
+msgstr "Välj att visa eller dölja händelserubriken."
+
+#: includes/modules/EventCarousel/EventCarousel.php:364
+#: includes/modules/EventDisplay/EventDisplay.php:804
+#: includes/modules/EventPage/EventPage.php:412
+msgid "Show Date"
+msgstr "Visa datum"
+
+#: includes/modules/EventCarousel/EventCarousel.php:371
+#: includes/modules/EventDisplay/EventDisplay.php:811
+#: includes/modules/EventPage/EventPage.php:419
+#, fuzzy
+msgid "Choose to show or hide the event date."
+msgstr "Välj att visa eller dölja händelsedatumet."
+
+#: includes/modules/EventCarousel/EventCarousel.php:380
+#: includes/modules/EventDisplay/EventDisplay.php:837
+#: includes/modules/EventPage/EventPage.php:445
+msgid "Show Time"
+msgstr "Visa tid"
+
+#: includes/modules/EventCarousel/EventCarousel.php:387
+#: includes/modules/EventDisplay/EventDisplay.php:844
+#: includes/modules/EventDisplay/EventDisplay.php:877
+#: includes/modules/EventPage/EventPage.php:452
+#: includes/modules/EventPage/EventPage.php:485
+#, fuzzy
+msgid "Choose to show or hide the event time."
+msgstr "Välj att visa eller dölja händelsetiden."
+
+#: includes/modules/EventCarousel/EventCarousel.php:396
+#: includes/modules/EventDisplay/EventDisplay.php:887
+#: includes/modules/EventPage/EventPage.php:494
+#, fuzzy
+msgid "Show Time Zone"
+msgstr "Visa tidszon"
+
+#: includes/modules/EventCarousel/EventCarousel.php:417
+#: includes/modules/EventDisplay/EventDisplay.php:907
+#: includes/modules/EventPage/EventPage.php:624
+#, fuzzy
+msgid "Show Venue"
+msgstr "Visa plats"
+
+#: includes/modules/EventCarousel/EventCarousel.php:424
+#: includes/modules/EventDisplay/EventDisplay.php:914
+#: includes/modules/EventPage/EventPage.php:631
+#: includes/modules/EventPage/EventPage.php:647
+#: includes/modules/EventPage/EventPage.php:662
+#: includes/modules/EventPage/EventPage.php:697
+#: includes/modules/EventPage/EventPage.php:712
+#: includes/modules/EventPage/EventPage.php:728
+#, fuzzy
+msgid "Choose to show or hide the event venue."
+msgstr "Välj att visa eller dölja evenemangslokalen."
+
+#: includes/modules/EventCarousel/EventCarousel.php:432
+#: includes/modules/EventDisplay/EventDisplay.php:922
+#: includes/modules/EventPage/EventPage.php:515
+msgid "Show Location"
+msgstr "Visa Plats"
+
+#: includes/modules/EventCarousel/EventCarousel.php:439
+#: includes/modules/EventDisplay/EventDisplay.php:929
+#: includes/modules/EventPage/EventPage.php:522
+#, fuzzy
+msgid "Choose to show or hide the event location."
+msgstr "Välj att visa eller dölja händelseplatsen."
+
+#: includes/modules/EventCarousel/EventCarousel.php:448
+#: includes/modules/EventDisplay/EventDisplay.php:1030
+#: includes/modules/EventPage/EventPage.php:670
+#, fuzzy
+msgid "Show Organizer"
+msgstr "Visa organisatör"
+
+#: includes/modules/EventCarousel/EventCarousel.php:455
+#: includes/modules/EventDisplay/EventDisplay.php:1037
+#: includes/modules/EventPage/EventPage.php:677
+#, fuzzy
+msgid "Choose to show or hide the event organizer."
+msgstr "Välj att visa eller dölja händelseorganisatören."
+
+#: includes/modules/EventCarousel/EventCarousel.php:467
+#: includes/modules/EventDisplay/EventDisplay.php:1049
+#: includes/modules/EventPage/EventPage.php:736
+#: includes/modules/EventTicket/EventTicket.php:81
+msgid "Show Price"
+msgstr "Visa pris"
+
+#: includes/modules/EventCarousel/EventCarousel.php:474
+#: includes/modules/EventDisplay/EventDisplay.php:1056
+#: includes/modules/EventPage/EventPage.php:743
+#: includes/modules/EventTicket/EventTicket.php:88
+#, fuzzy
+msgid "Choose to show or hide the event price."
+msgstr "Välj att visa eller dölja händelsepriset."
+
+#: includes/modules/EventCarousel/EventCarousel.php:486
+#: includes/modules/EventDisplay/EventDisplay.php:1068
+#: includes/modules/EventPage/EventPage.php:755
+msgid "Show Category"
+msgstr "Visa kategori"
+
+#: includes/modules/EventCarousel/EventCarousel.php:493
+#: includes/modules/EventDisplay/EventDisplay.php:1075
+#: includes/modules/EventPage/EventPage.php:762
+#, fuzzy
+msgid "Choose to show or hide the event category."
+msgstr "Välj att visa eller dölja händelsekategorin."
+
+#: includes/modules/EventCarousel/EventCarousel.php:501
+#: includes/modules/EventDisplay/EventDisplay.php:1083
+#: includes/modules/EventPage/EventPage.php:790
+msgid "Show Website"
+msgstr "Visa webbplats"
+
+#: includes/modules/EventCarousel/EventCarousel.php:508
+#: includes/modules/EventDisplay/EventDisplay.php:1090
+#: includes/modules/EventPage/EventPage.php:797
+#, fuzzy
+msgid "Choose to show or hide the event website URL."
+msgstr "Välj att visa eller dölja webbadressen till händelsens webbplats."
+
+#: includes/modules/EventCarousel/EventCarousel.php:521
+#: includes/modules/EventDisplay/EventDisplay.php:1103
+#: includes/modules/EventPage/EventPage.php:810
+msgid "Show Excerpt"
+msgstr "Visa utdrag"
+
+#: includes/modules/EventCarousel/EventCarousel.php:528
+#: includes/modules/EventDisplay/EventDisplay.php:1110
+#: includes/modules/EventPage/EventPage.php:817
+#, fuzzy
+msgid "Choose to show or hide the event excerpt."
+msgstr "Välj att visa eller dölja händelseutdraget."
+
+#: includes/modules/EventCarousel/EventCarousel.php:537
+#: includes/modules/EventDisplay/EventDisplay.php:1119
+#: includes/modules/EventPage/EventPage.php:826
+#, fuzzy
+msgid "Show More Info Button"
+msgstr "Knappen Visa mer information"
+
+#: includes/modules/EventCarousel/EventCarousel.php:544
+#: includes/modules/EventDisplay/EventDisplay.php:1126
+#: includes/modules/EventPage/EventPage.php:833
+#, fuzzy
+msgid "Choose to show or hide the event more info button."
+msgstr "Välj att visa eller dölja knappen mer info."
+
+#: includes/modules/EventCarousel/EventCarousel.php:554
+#: includes/modules/EventDisplay/EventDisplay.php:1331
+#: includes/modules/EventPage/EventPage.php:930
+#, fuzzy
+msgid "Show Prepositions & Dividers"
+msgstr "Visa prepositioner & avdelare"
+
+#: includes/modules/EventCarousel/EventCarousel.php:561
+#: includes/modules/EventDisplay/EventDisplay.php:1338
+#: includes/modules/EventPage/EventPage.php:937
+#, fuzzy
+msgid ""
+"Choose to show or hide the prepositions and dividers in the event details. "
+"This setting is best used with the option to stack event details."
+msgstr ""
+"Välj att visa eller dölja prepositionerna och avdelarna i "
+"händelseinformationen. Den här inställningen används bäst med alternativet "
+"att stapla händelseinformation."
+
+#: includes/modules/EventCarousel/EventCarousel.php:572
+#: includes/modules/EventDisplay/EventDisplay.php:1349
+#: includes/modules/EventPage/EventPage.php:948
+#, fuzzy
+msgid "Stack Event Details"
+msgstr "Information om stackhändelse"
+
+#: includes/modules/EventCarousel/EventCarousel.php:579
+#: includes/modules/EventDisplay/EventDisplay.php:1356
+#: includes/modules/EventPage/EventPage.php:955
+#, fuzzy
+msgid ""
+"Choose to stack each of the event details on their own lines instead of "
+"showing them in the default sentence format."
+msgstr ""
+"Välj att stapla var och en av händelseinformationen på sina egna rader i "
+"stället för att visa dem i standardmeningen."
+
+#: includes/modules/EventCarousel/EventCarousel.php:593
+#, fuzzy
+msgid "Show Labels Or Icons"
+msgstr "Visa etiketter eller ikoner"
+
+#: includes/modules/EventCarousel/EventCarousel.php:594
+#: includes/modules/EventDisplay/EventDisplay.php:1371
+#: includes/modules/EventPage/EventPage.php:971
+#, fuzzy
+msgid ""
+"Choose to add labels or icons before each event item. This setting is best "
+"used with the option to stack event details."
+msgstr ""
+"Välj att lägga till etiketter eller ikoner före varje händelseobjekt. Den "
+"här inställningen används bäst med alternativet att stapla "
+"händelseinformation."
+
+#: includes/modules/EventCarousel/EventCarousel.php:598
+#: includes/modules/EventDisplay/EventDisplay.php:1375
+#: includes/modules/EventPage/EventPage.php:975
+msgid "None"
+msgstr "Ingen"
+
+#: includes/modules/EventCarousel/EventCarousel.php:599
+#: includes/modules/EventDisplay/EventDisplay.php:1376
+#: includes/modules/EventPage/EventPage.php:976
+msgid "Labels"
+msgstr "Etiketter"
+
+#: includes/modules/EventCarousel/EventCarousel.php:600
+#: includes/modules/EventDisplay/EventDisplay.php:1377
+#: includes/modules/EventPage/EventPage.php:977
+msgid "Icons"
+msgstr "Ikoner"
+
+#: includes/modules/EventCarousel/EventCarousel.php:613
+#: includes/modules/EventDisplay/EventDisplay.php:1403
+#: includes/modules/EventPage/EventPage.php:1011
+msgid "Events Count"
+msgstr "Antal händelser"
+
+#: includes/modules/EventCarousel/EventCarousel.php:616
+#: includes/modules/EventDisplay/EventDisplay.php:1406
+#: includes/modules/EventPage/EventPage.php:1014
+#, fuzzy
+msgid ""
+"Choose the total number of events to show in the feed. Remember, you can use "
+"pagination options as well for the website visitor to load more events."
+msgstr ""
+"Välj det totala antalet händelser som ska visas i flödet. Kom ihåg att du "
+"också kan använda sidnumreringsalternativ för webbplatsbesökaren för att "
+"ladda fler evenemang."
+
+#: includes/modules/EventCarousel/EventCarousel.php:641
+#: includes/modules/EventDisplay/EventDisplay.php:1429
+#: includes/modules/EventPage/EventPage.php:1039
+#, fuzzy
+msgid "Choose which event categories you would like to show in the feed."
+msgstr "Välj vilka händelsekategorier du vill visa i flödet."
+
+#: includes/modules/EventCarousel/EventCarousel.php:660
+#: includes/modules/EventPage/EventPage.php:428
+msgid "Date Format"
+msgstr "Datumformat"
+
+#: includes/modules/EventCarousel/EventCarousel.php:676
+#: includes/modules/EventPage/EventPage.php:462
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: includes/modules/EventCarousel/EventCarousel.php:693
+#: includes/modules/EventDisplay/EventDisplay.php:1489
+#: includes/modules/EventPage/EventPage.php:1092
+msgid "Excerpt Length"
+msgstr "Längd på utdrag"
+
+#: includes/modules/EventCarousel/EventCarousel.php:696
+#: includes/modules/EventDisplay/EventDisplay.php:1492
+#: includes/modules/EventPage/EventPage.php:1095
+#, fuzzy
+msgid ""
+"If you are showing the event excerpt, this setting allows you to set a "
+"specific character limit for the text. The WordPress default is 270 "
+"characters."
+msgstr ""
+"Om du visar händelseutdraget kan du ange en viss teckengräns för texten med "
+"den här inställningen. WordPress-standardvärdet är 270 tecken."
+
+#: includes/modules/EventCarousel/EventCarousel.php:708
+#: includes/modules/EventDisplay/EventDisplay.php:1512
+#: includes/modules/EventPage/EventPage.php:1103
+#, fuzzy
+msgid "Events Offset Number"
+msgstr "Förskjutningsnummer för händelser"
+
+#: includes/modules/EventCarousel/EventCarousel.php:711
+#: includes/modules/EventDisplay/EventDisplay.php:1515
+#: includes/modules/EventPage/EventPage.php:1106
+#, fuzzy
+msgid ""
+"Choose how many events you want to skip in the feed. This is helpful if you "
+"want to feature one event at the top in a different module or style, then "
+"add a second module and start with the second event by inputting the number "
+"1."
+msgstr ""
+"Välj hur många händelser du vill hoppa över i flödet. Detta är användbart om "
+"du vill visa en händelse högst upp i en annan modul eller stil, lägg sedan "
+"till en andra modul och börja med den andra händelsen genom att mata in "
+"siffran 1."
+
+#: includes/modules/EventCarousel/EventCarousel.php:723
+#: includes/modules/EventPage/EventPage.php:1118
+#, fuzzy
+msgid "Only Show Past Events"
+msgstr "Visa bara tidigare händelser"
+
+#: includes/modules/EventCarousel/EventCarousel.php:730
+#: includes/modules/EventPage/EventPage.php:1125
+#, fuzzy
+msgid ""
+"Choose to use the module to show an archive of past events instead of "
+"upcoming events."
+msgstr ""
+"Välj att använda modulen för att visa ett arkiv med tidigare händelser i "
+"stället för kommande händelser."
+
+#: includes/modules/EventCarousel/EventCarousel.php:742
+#: includes/modules/EventPage/EventPage.php:1137
+msgid "Columns"
+msgstr "Kolumner"
+
+#: includes/modules/EventCarousel/EventCarousel.php:743
+#: includes/modules/EventPage/EventPage.php:1138
+#, fuzzy
+msgid ""
+"Choose the number of columns you want to use to display your events. Note "
+"that the number of columns is sometimes dependent on the alignment options "
+"chosen."
+msgstr ""
+"Välj det antal kolumner som du vill använda för att visa dina händelser. "
+"Observera att antalet kolumner ibland beror på de justeringsalternativ som "
+"valts."
+
+#: includes/modules/EventCarousel/EventCarousel.php:747
+#: includes/modules/EventDisplay/EventDisplay.php:1581
+#: includes/modules/EventDisplay/EventDisplay.php:1605
+#: includes/modules/EventDisplay/EventDisplay.php:1628
+#: includes/modules/EventPage/EventPage.php:1142
+msgid "1 Column"
+msgstr "1 kolumn"
+
+#: includes/modules/EventCarousel/EventCarousel.php:748
+#: includes/modules/EventDisplay/EventDisplay.php:1582
+#: includes/modules/EventDisplay/EventDisplay.php:1606
+#: includes/modules/EventDisplay/EventDisplay.php:1629
+#: includes/modules/EventPage/EventPage.php:1143
+msgid "2 Columns"
+msgstr "2 kolumner"
+
+#: includes/modules/EventCarousel/EventCarousel.php:749
+#: includes/modules/EventDisplay/EventDisplay.php:1583
+#: includes/modules/EventDisplay/EventDisplay.php:1607
+#: includes/modules/EventPage/EventPage.php:1144
+msgid "3 Columns"
+msgstr "3 kolumner"
+
+#: includes/modules/EventCarousel/EventCarousel.php:750
+#: includes/modules/EventDisplay/EventDisplay.php:1584
+#: includes/modules/EventDisplay/EventDisplay.php:1608
+#: includes/modules/EventPage/EventPage.php:1145
+msgid "4 Columns"
+msgstr "4 kolumner"
+
+#: includes/modules/EventCarousel/EventCarousel.php:767
+#: includes/modules/EventDisplay/EventDisplay.php:1646
+#: includes/modules/EventPage/EventPage.php:1159
+msgid "Alignment"
+msgstr "Justering"
+
+#: includes/modules/EventCarousel/EventCarousel.php:768
+#: includes/modules/EventDisplay/EventDisplay.php:1647
+#: includes/modules/EventPage/EventPage.php:1160
+#, fuzzy
+msgid ""
+"Choose the alignment of the event featured image and details. Note that the "
+"alignment is sometimes dependent on the number of columns chosen."
+msgstr ""
+"Välj justering av händelsens bild och information. Observera att justeringen "
+"ibland beror på antalet valda kolumner."
+
+#: includes/modules/EventCarousel/EventCarousel.php:772
+#: includes/modules/EventPage/EventPage.php:1164
+#, fuzzy
+msgid "Image Left, Details Right"
+msgstr "Bild vänster, detaljer höger"
+
+#: includes/modules/EventCarousel/EventCarousel.php:773
+#: includes/modules/EventDisplay/EventDisplay.php:1652
+#: includes/modules/EventPage/EventPage.php:1165
+#, fuzzy
+msgid "Image Top,  Details  Bottom"
+msgstr "Bild upptill, detaljer nederkant"
+
+#: includes/modules/EventCarousel/EventCarousel.php:774
+#: includes/modules/EventPage/EventPage.php:1166
+#, fuzzy
+msgid "Image Right, Details Left"
+msgstr "Bild höger, detaljer vänster"
+
+#: includes/modules/EventCarousel/EventCarousel.php:798
+#: includes/modules/EventDisplay/EventDisplay.php:1670
+#: includes/modules/EventPage/EventPage.php:1186
+#, fuzzy
+msgid "Event Background Color"
+msgstr "Bakgrundsfärg för händelse"
+
+#: includes/modules/EventCarousel/EventCarousel.php:799
+#: includes/modules/EventDisplay/EventDisplay.php:1671
+#: includes/modules/EventPage/EventPage.php:1187
+#, fuzzy
+msgid "Set a color for the background of the individual events."
+msgstr "Ange en färg för bakgrunden av de enskilda händelserna."
+
+#: includes/modules/EventCarousel/EventCarousel.php:811
+#: includes/modules/EventDisplay/EventDisplay.php:1739
+#: includes/modules/EventPage/EventPage.php:1197
+#, fuzzy
+msgid "Details Link Color"
+msgstr "Detaljer Länk färg"
+
+#: includes/modules/EventCarousel/EventCarousel.php:812
+#, fuzzy
+msgid "You can pick unique background colors for Events."
+msgstr "Du kan välja unika bakgrundsfärger för händelser."
+
+#: includes/modules/EventCarousel/EventCarousel.php:824
+#, fuzzy
+msgid "Icon Color Picker"
+msgstr "Färgväljare för ikon"
+
+#: includes/modules/EventCarousel/EventCarousel.php:825
+#: includes/modules/EventCarousel/EventCarousel.php:838
+#: includes/modules/EventDisplay/EventDisplay.php:1740
+#: includes/modules/EventPage/EventPage.php:1198
+#, fuzzy
+msgid "Choose a color for the link text in the event details."
+msgstr "Välj en färg för länktexten i händelseinformationen."
+
+#: includes/modules/EventCarousel/EventCarousel.php:837
+#, fuzzy
+msgid "Label Color Picker"
+msgstr "Färgväljare för etikett"
+
+#: includes/modules/EventCarousel/EventCarousel.php:850
+#, fuzzy
+msgid "Navigation Background Color"
+msgstr "Bakgrundsfärg för navigering"
+
+#: includes/modules/EventCarousel/EventCarousel.php:851
+#, fuzzy
+msgid "You can pick unique background colors for Event Carousel Arrows."
+msgstr "Du kan välja unika bakgrundsfärger för Händelsekarusellpilar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:864
+#: includes/modules/EventDisplay/EventDisplay.php:1781
+#: includes/modules/EventPage/EventPage.php:1252
+#, fuzzy
+msgid "Event Margin"
+msgstr "Marginal för händelse"
+
+#: includes/modules/EventCarousel/EventCarousel.php:867
+#: includes/modules/EventDisplay/EventDisplay.php:1784
+#: includes/modules/EventPage/EventPage.php:1255
+#, fuzzy
+msgid "Adjust the spacing around the outside of the individual events."
+msgstr "Justera avståndet runt utsidan av de enskilda händelserna."
+
+#: includes/modules/EventCarousel/EventCarousel.php:878
+#: includes/modules/EventDisplay/EventDisplay.php:1795
+#: includes/modules/EventPage/EventPage.php:1266
+#, fuzzy
+msgid "Event Padding"
+msgstr "Utfyllnad av händelse"
+
+#: includes/modules/EventCarousel/EventCarousel.php:881
+#: includes/modules/EventDisplay/EventDisplay.php:1798
+#: includes/modules/EventPage/EventPage.php:1269
+#, fuzzy
+msgid "Adjust the spacing around the inside of the individual events."
+msgstr "Justera avståndet runt insidan av de enskilda händelserna."
+
+#: includes/modules/EventCarousel/EventCarousel.php:935
+#: includes/modules/EventDisplay/EventDisplay.php:1857
+#: includes/modules/EventPage/EventPage.php:1354
+#, fuzzy
+msgid "More Info Button Text"
+msgstr "Mer info knapptext"
+
+#: includes/modules/EventCarousel/EventCarousel.php:938
+#: includes/modules/EventDisplay/EventDisplay.php:1860
+#: includes/modules/EventDisplay/EventDisplay.php:2144
+#: includes/modules/EventDisplay/EventDisplay.php:2163
+#: includes/modules/EventDisplay/EventDisplay.php:2181
+#: includes/modules/EventPage/EventPage.php:1357
+#: includes/modules/EventPage/EventPage.php:1447
+#: includes/modules/EventPage/EventPage.php:1465
+#: includes/modules/EventPage/EventPage.php:1475
+#: includes/modules/EventPage/EventPage.php:1485
+#, fuzzy
+msgid "Enter custom text for the button."
+msgstr "Ange anpassad text för knappen."
+
+#: includes/modules/EventCarousel/EventCarousel.php:947
+#: includes/modules/EventDisplay/EventDisplay.php:1872
+#: includes/modules/EventDisplay/EventDisplay.php:2136
+#: includes/modules/EventDisplay/EventDisplay.php:2158
+#: includes/modules/EventDisplay/EventDisplay.php:2176
+#: includes/modules/EventPage/EventPage.php:1369
+msgid "Button Text"
+msgstr "Knapptext"
+
+#: includes/modules/EventCarousel/EventCarousel.php:950
+#: includes/modules/EventDisplay/EventDisplay.php:1875
+#: includes/modules/EventDisplay/EventDisplay.php:2153
+#: includes/modules/EventDisplay/EventDisplay.php:2171
+#: includes/modules/EventDisplay/EventDisplay.php:2190
+#: includes/modules/EventPage/EventPage.php:1372
+#: includes/modules/EventPage/EventPage.php:1455
+#, fuzzy
+msgid "Post button."
+msgstr "Knappen Posta."
+
+#: includes/modules/EventCarousel/EventCarousel.php:955
+#: includes/modules/EventDisplay/EventDisplay.php:1880
+#: includes/modules/EventPage/EventPage.php:1377
+msgid "Image Alignment"
+msgstr "Bildjustering"
+
+#: includes/modules/EventCarousel/EventCarousel.php:962
+#: includes/modules/EventDisplay/EventDisplay.php:1887
+#: includes/modules/EventPage/EventPage.php:1384
+#, fuzzy
+msgid "Choose to align the event featured image to the left, center, or right."
+msgstr ""
+"Välj att justera den händelse som visas till vänster, i mitten eller åt "
+"höger."
+
+#: includes/modules/EventCarousel/EventCarousel.php:967
+#: includes/modules/EventDisplay/EventDisplay.php:1915
+#: includes/modules/EventPage/EventPage.php:1389
+#, fuzzy
+msgid "Image Margin"
+msgstr "Bildmarginal"
+
+#: includes/modules/EventCarousel/EventCarousel.php:969
+#: includes/modules/EventDisplay/EventDisplay.php:1917
+#: includes/modules/EventPage/EventPage.php:1391
+#, fuzzy
+msgid "Adjust the spacing around the outside of the event featured image."
+msgstr "Justera avståndet runt utsidan av den händelse som visas."
+
+#: includes/modules/EventCarousel/EventCarousel.php:975
+#: includes/modules/EventDisplay/EventDisplay.php:1927
+#: includes/modules/EventPage/EventPage.php:1397
+#, fuzzy
+msgid "Image Padding"
+msgstr "Utfyllnad av bild"
+
+#: includes/modules/EventCarousel/EventCarousel.php:977
+#: includes/modules/EventDisplay/EventDisplay.php:1929
+#: includes/modules/EventPage/EventPage.php:1399
+#, fuzzy
+msgid "Adjust the spacing around the inside of the event featured image."
+msgstr "Justera avståndet runt insidan av den händelse som visas."
+
+#: includes/modules/EventCarousel/EventCarousel.php:983
+#: includes/modules/EventDisplay/EventDisplay.php:2007
+#: includes/modules/EventPage/EventPage.php:1405
+msgid "Image Width"
+msgstr "Bild brädd"
+
+#: includes/modules/EventCarousel/EventCarousel.php:999
+#: includes/modules/EventDisplay/EventDisplay.php:2027
+#: includes/modules/EventPage/EventPage.php:1422
+#, fuzzy
+msgid "Align To Bottom"
+msgstr "Justera till nederkant"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1006
+#: includes/modules/EventDisplay/EventDisplay.php:2034
+#: includes/modules/EventPage/EventPage.php:1429
+#, fuzzy
+msgid "Choose to align the button to the bottom."
+msgstr "Välj att justera knappen längst ned."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1019
+msgid "Show Navigation Arrows"
+msgstr "Visa navigeringspilar"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1028
+#, fuzzy
+msgid ""
+"Choose to show or hide the carousel next and previous navigation arrows."
+msgstr ""
+"Välj att visa eller dölja karusellen nästa och tidigare navigeringspilar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1033
+msgid "Show Navigation Dots"
+msgstr "Navigationspunkter"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1042
+#, fuzzy
+msgid "Choose to show or hide the carousel navigation dots."
+msgstr "Välj att visa eller dölja karusellnavigeringsstlarna."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1047
+msgid "Mouse Drag"
+msgstr "Dra med musen"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1057
+#, fuzzy
+msgid "Enable the ability to drag the carousel slides using a mouse."
+msgstr "Aktivera möjligheten att dra karusellbilderna med en mus."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1060
+msgid "Touch Drag"
+msgstr "Peka och dra"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1070
+#, fuzzy
+msgid "Enable the ability to drag the carousel slides on touch screens."
+msgstr "Aktivera möjligheten att dra karusellbilderna på pekskärmar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1073
+#, fuzzy
+msgid "Navigation Font size"
+msgstr "Storlek på navigeringsteckensnitt"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1074
+#, fuzzy
+msgid "Manually set the font size for navigation link."
+msgstr "Ange teckenstorleken manuellt för navigeringslänken."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1089
+#, fuzzy
+msgid "Navigation Arrow Color"
+msgstr "Navigering pil färg"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1090
+#, fuzzy
+msgid "Set a color for the carousel next and previous navigation arrows."
+msgstr "Ange en färg för karusellen nästa och tidigare navigeringspilar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1097
+msgid "Dot Navigation Color"
+msgstr "Färg för punktnavigation"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1098
+#, fuzzy
+msgid "Set a color for the carousel navigation dots."
+msgstr "Ange en färg för karusellnavigeringsstlarna."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1105
+#, fuzzy
+msgid "Active Dot Navigation Color"
+msgstr "Aktiv navigeringsfärg för prick"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1106
+#, fuzzy
+msgid "Set a color for the carousel navigation active dot."
+msgstr "Ange en färg för den aktiva karusellnavigeringstappen."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1113
+msgid "Autoplay"
+msgstr "Autospela"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1127
+#, fuzzy
+msgid ""
+"When enabled, carousel will start rotating automatically without the visitor "
+"needing to click the next and previous arrows."
+msgstr ""
+"När karusellen är aktiverad börjar den rotera automatiskt utan att besökaren "
+"behöver klicka på nästa och föregående pilar."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1130
+msgid "Autoplay Speed"
+msgstr "Hastighet på automatisk uppspelning"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1141
+#, fuzzy
+msgid ""
+"Set the speed for the carousel automatic rotation in milliseconds. The "
+"higher the number the longer the pause between rotations."
+msgstr ""
+"Ställ in hastigheten för karusellens automatiska rotation i millisekunder. "
+"Ju högre tal desto längre paus mellan rotationerna."
+
+#: includes/modules/EventCarousel/EventCarousel.php:1149
+#, fuzzy
+msgid "Continue Autoplay On Hover"
+msgstr "Fortsätt spela upp automatiskt vid hovring"
+
+#: includes/modules/EventCarousel/EventCarousel.php:1162
+#, fuzzy
+msgid "Choose to contine the carousel rotation even on mouse hover."
+msgstr "Välj att kontina karusellrotationen även på mus hover."
+
+#: includes/modules/EventCarousel/EventCarousel.php:2259
+#: includes/modules/EventDisplay/EventAjax.php:1106
+#: includes/modules/EventDisplay/EventDisplay.php:4001
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:55
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:655
+#: includes/modules/EventPage/EventPage.php:2842
+msgid "Organizer"
+msgstr "Arrangör"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2262
+#: includes/modules/EventDisplay/EventAjax.php:1117
+#: includes/modules/EventDisplay/EventDisplay.php:4012
+#: includes/modules/EventPage/EventPage.php:2845
+msgid " by "
+msgstr " av "
+
+#: includes/modules/EventCarousel/EventCarousel.php:2262
+#: includes/modules/EventDisplay/EventAjax.php:1449
+#: includes/modules/EventDisplay/EventAjax.php:1479
+#: includes/modules/EventDisplay/EventDisplay.php:4350
+msgid "true"
+msgstr "sant"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2274
+#: includes/modules/EventDisplay/EventAjax.php:1130
+#: includes/modules/EventDisplay/EventDisplay.php:4026
+#: includes/modules/EventPage/EventPage.php:2931
+msgid "Price"
+msgstr "Pris"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2342
+#: includes/modules/EventDisplay/EventAjax.php:1240
+#: includes/modules/EventDisplay/EventDisplay.php:4137
+#: includes/modules/EventPage/EventPage.php:3000
+msgid "Website"
+msgstr "Webbplats"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2359
+#: includes/modules/EventDisplay/EventAjax.php:1264
+#: includes/modules/EventDisplay/EventDisplay.php:4161
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:762
+#: includes/modules/EventPage/EventPage.php:2755
+msgid "Time"
+msgstr "Tid"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2360
+#: includes/modules/EventDisplay/EventAjax.php:1265
+#: includes/modules/EventDisplay/EventAjax.php:1404
+#: includes/modules/EventDisplay/EventDisplay.php:4162
+#: includes/modules/EventDisplay/EventDisplay.php:4301
+#: includes/modules/EventPage/EventPage.php:2756
+msgid "Date"
+msgstr "Datum"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2525
+#: includes/modules/EventDisplay/EventAjax.php:1446
+#: includes/modules/EventDisplay/EventDisplay.php:4346
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:326
+#: includes/modules/EventPage/EventPage.php:3188
+msgid "Venue"
+msgstr "Plats"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2528
+#: includes/modules/EventDisplay/EventAjax.php:1449
+#: includes/modules/EventDisplay/EventDisplay.php:4350
+#: includes/modules/EventPage/EventPage.php:3193
+msgid "at"
+msgstr "på"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2550
+#: includes/modules/EventDisplay/EventAjax.php:1476
+#: includes/modules/EventDisplay/EventDisplay.php:4379
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:403
+#: includes/modules/EventPage/EventPage.php:3216
+msgid "Location"
+msgstr "Plats"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2553
+#: includes/modules/EventDisplay/EventAjax.php:1479
+#: includes/modules/EventDisplay/EventDisplay.php:4383
+#: includes/modules/EventPage/EventPage.php:3221
+msgid "in"
+msgstr "i"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2573
+#: includes/modules/EventDisplay/EventAjax.php:1502
+#: includes/modules/EventDisplay/EventDisplay.php:4408
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:53
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:686
+#: includes/modules/EventPage/EventPage.php:3277
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2630
+#: includes/modules/EventDisplay/EventAjax.php:1597
+#: includes/modules/EventDisplay/EventDisplay.php:4511
+#: includes/modules/EventPage/EventPage.php:3402
+#: includes/modules/EventTicket/EventTicket.php:389
+#, php-format
+msgid "View All %s"
+msgstr "Visa alla %s"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2651
+#: includes/modules/EventDisplay/EventDisplay.php:4548
+#, fuzzy
+msgid "&laquo; Older Entries"
+msgstr "« Äldre poster"
+
+#: includes/modules/EventCarousel/EventCarousel.php:2653
+#: includes/modules/EventDisplay/EventDisplay.php:4550
+#, fuzzy
+msgid "Next Entries &raquo;"
+msgstr "Nästa poster »"
+
+#: includes/modules/EventDisplay/EventDisplay.php:103
+#: includes/modules/EventDisplay/EventDisplay.php:104
+#, fuzzy
+msgid "Events Feed"
+msgstr "Flöde för händelser"
+
+#: includes/modules/EventDisplay/EventDisplay.php:138
+#, fuzzy
+msgid "Callout Box"
+msgstr "Bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:158
+#: includes/modules/EventDisplay/EventDisplay.php:615
+msgid "Pagination"
+msgstr "Sidindelning"
+
+#: includes/modules/EventDisplay/EventDisplay.php:163
+#: includes/modules/EventDisplay/EventDisplay.php:604
+#: includes/modules/EventDisplay/EventDisplay.php:1501
+msgid "No Results Message"
+msgstr "Inget Resultat meddelande"
+
+#: includes/modules/EventDisplay/EventDisplay.php:167
+#, fuzzy
+msgid "Google Calendar Button"
+msgstr "Knappen Google Kalender"
+
+#: includes/modules/EventDisplay/EventDisplay.php:171
+#, fuzzy
+msgid "ICAL Export Button"
+msgstr "Knappen ICAL-export"
+
+#: includes/modules/EventDisplay/EventDisplay.php:176
+#: includes/modules/EventFilter/EventFilter.php:29
+msgid "Connection"
+msgstr "Anslutning"
+
+#: includes/modules/EventDisplay/EventDisplay.php:190
+#: includes/modules/EventDisplay/EventDisplay.php:303
+msgid "Callout"
+msgstr "Callout"
+
+#: includes/modules/EventDisplay/EventDisplay.php:286
+msgid "Details "
+msgstr "Detaljer "
+
+#: includes/modules/EventDisplay/EventDisplay.php:287
+#, fuzzy
+msgid ""
+"Add and customize the border for the event details with all the standard "
+"border settings."
+msgstr ""
+"Lägg till och anpassa kantlinjen för händelseinformationen med alla "
+"standardinställningar för kantlinje."
+
+#: includes/modules/EventDisplay/EventDisplay.php:304
+#, fuzzy
+msgid ""
+"Add and customize the border for the event callout box with all the standard "
+"border settings."
+msgstr ""
+"Lägg till och anpassa kantlinjen för bildtextrutan för händelser med alla "
+"standardinställningar för kantlinje."
+
+#: includes/modules/EventDisplay/EventDisplay.php:330
+#: includes/modules/EventDisplay/EventDisplay.php:352
+#, fuzzy
+msgid "Filter Border"
+msgstr "Filtrera kantlinje"
+
+#: includes/modules/EventDisplay/EventDisplay.php:374
+#, fuzzy
+msgid "Active Filter Border"
+msgstr "Aktiv filterkantlinje"
+
+#: includes/modules/EventDisplay/EventDisplay.php:425
+#, fuzzy
+msgid "Details Box Shadow Settings"
+msgstr "Skugginställningar för informationsruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:426
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the event details with all the standard "
+"box shadow settings."
+msgstr ""
+"Lägg till och anpassa lådskuggan för händelseinformationen med alla "
+"standardinställningar för rutans skugg."
+
+#: includes/modules/EventDisplay/EventDisplay.php:435
+#, fuzzy
+msgid "Callout Box Shadow Settings"
+msgstr "Skugginställningar för bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:436
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the event callout box with all the "
+"standard box shadow settings."
+msgstr ""
+"Lägg till och anpassa rutaskuggan för rutan händelseuttryckning med alla "
+"standardinställningar för rutans skugg."
+
+#: includes/modules/EventDisplay/EventDisplay.php:447
+#, fuzzy
+msgid "Filter Box Shadow Settings"
+msgstr "Skugginställningar för filterruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:459
+#, fuzzy
+msgid "Filter Dropdown Box Shadow Settings"
+msgstr "Skugginställningar för listruta för filterruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:471
+#, fuzzy
+msgid "Active Filter Box Shadow Settings"
+msgstr "Skugginställningar för aktiv filterruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:528
+#, fuzzy
+msgid "Details Labels"
+msgstr "Informationsetiketter"
+
+#: includes/modules/EventDisplay/EventDisplay.php:547
+#, fuzzy
+msgid "Callout Date"
+msgstr "Bildtextdatum"
+
+#: includes/modules/EventDisplay/EventDisplay.php:565
+#, fuzzy
+msgid "Callout Month"
+msgstr "Bildtextmånad"
+
+#: includes/modules/EventDisplay/EventDisplay.php:579
+#, fuzzy
+msgid "Callout Day Of The Week"
+msgstr "Callout-dagen i veckan"
+
+#: includes/modules/EventDisplay/EventDisplay.php:592
+#, fuzzy
+msgid "Callout Year"
+msgstr "Bildtextår"
+
+#: includes/modules/EventDisplay/EventDisplay.php:605
+#, fuzzy
+msgid ""
+"Customize and style the event results message text with all the standard "
+"font and text settings."
+msgstr ""
+"Anpassa och formatera meddelandetexten för händelseresultat med alla "
+"standardteckensnitts- och textinställningar."
+
+#: includes/modules/EventDisplay/EventDisplay.php:616
+#, fuzzy
+msgid ""
+"Customize and style the event pagination text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera händelseinställningstexten med alla "
+"standardteckensnitt och textinställningar."
+
+#: includes/modules/EventDisplay/EventDisplay.php:625
+msgid "Label"
+msgstr "Etikett"
+
+#: includes/modules/EventDisplay/EventDisplay.php:626
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:225
+#, fuzzy
+msgid ""
+"Customize and style the lable text with all the standard font and text "
+"settings."
+msgstr ""
+"Anpassa och formatera labeltexten med alla standardteckensnitt och "
+"textinställningar."
+
+#: includes/modules/EventDisplay/EventDisplay.php:655
+#, fuzzy
+msgid "alignment of era"
+msgstr "anpassning av eran"
+
+#: includes/modules/EventDisplay/EventDisplay.php:678
+#: includes/modules/EventDisplay/EventDisplay.php:2113
+msgid "Load More Button"
+msgstr "Ladda fler-knappen"
+
+#: includes/modules/EventDisplay/EventDisplay.php:707
+#: includes/modules/EventFilter/EventFilter.php:283
+#, fuzzy
+msgid "Connection ID"
+msgstr "Anslutnings-ID"
+
+#: includes/modules/EventDisplay/EventDisplay.php:710
+#: includes/modules/EventFilter/EventFilter.php:286
+#, fuzzy
+msgid ""
+"Enter a module connection identification keyword to link the functionality "
+"of multiple modules together."
+msgstr ""
+"Ange ett nyckelord för modulanslutningsidentifiering för att länka "
+"funktionaliteten för flera moduler tillsammans."
+
+#: includes/modules/EventDisplay/EventDisplay.php:749
+#, fuzzy
+msgid ""
+"Choose to turn on or off dynamic content which allows you to place the "
+"module in a Divi Theme Builder layout to dynamically display events based on "
+"the template assignment."
+msgstr ""
+"Välj att aktivera eller inaktivera dynamiskt innehåll som gör att du kan "
+"placera modulen i en Divi Theme Builder-layout för att dynamiskt visa "
+"händelser baserat på malltilldelningen."
+
+#: includes/modules/EventDisplay/EventDisplay.php:758
+#, fuzzy
+msgid "Events Status"
+msgstr "Status för händelser"
+
+#: includes/modules/EventDisplay/EventDisplay.php:759
+#, fuzzy
+msgid "Choose to show either future or past events in the feed."
+msgstr "Välj att visa antingen framtida eller tidigare händelser i flödet."
+
+#: includes/modules/EventDisplay/EventDisplay.php:763
+msgid "Future"
+msgstr "Framtid"
+
+#: includes/modules/EventDisplay/EventDisplay.php:764
+msgid "Past"
+msgstr "Tidigare"
+
+#: includes/modules/EventDisplay/EventDisplay.php:820
+#, fuzzy
+msgid "Details Date Format"
+msgstr "Information datumformat"
+
+#: includes/modules/EventDisplay/EventDisplay.php:854
+#, fuzzy
+msgid "Details Time Format"
+msgstr "Information tidsformat"
+
+#: includes/modules/EventDisplay/EventDisplay.php:870
+#: includes/modules/EventPage/EventPage.php:478
+msgid "Show End Time"
+msgstr "Visa sluttid"
+
+#: includes/modules/EventDisplay/EventDisplay.php:946
+#: includes/modules/EventPage/EventPage.php:537
+#, fuzzy
+msgid "Show Location Street Address"
+msgstr "Visa plats gatuadress"
+
+#: includes/modules/EventDisplay/EventDisplay.php:953
+#, fuzzy
+msgid "Choose to show or hide the event location street address."
+msgstr "Välj att visa eller dölja gatuadressen för händelsens plats."
+
+#: includes/modules/EventDisplay/EventDisplay.php:967
+#: includes/modules/EventPage/EventPage.php:555
+#, fuzzy
+msgid "Show Location Locality"
+msgstr "Visa platsplatsplats"
+
+#: includes/modules/EventDisplay/EventDisplay.php:974
+#, fuzzy
+msgid "Choose to show or hide the event location locality."
+msgstr "Välj att visa eller dölja platsen för händelsens plats."
+
+#: includes/modules/EventDisplay/EventDisplay.php:988
+#: includes/modules/EventPage/EventPage.php:573
+#, fuzzy
+msgid "Show Location Postal Code"
+msgstr "Visa platspostnummer"
+
+#: includes/modules/EventDisplay/EventDisplay.php:995
+#, fuzzy
+msgid "Choose to show or hide the event location postal code."
+msgstr "Välj att visa eller dölja postnumret för händelseplatsen."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1009
+#: includes/modules/EventPage/EventPage.php:591
+#, fuzzy
+msgid "Show Location Country"
+msgstr "Visa platsland"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1016
+#, fuzzy
+msgid "Choose to show or hide the event location country."
+msgstr "Välj att visa eller dölja händelseplatslandet."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1136
+#, fuzzy
+msgid "Show Callout Box"
+msgstr "Visa bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1143
+#, fuzzy
+msgid "Choose to show or hide the callout box."
+msgstr "Välj att visa eller dölja bildtextrutan."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1165
+#, fuzzy
+msgid "Show Callout Box Date"
+msgstr "Datum för bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1172
+#, fuzzy
+msgid "Choose to show or hide the  callout box date."
+msgstr "Välj att visa eller dölja bildtextrutans datum."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1180
+#, fuzzy
+msgid "Callout Box Date Format"
+msgstr "Datumformat för bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1197
+#, fuzzy
+msgid "Show Callout Box Month"
+msgstr "Visa bildtextruta månad"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1204
+#, fuzzy
+msgid "Choose to show or hide the  callout month."
+msgstr "Välj att visa eller dölja bildtextmånaden."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1213
+#, fuzzy
+msgid "Callout Box Month Format"
+msgstr "Månadsformat för bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1232
+#, fuzzy
+msgid "Show Callout Box Day of the Week"
+msgstr "Visa callout box day of the week"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1239
+#, fuzzy
+msgid "Choose to show or hide the  callout box day of the week."
+msgstr "Välj att visa eller dölja bildtextrutans dag i veckan."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1252
+#, fuzzy
+msgid "Callout Box Day of the Week Format"
+msgstr "Bildtext Box Day of the Week Format"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1269
+#, fuzzy
+msgid "Show Callout Box Year"
+msgstr "Visa bildtextruta år"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1276
+#, fuzzy
+msgid "Choose to show or hide the  callout box year."
+msgstr "Välj att visa eller dölja bildtextrutans år."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1284
+#, fuzzy
+msgid "Callout Box year Format"
+msgstr "Format för bildtextruta"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1301
+#, fuzzy
+msgid "Show Google Calendar"
+msgstr "Visa Google Kalender"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1308
+#, fuzzy
+msgid ""
+"Choose to show or hide the button to add the event to your Google Calendar."
+msgstr ""
+"Välj att visa eller dölja knappen för att lägga till händelsen i Google "
+"Kalender."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1316
+#, fuzzy
+msgid "Show Ical Export"
+msgstr "Visa ical export"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1323
+#, fuzzy
+msgid "Choose to show or hide the button to export the event Apple iCal."
+msgstr ""
+"Välj att visa eller dölja knappen för att exportera händelsen Apple iCal."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1370
+#: includes/modules/EventPage/EventPage.php:970
+#, fuzzy
+msgid "Show Labels/Icons"
+msgstr "Visa etiketter/ikoner"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1378
+#: includes/modules/EventPage/EventPage.php:978
+#, fuzzy
+msgid "Labels And Icons"
+msgstr "Etiketter och ikoner"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1389
+#, fuzzy
+msgid "Events Order"
+msgstr "Händelseordning"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1390
+#, fuzzy
+msgid "Choose the order of events in the feed."
+msgstr "Välj ordning på händelserna i flödet."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1394
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:391
+msgid "Descending"
+msgstr "Fallande"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1395
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:393
+msgid "Ascending"
+msgstr "Stigande"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1451
+#, fuzzy
+msgid "Choose to show or hide the featured events in the feed."
+msgstr "Välj att visa eller dölja de aktuella händelserna i flödet."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1470
+#, fuzzy
+msgid "Choose to show all recurring events in the feed."
+msgstr "Välj att visa alla återkommande händelser i flödet."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1504
+#, fuzzy
+msgid "Enter custom text to show for the no results message."
+msgstr "Ange anpassad text som ska visas för meddelandet utan resultat."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1530
+#, fuzzy
+msgid "Choose the type of layout you want to use to display your events."
+msgstr "Välj vilken typ av layout du vill använda för att visa dina händelser."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1534
+msgid "Grid"
+msgstr "Rutnät"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1535
+msgid "List"
+msgstr "Lista"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1536
+msgid "Cover"
+msgstr "Täck"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1550
+msgid "List Type"
+msgstr "Kategori"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1551
+#, fuzzy
+msgid ""
+"Choose which items to include in your list layout. Each item creates a "
+"separate column within each event. The items show in order from left to "
+"right."
+msgstr ""
+"Välj vilka objekt som ska ingå i listlayouten. Varje objekt skapar en "
+"separat kolumn i varje händelse. Objekten visas i ordning från vänster till "
+"höger."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1555
+#, fuzzy
+msgid "Image, Details"
+msgstr "Bild, detaljer"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1556
+#, fuzzy
+msgid "Callout, Image, Details"
+msgstr "Bildtext, Bild, Detaljer"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1557
+#, fuzzy
+msgid "Callout, Image, Details, Button"
+msgstr "Bildtext, Bild, Detaljer, Knapp"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1558
+#, fuzzy
+msgid "Details, Image"
+msgstr "Detaljer, Bild"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1559
+#, fuzzy
+msgid "Callout, Details, Image"
+msgstr "Bildtext, Detaljer, Bild"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1560
+#, fuzzy
+msgid "Callout, Details, Image, Button"
+msgstr "Bildtext, Detaljer, Bild, Knapp"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1576
+#: includes/modules/EventDisplay/EventDisplay.php:1600
+#: includes/modules/EventDisplay/EventDisplay.php:1623
+msgid "Number of Columns"
+msgstr "Antal kolumner"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1577
+#: includes/modules/EventDisplay/EventDisplay.php:1601
+#: includes/modules/EventDisplay/EventDisplay.php:1624
+#, fuzzy
+msgid "Choose the number of columns for the events layout on each device."
+msgstr "Välj antalet kolumner för händelselayouten på varje enhet."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1682
+#, fuzzy
+msgid "Details Background Color"
+msgstr "Bakgrundsfärg för detaljer"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1683
+#, fuzzy
+msgid "Set a color for the background of the event details."
+msgstr "Ange en färg för händelseinformationens bakgrund."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1692
+#, fuzzy
+msgid "Show Image Overlay"
+msgstr "Visa bildöverlägg"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1699
+#, fuzzy
+msgid "Choose to show an overlay color over the event featured image."
+msgstr "Välj att visa en överläggsfärg över den händelse som visas."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1710
+#, fuzzy
+msgid "Image Overlay Color"
+msgstr "Färg överlägg av bild"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1711
+#, fuzzy
+msgid "Set a color for the image overlay."
+msgstr "Ange en färg för bildöverlägget."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1725
+#, fuzzy
+msgid "Callout Background Color"
+msgstr "Bakgrundsfärg för bildtext"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1726
+#, fuzzy
+msgid "Set a color for the background of the event callout box."
+msgstr "Ange en färg för bakgrunden till bildtextrutan för händelser."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1753
+#: includes/modules/EventPage/EventPage.php:1224
+#, fuzzy
+msgid "Details Icon Color"
+msgstr "Information ikonfärg"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1754
+#: includes/modules/EventPage/EventPage.php:1225
+#, fuzzy
+msgid "Choose a color for the icons in the event details."
+msgstr "Välj en färg för ikonerna i händelseinformationen."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1766
+#: includes/modules/EventPage/EventPage.php:1237
+#, fuzzy
+msgid "Details Label Color"
+msgstr "Information etikett färg"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1767
+#: includes/modules/EventPage/EventPage.php:1238
+#, fuzzy
+msgid "Choose a color for the label text in the event details."
+msgstr "Välj en färg för etiketttexten i händelseinformationen."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1862
+msgid "More Info"
+msgstr "Mer info"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1896
+#: includes/modules/EventPage/EventPage.php:988
+#, fuzzy
+msgid "Stack Labels/Icons"
+msgstr "Stapla etiketter/ikoner"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1903
+#: includes/modules/EventPage/EventPage.php:995
+#, fuzzy
+msgid ""
+"Choose to stack each of the labels/icons on their own lines above the event "
+"detail instead of on the left."
+msgstr ""
+"Välj att stapla var och en av etiketterna/ikonerna på sina egna rader "
+"ovanför händelseinformationen i stället för till vänster."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1939
+#: includes/modules/EventDisplay/EventDisplay.php:1952
+#, fuzzy
+msgid "Details Margin"
+msgstr "Detaljer Marginal"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1941
+#: includes/modules/EventDisplay/EventDisplay.php:1954
+#, fuzzy
+msgid "Adjust the spacing around the outside of the event details."
+msgstr "Justera avståndet runt händelseinformationens utsida."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1963
+#: includes/modules/EventDisplay/EventDisplay.php:1974
+#, fuzzy
+msgid "Details Padding"
+msgstr "Detaljer Utfyllnad"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1965
+#: includes/modules/EventDisplay/EventDisplay.php:1976
+#, fuzzy
+msgid "Adjust the spacing around the inside of the event details."
+msgstr "Justera avståndet runt händelseinformationens insida."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1989
+#, fuzzy
+msgid "Callout Margin"
+msgstr "Marginal för bildtext"
+
+#: includes/modules/EventDisplay/EventDisplay.php:1991
+#, fuzzy
+msgid "Adjust the spacing around the outside of the event callout box."
+msgstr "Justera avståndet runt utsidan av händelseutlysningsrutan."
+
+#: includes/modules/EventDisplay/EventDisplay.php:1998
+#, fuzzy
+msgid "Callout Padding"
+msgstr "Utfyllnad av bildtext"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2000
+#, fuzzy
+msgid "Adjust the spacing around the inside of the event callout box."
+msgstr "Justera avståndet runt insidan av händelseutlysningsrutan."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2048
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:103
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:125
+msgid "Make Fullwidth"
+msgstr "Gör fullbredd"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2055
+#, fuzzy
+msgid "Choose to make the more info button fullwidth."
+msgstr "Välj att göra knappen mer information fullwidth."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2069
+msgid "Equal Height"
+msgstr "Lika höjd"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2076
+#, fuzzy
+msgid "Choose to a equal heights of events."
+msgstr "Välj till lika höga evenemang."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2090
+msgid "Show Pagination"
+msgstr "Visa Sidnumrering"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2097
+#, fuzzy
+msgid "Choose to use pagination for showing additional events."
+msgstr "Välj att använda sidnumrering för att visa ytterligare händelser."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2107
+msgid "Pagination Type"
+msgstr "Sidbrytningstyp"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2111
+#, fuzzy
+msgid "Paged"
+msgstr "Växlingsbar"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2112
+msgid "Numeric"
+msgstr "﻿Numerisk"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2117
+#, fuzzy
+msgid ""
+"Choose a method of pagination you would like to use to load additional "
+"events. You can choose to use a standard Paged pagination or a Load More "
+"Button."
+msgstr ""
+"Välj en sidnumreringsmetod som du vill använda för att läsa in ytterligare "
+"händelser. Du kan välja att använda en vanlig sidsöknings-sidnumrering eller "
+"en läs in mer-knapp."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2122
+#, fuzzy
+msgid "Number Of Events To Load"
+msgstr "Antal händelser som ska läsas in"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2125
+#, fuzzy
+msgid ""
+"Choose the number of events that load each time the load more button is "
+"clicked."
+msgstr ""
+"Välj antalet händelser som läses in varje gång du klickar på knappen läs in "
+"mer."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2139
+msgid "Load More"
+msgstr "Ladda fler"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2150
+msgid "Load More Text"
+msgstr "Ladda mer text"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2161
+#: includes/modules/EventPage/EventPage.php:1463
+msgid "Google Calendar"
+msgstr "Google Kalender"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2168
+#, fuzzy
+msgid "google caledar Text"
+msgstr "google caledar Text"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2179
+#, fuzzy
+msgid "Ical Export"
+msgstr "Ical Export"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2187
+#, fuzzy
+msgid "ICAL Text"
+msgstr "ICAL-text"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2195
+#: includes/modules/EventDisplay/EventDisplay.php:2198
+#, fuzzy
+msgid "Date Time Seprator"
+msgstr "Datum tid seprator"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2203
+#: includes/modules/EventDisplay/EventDisplay.php:2206
+#, fuzzy
+msgid "Time Range Seprator"
+msgstr "Tidsintervall Seprator"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2231
+#, fuzzy
+msgid "Disable Event Title Link"
+msgstr "Inaktivera länk till händelserubrik"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2232
+#, fuzzy
+msgid ""
+"Choose to disable the event title from linking to the single event page."
+msgstr ""
+"Välj att inaktivera händelserubriken från att länka till sidan för en "
+"enskild händelse."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2247
+#, fuzzy
+msgid "Disable Event Image Link"
+msgstr "Inaktivera länk till händelseavbildning"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2248
+#, fuzzy
+msgid ""
+"Choose to disable the event featured image from linking to the single event "
+"page."
+msgstr ""
+"Välj att inaktivera den händelse som visas avbildningen från att länka till "
+"sidan för en enskild händelse."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2263
+#, fuzzy
+msgid "Disable Event Button Link"
+msgstr "Inaktivera länk till händelseknapp"
+
+#: includes/modules/EventDisplay/EventDisplay.php:2264
+#, fuzzy
+msgid ""
+"Choose to disable the event more info button from linking to the single "
+"event pages."
+msgstr ""
+"Välj att inaktivera knappen för händelse mer information från att länka till "
+"enstaka händelsesidor."
+
+#: includes/modules/EventDisplay/EventDisplay.php:2359
+#, fuzzy
+msgid "Choose whether the website link opens in the same window or new tab."
+msgstr "Välj om webbplatslänken ska öppnas i samma fönster eller i en ny flik."
+
+#: includes/modules/EventDisplay/EventDisplay.php:4581
+msgid "Page"
+msgstr "Sida"
+
+#: includes/modules/EventDisplay/EventDisplay.php:4582
+msgid "First"
+msgstr "Första"
+
+#: includes/modules/EventDisplay/EventDisplay.php:4583
+msgid "Last"
+msgstr "Sista"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:12
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:23
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:224
+#: includes/modules/EventFilter/EventFilter.php:343
+msgid "Filter"
+msgstr "Filtrera"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:13
+msgid "Add Filter"
+msgstr "Lägg till filter"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:16
+msgid "Filter Settings"
+msgstr "Filterinställningar"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:24
+msgid "Selection"
+msgstr "Urval"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:30
+#, fuzzy
+msgid "Filter Text"
+msgstr "Filtrera text"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:48
+#: includes/modules/EventFilter/EventFilter.php:37
+#: includes/modules/EventFilter/EventFilter.php:489
+msgid "Filters"
+msgstr "Filter"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:49
+#, fuzzy
+msgid ""
+"Here you can choose to add any of the available filters and rearrange them "
+"as needed."
+msgstr ""
+"Här kan du välja att lägga till något av de tillgängliga filtren och ordna "
+"om dem efter behov."
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:52
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:315
+msgid "Search"
+msgstr "Sök"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:54
+#, fuzzy
+msgid "Tag "
+msgstr "Tagg"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:56
+msgid "Venue "
+msgstr "Mötesplats "
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:57
+#, fuzzy
+msgid "City "
+msgstr "Stad"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:58
+msgid "Country "
+msgstr "Land "
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:59
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:531
+msgid "State/Province"
+msgstr "Län"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:60
+msgid "Location "
+msgstr "Plats "
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:61
+#, fuzzy
+msgid "Cost "
+msgstr "Kostnad"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:62
+#, fuzzy
+msgid "Year "
+msgstr "År"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:63
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:598
+msgid "Month"
+msgstr "Månad"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:64
+#, fuzzy
+msgid "Day "
+msgstr "Dag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:65
+msgid "Time "
+msgstr "Tid "
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:66
+#, fuzzy
+msgid "Date Range "
+msgstr "Datumintervall"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:67
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:379
+msgid "Order By"
+msgstr "Sortera efter"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:77
+#, fuzzy
+msgid "Selection Method"
+msgstr "Markeringsmetod"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:78
+#, fuzzy
+msgid ""
+"Choose to allow filtering by selecting only single items or by selecting "
+"multiple items with checkboxes."
+msgstr ""
+"Välj att tillåta filtrering genom att bara markera enstaka objekt eller "
+"genom att markera flera objekt med kryssrutor."
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:83
+msgid "Single"
+msgstr "Singel"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:84
+msgid "Multi"
+msgstr "Multi"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:110
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:132
+#, fuzzy
+msgid ""
+"Choose to show the filter item as 100% width of the content area. Otherwise, "
+"it will show inline."
+msgstr ""
+"Välj att visa filterobjektet som 100 % bredd på innehållsområdet. Annars "
+"visas det infogat."
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:314
+msgid "Keyword"
+msgstr "Nyckelord"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:362
+msgid "Cost"
+msgstr "Kostnad"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:441
+msgid "Date Range"
+msgstr "Datumintervall"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:451
+msgid "City"
+msgstr "Stad"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:491
+msgid "Country"
+msgstr "Land"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:570
+msgid "Year"
+msgstr "År"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:600
+msgid "January"
+msgstr "Januari"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:601
+msgid "February"
+msgstr "Februari"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:602
+msgid "March"
+msgstr "Mars"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:603
+msgid "April"
+msgstr "April"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:604
+msgid "May"
+msgstr "Maj"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:605
+msgid "June"
+msgstr "Juni"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:606
+msgid "July"
+msgstr "Juli"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:607
+msgid "August"
+msgstr "Augusti"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:608
+msgid "September"
+msgstr "September"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:609
+msgid "October"
+msgstr "Oktober"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:610
+msgid "November"
+msgstr "November"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:611
+msgid "December"
+msgstr "December"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:697
+msgid "Tag"
+msgstr "Tagg"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:730
+msgid "Day"
+msgstr "Dag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:732
+msgid "Sunday"
+msgstr "Söndag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:733
+msgid "Monday"
+msgstr "Måndag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:734
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:735
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:736
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:737
+msgid "Friday"
+msgstr "Fredag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:738
+msgid "Saturday"
+msgstr "Lördag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:765
+msgid "Morning"
+msgstr "Förmiddag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:766
+msgid "Afternoon"
+msgstr "Eftermiddag"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:767
+msgid "Evening"
+msgstr "Kväll"
+
+#: includes/modules/EventDisplayChild/EventDisplayChild.php:768
+#, fuzzy
+msgid "Night"
+msgstr "Natt"
+
+#: includes/modules/EventFilter/EventFilter.php:9
+msgid "Events Filter"
+msgstr "Evenemangs Filter"
+
+#: includes/modules/EventFilter/EventFilter.php:38
+#: includes/modules/EventFilter/EventFilter.php:387
+#: includes/modules/EventFilter/EventFilter.php:514
+msgid "Active Filters"
+msgstr "Aktiv Filters"
+
+#: includes/modules/EventFilter/EventFilter.php:39
+#: includes/modules/EventFilter/EventFilter.php:365
+#: includes/modules/EventFilter/EventFilter.php:502
+#, fuzzy
+msgid "Filters Dropdown"
+msgstr "Listrutan Filter"
+
+#: includes/modules/EventFilter/EventFilter.php:40
+#, fuzzy
+msgid "Filters Dropdown Text"
+msgstr "Filtrerar rullgardinstext"
+
+#: includes/modules/EventFilter/EventFilter.php:41
+#: includes/modules/EventFilter/EventFilter.php:530
+#, fuzzy
+msgid "Collapse Filters"
+msgstr "Dölj filter"
+
+#: includes/modules/EventFilter/EventFilter.php:57
+#, fuzzy
+msgid "Filters Background Color"
+msgstr "Filtrerar bakgrundsfärg"
+
+#: includes/modules/EventFilter/EventFilter.php:58
+#, fuzzy
+msgid "Set a color for the background of the individual event filters."
+msgstr "Ange en färg för bakgrunden till de enskilda händelsefiltren."
+
+#: includes/modules/EventFilter/EventFilter.php:68
+#, fuzzy
+msgid "Filters Margin"
+msgstr "Filtermarginal"
+
+#: includes/modules/EventFilter/EventFilter.php:70
+#, fuzzy
+msgid "Adjust the spacing around the outside of the event filter."
+msgstr "Justera avståndet runt händelsefiltrets utsida."
+
+#: includes/modules/EventFilter/EventFilter.php:77
+#, fuzzy
+msgid "Filters Padding"
+msgstr "Filtrerar utfyllnad"
+
+#: includes/modules/EventFilter/EventFilter.php:79
+#, fuzzy
+msgid "Adjust the spacing around the inside of the event filter."
+msgstr "Justera avståndet runt händelsefiltrets insida."
+
+#: includes/modules/EventFilter/EventFilter.php:85
+#, fuzzy
+msgid "Active Filters Background Color"
+msgstr "Bakgrundsfärg för aktiva filter"
+
+#: includes/modules/EventFilter/EventFilter.php:86
+#, fuzzy
+msgid "Set a color for the background of the individual active event filters."
+msgstr "Ange en färg för bakgrunden till de enskilda aktiva händelsefiltren."
+
+#: includes/modules/EventFilter/EventFilter.php:97
+#, fuzzy
+msgid "Filters Dropdown Background Color"
+msgstr "Filter nedrullnings nedåt bakgrundsfärg"
+
+#: includes/modules/EventFilter/EventFilter.php:98
+#, fuzzy
+msgid "Set a color for the background of the event filters dropdown."
+msgstr "Ange en färg för bakgrunden till listrutan händelsefilter."
+
+#: includes/modules/EventFilter/EventFilter.php:109
+#, fuzzy
+msgid "Active Filters Margin"
+msgstr "Marginal för aktiva filter"
+
+#: includes/modules/EventFilter/EventFilter.php:111
+#, fuzzy
+msgid "Adjust the spacing around the outside of the active event filters."
+msgstr "Justera avståndet runt utsidan av de aktiva händelsefiltren."
+
+#: includes/modules/EventFilter/EventFilter.php:118
+#, fuzzy
+msgid "Active Filters Padding"
+msgstr "Utfyllnad av aktiva filter"
+
+#: includes/modules/EventFilter/EventFilter.php:120
+#, fuzzy
+msgid "Adjust the spacing around the inside of the active event filters."
+msgstr "Justera avståndet runt insidan av de aktiva händelsefiltren."
+
+#: includes/modules/EventFilter/EventFilter.php:137
+#, fuzzy
+msgid "Filters Dropdown Padding"
+msgstr "Filter nedrullningsutfyllnad"
+
+#: includes/modules/EventFilter/EventFilter.php:139
+#, fuzzy
+msgid "Adjust the spacing around the inside of the event filters dropdown."
+msgstr "Justera avståndet runt insidan av listrutan händelsefilter."
+
+#: includes/modules/EventFilter/EventFilter.php:149
+#, fuzzy
+msgid "Filter Layout"
+msgstr "Filtrera layout"
+
+#: includes/modules/EventFilter/EventFilter.php:150
+#, fuzzy
+msgid "Choose the layout orientation of the filters."
+msgstr "Välj filtrens layoutorientering."
+
+#: includes/modules/EventFilter/EventFilter.php:154
+msgid "Horizontal"
+msgstr "Horisontell"
+
+#: includes/modules/EventFilter/EventFilter.php:181
+#, fuzzy
+msgid "Filters Dropdown Scrollbar Color"
+msgstr "Färg över listrutan i listlist"
+
+#: includes/modules/EventFilter/EventFilter.php:182
+#, fuzzy
+msgid "Set a color for the background of the event filters dropdown scrollbar."
+msgstr ""
+"Ange en färg för bakgrunden till den nedrullningsbarrullningslisten för "
+"händelsefilter."
+
+#: includes/modules/EventFilter/EventFilter.php:192
+#, fuzzy
+msgid "Filters  Dropdown  Text Background Color"
+msgstr "Filtrerar nedrullningstextbakgrundsfärg"
+
+#: includes/modules/EventFilter/EventFilter.php:193
+#, fuzzy
+msgid "Set a color for the background of the event filters dropdown text."
+msgstr "Ange en färg för bakgrunden till den nedrullningstext som ändras."
+
+#: includes/modules/EventFilter/EventFilter.php:203
+#, fuzzy
+msgid "Filters Text Dropdown Padding"
+msgstr "Filtrerar utfyllnad av textruta"
+
+#: includes/modules/EventFilter/EventFilter.php:205
+#, fuzzy
+msgid ""
+"Adjust the spacing around the inside of the event filters dropdown text."
+msgstr "Justera avståndet runt insidan av händelsefilter listrutans text."
+
+#: includes/modules/EventFilter/EventFilter.php:213
+#, fuzzy
+msgid "Show Option To Collapse Filters"
+msgstr "Visa alternativ för att dölja filter"
+
+#: includes/modules/EventFilter/EventFilter.php:220
+#, fuzzy
+msgid "Choose to show or hide the Collapse Filters."
+msgstr "Välj att visa eller dölja döljfilter."
+
+#: includes/modules/EventFilter/EventFilter.php:229
+#, fuzzy
+msgid "Collapse Filters By Default"
+msgstr "Komprimera filter som standard"
+
+#: includes/modules/EventFilter/EventFilter.php:236
+#, fuzzy
+msgid "Set the default open or closed state for the collapse filter option."
+msgstr ""
+"Ange standardläge för öppet eller stängt tillstånd för alternativet "
+"döljfilter."
+
+#: includes/modules/EventFilter/EventFilter.php:245
+#, fuzzy
+msgid "Collapse Filters Icon Color"
+msgstr "Ikonfärg för dölj filter"
+
+#: includes/modules/EventFilter/EventFilter.php:246
+#, fuzzy
+msgid "Set the color for the filter icon."
+msgstr "Ange filterikonens färg."
+
+#: includes/modules/EventFilter/EventFilter.php:259
+#, fuzzy
+msgid "Collapse Filters Icon Font Size"
+msgstr "Teckenstorlek för döljfilterikon"
+
+#: includes/modules/EventFilter/EventFilter.php:260
+msgid "Control the size of the icon by increasing or decreasing the font size."
+msgstr ""
+"Kontrollera storleken på ikonen genom att öka eller minska teckenstorleken."
+
+#: includes/modules/EventFilter/EventFilter.php:344
+#, fuzzy
+msgid ""
+"Customize and style the event filters with all the standard border settings."
+msgstr ""
+"Anpassa och formatera händelsefiltren med alla standardinställningar för "
+"kantlinje."
+
+#: includes/modules/EventFilter/EventFilter.php:388
+#: includes/modules/EventFilter/EventFilter.php:412
+#, fuzzy
+msgid ""
+"Customize and style the active event filters with all the standard border "
+"settings."
+msgstr ""
+"Anpassa och formatera de aktiva händelsefiltren med alla "
+"standardinställningar för kantlinje."
+
+#: includes/modules/EventFilter/EventFilter.php:411
+#, fuzzy
+msgid "Filters Text"
+msgstr "Filtrerar text"
+
+#: includes/modules/EventFilter/EventFilter.php:440
+#, fuzzy
+msgid "Filters Box Shadow"
+msgstr "Filter Box Shadow"
+
+#: includes/modules/EventFilter/EventFilter.php:441
+#, fuzzy
+msgid ""
+"Customize and style the event filters with all the standard box shadow "
+"settings."
+msgstr ""
+"Anpassa och formatera händelsefiltren med alla standardinställningar för "
+"ruta."
+
+#: includes/modules/EventFilter/EventFilter.php:452
+#, fuzzy
+msgid "Active Filters Box Shadow"
+msgstr "Skugga över rutan Aktiva filter"
+
+#: includes/modules/EventFilter/EventFilter.php:453
+#, fuzzy
+msgid ""
+"Customize and style the active event filters with all the standard box "
+"shadow settings."
+msgstr ""
+"Anpassa och formatera de aktiva händelsefiltren med alla "
+"standardinställningar för ruta."
+
+#: includes/modules/EventFilter/EventFilter.php:463
+#, fuzzy
+msgid "Filters Dropdown Box Shadow"
+msgstr "Skugga av listrutaruta"
+
+#: includes/modules/EventFilter/EventFilter.php:464
+#, fuzzy
+msgid ""
+"Customize and style the event filters dropdown with all the standard box "
+"shadow settings."
+msgstr ""
+"Anpassa och formatera listrutan händelsefilter med alla "
+"standardinställningar för ruta."
+
+#: includes/modules/EventFilter/EventFilter.php:474
+#, fuzzy
+msgid "Filters Dropdown Text Box Shadow"
+msgstr "Filter rullgardinstextruta Skugga"
+
+#: includes/modules/EventFilter/EventFilter.php:475
+#, fuzzy
+msgid ""
+"Customize and style the event filters dropdown text with all the standard "
+"box shadow settings."
+msgstr ""
+"Anpassa och formatera den nedrullningstext för händelsefilter som är "
+"kopplade till alla standardinställningar för rutan."
+
+#: includes/modules/EventFilter/EventFilter.php:490
+#, fuzzy
+msgid ""
+"Customize and style the event filters label text with all the standard font "
+"and text settings."
+msgstr ""
+"Anpassa och formatera händelsefiltrerad etiketttext med alla "
+"standardteckensnitt och textinställningar."
+
+#: includes/modules/EventFilter/EventFilter.php:503
+#, fuzzy
+msgid ""
+"Customize and style the event filters dropdown text with all the standard "
+"font and text settings."
+msgstr ""
+"Anpassa och formatera den nedrullningstext för händelsefilter som är "
+"kopplade till alla standardteckensnitt och textinställningar."
+
+#: includes/modules/EventFilter/EventFilter.php:515
+#, fuzzy
+msgid ""
+"Customize and style the active event filters label text with all the "
+"standard font and text settings."
+msgstr ""
+"Anpassa och formatera etiketttexten för aktiva händelsefilter med alla "
+"standardteckensnitt och textinställningar."
+
+#: includes/modules/EventFilter/EventFilter.php:531
+#, fuzzy
+msgid ""
+"Customize and style the Placeholder  text with all the standard font and "
+"text settings."
+msgstr ""
+"Anpassa och formatera platshållartexten med alla standardteckensnitt och "
+"textinställningar."
+
+#: includes/modules/EventFilter/EventFilter.php:547
+#, fuzzy
+msgid "Filter Search Button"
+msgstr "Knappen Filtrera sökning"
+
+#: includes/modules/EventFilter/EventFilter.php:548
+#, fuzzy
+msgid "Enable this feature to customize the appearance of the button."
+msgstr "Aktivera den här funktionen för att anpassa knappens utseende."
+
+#: includes/modules/EventFilter/EventFilter.php:855
+msgid "Show Filters"
+msgstr "Visa filter"
+
+#: includes/modules/EventFilter/EventFilter.php:856
+msgid "Hide Filters"
+msgstr "Göm filter"
+
+#: includes/modules/EventFilter/EventFilter.php:875
+msgid " Reset "
+msgstr " Återställa "
+
+#: includes/modules/EventPage/EventPage.php:16
+#, fuzzy
+msgid "Events Page"
+msgstr "Sidan Händelser"
+
+#: includes/modules/EventPage/EventPage.php:40
+msgid "Google Maps"
+msgstr "Google kartor"
+
+#: includes/modules/EventPage/EventPage.php:44
+#, fuzzy
+msgid "Add To Calendar Buttons"
+msgstr "Lägg till i kalenderknappar"
+
+#: includes/modules/EventPage/EventPage.php:50
+#, fuzzy
+msgid "Past Event Message Text"
+msgstr "Text för tidigare händelsemeddelande"
+
+#: includes/modules/EventPage/EventPage.php:51
+msgid "Description Text"
+msgstr "Beskrivningstext"
+
+#: includes/modules/EventPage/EventPage.php:52
+#, fuzzy
+msgid "Details Text"
+msgstr "Information text"
+
+#: includes/modules/EventPage/EventPage.php:53
+#, fuzzy
+msgid "Details Labels Text"
+msgstr "Information etiketter text"
+
+#: includes/modules/EventPage/EventPage.php:54
+msgid "Map"
+msgstr "Karta"
+
+#: includes/modules/EventPage/EventPage.php:55
+#: includes/modules/EventPage/EventPage.php:253
+#, fuzzy
+msgid "Add To Calendar Button"
+msgstr "Knappen Lägg till i kalender"
+
+#: includes/modules/EventPage/EventPage.php:56
+#, fuzzy
+msgid "Add To Calendar Links"
+msgstr "Lägg till i kalenderlänkar"
+
+#: includes/modules/EventPage/EventPage.php:113
+#, fuzzy
+msgid "Map Border"
+msgstr "Karta kantlinje"
+
+#: includes/modules/EventPage/EventPage.php:114
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the event location map with all the "
+"standard box border settings."
+msgstr ""
+"Lägg till och anpassa lådskuggan för händelseplatskartan med alla "
+"standardinställningar för rutans kantlinje."
+
+#: includes/modules/EventPage/EventPage.php:128
+#, fuzzy
+msgid "Pasts Events Message"
+msgstr "Meddelande om tidigare händelser"
+
+#: includes/modules/EventPage/EventPage.php:129
+#, fuzzy
+msgid ""
+"Add and customize the border for the past events message with all the "
+"standard border settings."
+msgstr ""
+"Lägg till och anpassa kantlinjen för meddelandet tidigare händelser med alla "
+"standardinställningar för kantlinje."
+
+#: includes/modules/EventPage/EventPage.php:147
+#, fuzzy
+msgid "Map Box Shadow Settings"
+msgstr "Skugginställningar för mappningsruta"
+
+#: includes/modules/EventPage/EventPage.php:148
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the event location map with all the "
+"standard box shadow settings."
+msgstr ""
+"Lägg till och anpassa lådskuggan för händelseplatskartan med alla "
+"standardinställningar för ruta."
+
+#: includes/modules/EventPage/EventPage.php:157
+#, fuzzy
+msgid "Past Events Message Box Shadow Settings"
+msgstr ""
+"Skugginställningar för skugginställningar för tidigare händelser i "
+"meddelanderutan"
+
+#: includes/modules/EventPage/EventPage.php:158
+#, fuzzy
+msgid ""
+"Add and customize the box shadow for the past events message with all the "
+"standard box shadow settings."
+msgstr ""
+"Lägg till och anpassa lådskuggan för meddelandet tidigare händelser med alla "
+"standardinställningar för rutans skugga."
+
+#: includes/modules/EventPage/EventPage.php:179
+msgid "Description"
+msgstr "Beskrivning"
+
+#: includes/modules/EventPage/EventPage.php:192
+#, fuzzy
+msgid "Past Events Message"
+msgstr "Meddelande om tidigare händelser"
+
+#: includes/modules/EventPage/EventPage.php:205
+#, fuzzy
+msgid "Details Label"
+msgstr "Informationsetikett"
+
+#: includes/modules/EventPage/EventPage.php:231
+#, fuzzy
+msgid "Add To Calendar Link"
+msgstr "Lägg till i kalenderlänken"
+
+#: includes/modules/EventPage/EventPage.php:330
+#, fuzzy
+msgid "Show Passed Event Notice"
+msgstr "Visa meddelande om godkända händelser"
+
+#: includes/modules/EventPage/EventPage.php:337
+#, fuzzy
+msgid ""
+"Choose to show or hide the past event notice. If enabled, the notice will "
+"show in this module when the event has passed."
+msgstr ""
+"Välj att visa eller dölja det tidigare händelsemeddelandet. Om det är "
+"aktiverat visas meddelandet i den här modulen när händelsen har passerat."
+
+#: includes/modules/EventPage/EventPage.php:348
+#: includes/modules/EventPage/EventPage.php:365
+#, fuzzy
+msgid "Show Event Description"
+msgstr "Visa händelsebeskrivning"
+
+#: includes/modules/EventPage/EventPage.php:355
+#, fuzzy
+msgid ""
+"Choose to show or hide the event description. The event description is the "
+"text written within the backend text editor of the single event pages using "
+"the classic WordPress editor. This Show Event Description setting is "
+"intended for simple text descriptions and is not recommended in most cases. "
+"Instead, you should use the Divi Post Content module, which is much more "
+"suited for showing content from pages build with Gutenberg or the Divi "
+"Builder."
+msgstr ""
+"Välj att visa eller dölja händelsebeskrivningen. Händelsebeskrivningen är "
+"texten som skrivs i backend-textredigeraren på de enskilda händelsesidorna "
+"med den klassiska WordPress-redigeraren. Den här inställningen Visa "
+"händelsebeskrivning är avsedd för enkla textbeskrivningar och rekommenderas "
+"inte i de flesta fall. Istället bör du använda Divi Post Content-modulen, "
+"som är mycket mer lämpad för att visa innehåll från sidor som byggts med "
+"Gutenberg eller Divi Builder."
+
+#: includes/modules/EventPage/EventPage.php:372
+#, fuzzy
+msgid "Choose to show or hide the description of the event."
+msgstr "Välj att visa eller dölja beskrivningen av händelsen."
+
+#: includes/modules/EventPage/EventPage.php:609
+#, fuzzy
+msgid "Show Google Map Link"
+msgstr "Visa Google Map Link"
+
+#: includes/modules/EventPage/EventPage.php:616
+#, fuzzy
+msgid "Choose to show or hide the event location Google Map link."
+msgstr "Välj att visa eller dölja länken Google Map för evenemangsplatsen."
+
+#: includes/modules/EventPage/EventPage.php:640
+#, fuzzy
+msgid "Show Venue Phone"
+msgstr "Visa platstelefon"
+
+#: includes/modules/EventPage/EventPage.php:655
+#, fuzzy
+msgid "Show Venue Website"
+msgstr "Visa plats webbplats"
+
+#: includes/modules/EventPage/EventPage.php:690
+#, fuzzy
+msgid "Show Organizer Phone"
+msgstr "Visa Organizer-telefon"
+
+#: includes/modules/EventPage/EventPage.php:705
+#, fuzzy
+msgid "Show Organizer Email"
+msgstr "Visa organisatörens e-post"
+
+#: includes/modules/EventPage/EventPage.php:721
+#, fuzzy
+msgid "Show Organizer website"
+msgstr "Visa Organizers webbplats"
+
+#: includes/modules/EventPage/EventPage.php:771
+#, fuzzy
+msgid "Show Event Tags"
+msgstr "Visa händelsetaggar"
+
+#: includes/modules/EventPage/EventPage.php:778
+#, fuzzy
+msgid "Choose to show or hide the event tags."
+msgstr "Välj att visa eller dölja händelsetaggar."
+
+#: includes/modules/EventPage/EventPage.php:841
+#, fuzzy
+msgid "Show Add To Calendar Button"
+msgstr "Knappen Visa Lägg till i kalender"
+
+#: includes/modules/EventPage/EventPage.php:848
+#, fuzzy
+msgid "Choose to show or hide the add to calendar button and links."
+msgstr "Välj att visa eller dölja knappen lägg till i kalendern och länkar."
+
+#: includes/modules/EventPage/EventPage.php:866
+#, fuzzy
+msgid "Show Google Calendar Link"
+msgstr "Visa Google Kalender Link"
+
+#: includes/modules/EventPage/EventPage.php:873
+#, fuzzy
+msgid ""
+"Choose to show or hide the link for adding the event to the the visitor's "
+"Google Calendar."
+msgstr ""
+"Välj att visa eller dölja länken för att lägga till händelsen i besökarens "
+"Google Kalender."
+
+#: includes/modules/EventPage/EventPage.php:882
+#, fuzzy
+msgid "Show Apple Calendar Link"
+msgstr "Visa Länken Till Apple-kalendern"
+
+#: includes/modules/EventPage/EventPage.php:889
+#, fuzzy
+msgid ""
+"Choose to show or hide the link for adding the event to the the visitor's "
+"Apple Calendar."
+msgstr ""
+"Välj att visa eller dölja länken för att lägga till händelsen i besökarens "
+"Apple-kalender."
+
+#: includes/modules/EventPage/EventPage.php:898
+#, fuzzy
+msgid "Show Outlook Link"
+msgstr "Visa Outlook-länk"
+
+#: includes/modules/EventPage/EventPage.php:905
+#, fuzzy
+msgid ""
+"Choose to show or hide the link for adding the event to the the visitor's "
+"Outlook calendar."
+msgstr ""
+"Välj att visa eller dölja länken för att lägga till händelsen i besökarens "
+"Outlook-kalender."
+
+#: includes/modules/EventPage/EventPage.php:914
+msgid "Show Google Map"
+msgstr "Visa Google Karta"
+
+#: includes/modules/EventPage/EventPage.php:921
+#, fuzzy
+msgid ""
+"Choose to show or hide the event location map. Remember to have an active "
+"Google Maps API key entered in the Divi Theme Options."
+msgstr ""
+"Välj att visa eller dölja händelseplatskartan. Kom ihåg att ange en aktiv "
+"API-nyckel för Google Maps i temaalternativen för Divi."
+
+#: includes/modules/EventPage/EventPage.php:1030
+msgid "All Categories"
+msgstr "Alla kategorier"
+
+#: includes/modules/EventPage/EventPage.php:1031
+msgid "Current Category"
+msgstr "Nuvarande kategori"
+
+#: includes/modules/EventPage/EventPage.php:1060
+msgid "Google Maps API Key"
+msgstr "Google Maps API-nyckel"
+
+#: includes/modules/EventPage/EventPage.php:1063
+#, fuzzy
+msgid ""
+"Enter your Google Maps API key. Please note that this is not necessary if "
+"you are using the default API key provided in The Events Calendar settings."
+msgstr ""
+"Ange API-nyckeln för Google Maps. Observera att detta inte är nödvändigt om "
+"du använder standard-API-nyckeln som anges i inställningarna för "
+"Evenemangskalendern."
+
+#: includes/modules/EventPage/EventPage.php:1076
+#, fuzzy
+msgid "Add Custom Api key"
+msgstr "Lägg till anpassad api-nyckel"
+
+#: includes/modules/EventPage/EventPage.php:1210
+#, fuzzy
+msgid "Past Events Message Background Color"
+msgstr "Bakgrundsfärg för tidigare händelser meddelande"
+
+#: includes/modules/EventPage/EventPage.php:1211
+#, fuzzy
+msgid "Set a color for the background of the past events message."
+msgstr "Ange en färg för bakgrunden till meddelandet tidigare händelser."
+
+#: includes/modules/EventPage/EventPage.php:1280
+#, fuzzy
+msgid "Past Events Message Margin"
+msgstr "Meddelandemarginal för tidigare händelser"
+
+#: includes/modules/EventPage/EventPage.php:1283
+#, fuzzy
+msgid "Adjust the spacing around the outside of the past events message."
+msgstr "Justera avståndet runt utsidan av meddelandet om tidigare händelser."
+
+#: includes/modules/EventPage/EventPage.php:1294
+#, fuzzy
+msgid "Past Events Message Padding"
+msgstr "Utfyllnad av meddelanden för tidigare händelser"
+
+#: includes/modules/EventPage/EventPage.php:1297
+#, fuzzy
+msgid "Adjust the spacing around the inside of the past events message."
+msgstr "Justera avståndet runt insidan av meddelandet för tidigare händelser."
+
+#: includes/modules/EventPage/EventPage.php:1442
+#, fuzzy
+msgid "Add To Calendar Button Text"
+msgstr "Lägg till i kalenderknapptext"
+
+#: includes/modules/EventPage/EventPage.php:1445
+msgid "Add To Calendar"
+msgstr "Lägg till i kalender"
+
+#: includes/modules/EventPage/EventPage.php:1452
+#, fuzzy
+msgid "Add To Calendar Text"
+msgstr "Lägga till i kalendertext"
+
+#: includes/modules/EventPage/EventPage.php:1460
+#, fuzzy
+msgid "Google Calendar Link Text"
+msgstr "Länktext för Google Kalender"
+
+#: includes/modules/EventPage/EventPage.php:1470
+#, fuzzy
+msgid "Apple Calendar Link Text"
+msgstr "Text för Apple-kalenderlänk"
+
+#: includes/modules/EventPage/EventPage.php:1473
+#, fuzzy
+msgid "Apple Calendar"
+msgstr "Apple-kalender"
+
+#: includes/modules/EventPage/EventPage.php:1480
+#, fuzzy
+msgid "Outlook Calendar Link Text"
+msgstr "Länktext i Outlook"
+
+#: includes/modules/EventPage/EventPage.php:1483
+#, fuzzy
+msgid "Outlook"
+msgstr "Framtidsutsikt"
+
+#: includes/modules/EventPage/EventPage.php:1491
+msgid "Use Grayscale Filter"
+msgstr "Använd gråskalefilter"
+
+#: includes/modules/EventPage/EventPage.php:1492
+#, fuzzy
+msgid ""
+"Apply a grayscale filter to change the event location map to black and white."
+msgstr ""
+"Använd ett gråskalefilter för att ändra händelseplatskartan till svartvitt."
+
+#: includes/modules/EventPage/EventPage.php:1507
+msgid "Grayscale Filter Amount (%)"
+msgstr "Gråskala filtermängd (%)"
+
+#: includes/modules/EventPage/EventPage.php:1508
+#, fuzzy
+msgid ""
+"Adjust the grayscale filter to change the color saturation of the event "
+"location map."
+msgstr ""
+"Justera gråskalefiltret om du vill ändra färgmättnaden på "
+"händelseplatskartan."
+
+#: includes/modules/EventPage/EventPage.php:1572
+#, fuzzy
+msgid "Enable Organizer Links"
+msgstr "Aktivera Organizer-länkar"
+
+#: includes/modules/EventPage/EventPage.php:1579
+#, fuzzy
+msgid ""
+"Choose to add links to the organizers to link to their own archive pages."
+msgstr ""
+"Välj att lägga till länkar till organisatörerna för att länka till sina egna "
+"arkivsidor."
+
+#: includes/modules/EventPage/EventPage.php:1593
+#, fuzzy
+msgid "Enable Venue Links"
+msgstr "Aktivera platslänkar"
+
+#: includes/modules/EventPage/EventPage.php:1600
+#, fuzzy
+msgid "Choose to add links to the venues to link to their own archive pages."
+msgstr ""
+"Välj att lägga till länkar till lokalerna för att länka till sina egna "
+"arkivsidor."
+
+#: includes/modules/EventPage/EventPage.php:1633
+#, fuzzy
+msgid "Enable Email Address Links"
+msgstr "Aktivera e-postadresslänkar"
+
+#: includes/modules/EventPage/EventPage.php:1640
+#, fuzzy
+msgid "Choose to add links to the email addresses to link to their mailto URL."
+msgstr ""
+"Välj att lägga till länkar till e-postadresserna för att länka till deras e-"
+"postadress."
+
+#: includes/modules/EventPage/EventPage.php:2782
+#, fuzzy
+msgid "This event has passed."
+msgstr "Den här händelsen har passerat."
+
+#: includes/modules/EventPage/EventPage.php:2878
+msgid "Organizer Phone"
+msgstr "Telefon"
+
+#: includes/modules/EventPage/EventPage.php:2894
+msgid "Organizer Email"
+msgstr "Arrangör e-post"
+
+#: includes/modules/EventPage/EventPage.php:2907
+msgid "Organizer Website"
+msgstr "Arrangörens webbplats"
+
+#: includes/modules/EventPage/EventPage.php:2919
+msgid "Event Tags"
+msgstr "Evenemangsetiketter"
+
+#: includes/modules/EventPage/EventPage.php:3235
+#, fuzzy
+msgid "Venue Google Map Link"
+msgstr "Plats Google Map Link"
+
+#: includes/modules/EventPage/EventPage.php:3247
+msgid "Venue Phone"
+msgstr "Telefon till plats"
+
+#: includes/modules/EventPage/EventPage.php:3259
+msgid "Venue Website"
+msgstr "Webbplats för plats"
+
+#: includes/modules/EventTicket/EventTicket.php:15
+#, fuzzy
+msgid "Events Ticket"
+msgstr "Evenemangsbiljett"
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Visa detaljer"
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Mer information om %s"
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Kontrollera om det finns uppdateringar"
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Detta %s tillval har senaste version."
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Det finns en ny version av %s tillval tillgänglig."
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+"Det gick inte att avgöra om det finns tillgängliga uppdateringar för %s."
+
+#: plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Okänd uppdatering kontrollera status \"%s\""
+
+#: plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Det finns ingen ändringslogg tillgänglig."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Divi Events Calendar"
+msgstr "Kalender för Divi-händelser"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "Easily display and style The Events Calendar with custom Divi modules!"
+msgstr ""
+"Visa och formatera enkelt Evenemangskalendern med anpassade Divi-moduler!"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Pee-Aye Creative"
+msgstr "Pee-Aye Kreativ"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://peeayecreative.com"
+msgstr "https://peeayecreative.com"

@@ -1,0 +1,1534 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Category Image Grid and Slider Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 05:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: pciwgas-plugin-updater.php:442
+#, php-format
+msgid ""
+"%sRegister%s your copy of Post Category Image With Grid and Slider Pro to "
+"receive access to automatic upgrades and support. Need a license key? "
+"%sPurchase one now%s."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:43
+msgid "-- Choose Shortcode --"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:176
+msgid "5 stars!"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:178
+msgid "Account page"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:177
+msgid "account page"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:117 pciwgas-plugin-updater.php:126
+msgid "Activate License"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:393
+msgid "Activate Plugin License"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:144
+msgid "Activations Left Site(s)"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:124
+msgid "Active"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:143
+msgid "Active Site(s)"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:172
+msgid ""
+"After save changes you can see an another button named 'Activate License'."
+msgstr ""
+
+#: includes/admin/settings/settings.php:35
+msgid "All settings reset successfully."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:130
+msgid "All Shortcodes"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:247 pciwgas-plugin-updater.php:305
+#: pciwgas-plugin-updater.php:363
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/class-pciwgas-script.php:53
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:201
+#: includes/admin/supports/class-pciwgaspro-vc.php:589
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:181
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:537
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:446
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:409
+msgid "Autoplay"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:458
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:419
+msgid "Autoplay Interval"
+msgstr ""
+
+#: includes/pciwgas-function.php:361
+msgid "Categories Grid"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:31
+msgid "Categories in Grid View"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:283
+msgid "Categories in Slider View"
+msgstr ""
+
+#: includes/pciwgas-function.php:362
+msgid "Categories Slider"
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:17
+#: includes/admin/form-field/edit-form.php:24
+msgid "Category Custom Link"
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-grid.php:23
+msgid "Category Grid"
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-grid.php:21
+msgid "Category Grid - Shortcode"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:198
+#: includes/admin/supports/class-pciwgaspro-vc.php:586
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:178
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:534
+msgid "Category Order"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:183
+#: includes/admin/supports/class-pciwgaspro-vc.php:571
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:165
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:521
+msgid "Category Order By"
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-slider.php:23
+msgid "Category Slider"
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-slider.php:21
+msgid "Category Slider - Shortcode"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:155
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:78
+msgid ""
+"Check shortcode parameters from left hand side or You can paste shortocde to "
+"below and press Refresh button to preview so each and every time you do not "
+"have to choose each parameters!!!"
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:23
+#: includes/admin/form-field/edit-form.php:34
+msgid "Choose Category Image"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:56
+#: includes/admin/supports/class-pciwgaspro-vc.php:308
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:43
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:282
+msgid "Choose design."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:123
+#: includes/admin/supports/class-pciwgaspro-vc.php:353
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:104
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:322
+msgid "Choose link behaviour."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:79
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:64
+msgid "Choose number to be displayed post per row."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:139
+#: includes/admin/supports/class-pciwgaspro-vc.php:369
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:120
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:338
+msgid "Choose WordPress registered image size. e.g."
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:25
+#: includes/admin/form-field/edit-form.php:38
+#: includes/admin/settings/settings.php:79
+msgid "Clear"
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-abstract-widget.php:263
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:35
+#: includes/admin/supports/class-pciwgaspro-vc.php:287
+msgid "Content"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:131
+#: includes/admin/supports/class-pciwgaspro-vc.php:361
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:112
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:330
+msgid ""
+"Control height of the category image. You can enter any numeric number. e.g. "
+"250. Leave empty for default height."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:85
+msgid "Copy or Paste Shortcode"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:125
+msgid ""
+"Create any page and put the relevant shortcode in it as mentioned below."
+msgstr ""
+
+#: includes/admin/settings/settings.php:152
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/settings/settings.php:143
+msgid "Custom CSS Settings"
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:145
+msgid "Data Parameters"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:169
+#: includes/admin/supports/class-pciwgaspro-vc.php:178
+#: includes/admin/supports/class-pciwgaspro-vc.php:193
+#: includes/admin/supports/class-pciwgaspro-vc.php:205
+#: includes/admin/supports/class-pciwgaspro-vc.php:214
+#: includes/admin/supports/class-pciwgaspro-vc.php:223
+#: includes/admin/supports/class-pciwgaspro-vc.php:232
+#: includes/admin/supports/class-pciwgaspro-vc.php:241
+#: includes/admin/supports/class-pciwgaspro-vc.php:253
+#: includes/admin/supports/class-pciwgaspro-vc.php:265
+#: includes/admin/supports/class-pciwgaspro-vc.php:275
+#: includes/admin/supports/class-pciwgaspro-vc.php:557
+#: includes/admin/supports/class-pciwgaspro-vc.php:566
+#: includes/admin/supports/class-pciwgaspro-vc.php:581
+#: includes/admin/supports/class-pciwgaspro-vc.php:593
+#: includes/admin/supports/class-pciwgaspro-vc.php:602
+#: includes/admin/supports/class-pciwgaspro-vc.php:611
+#: includes/admin/supports/class-pciwgaspro-vc.php:620
+#: includes/admin/supports/class-pciwgaspro-vc.php:629
+#: includes/admin/supports/class-pciwgaspro-vc.php:641
+#: includes/admin/supports/class-pciwgaspro-vc.php:651
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:501
+msgid "Data Settings"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:123
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/admin/settings/settings.php:74
+msgid "Default Category Image"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:202
+#: includes/admin/supports/class-pciwgaspro-vc.php:590
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:182
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:538
+msgid "Descending"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:190
+#: includes/admin/supports/class-pciwgaspro-vc.php:578
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:172
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:528
+msgid "Description"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:42
+#: includes/admin/supports/class-pciwgaspro-vc.php:294
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:29
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:268
+msgid "Design"
+msgstr ""
+
+#: includes/pciwgas-function.php:340
+msgid "Design 1"
+msgstr ""
+
+#: includes/pciwgas-function.php:349
+msgid "Design 10"
+msgstr ""
+
+#: includes/pciwgas-function.php:341
+msgid "Design 2"
+msgstr ""
+
+#: includes/pciwgas-function.php:342
+msgid "Design 3"
+msgstr ""
+
+#: includes/pciwgas-function.php:343
+msgid "Design 4"
+msgstr ""
+
+#: includes/pciwgas-function.php:344
+msgid "Design 5"
+msgstr ""
+
+#: includes/pciwgas-function.php:345
+msgid "Design 6"
+msgstr ""
+
+#: includes/pciwgas-function.php:346
+msgid "Design 7"
+msgstr ""
+
+#: includes/pciwgas-function.php:347
+msgid "Design 8"
+msgstr ""
+
+#: includes/pciwgas-function.php:348
+msgid "Design 9"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:133
+msgid "Display Categories in Grid View"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:134
+msgid "Display Categories in Slider View"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:101
+#: includes/admin/supports/class-pciwgaspro-vc.php:331
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:84
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:302
+msgid "Display category count post number."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:112
+#: includes/admin/supports/class-pciwgaspro-vc.php:342
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:94
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:312
+msgid "Display category description."
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-grid.php:22
+msgid "Display category in a grid view. Category Grid shortcode."
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-slider.php:22
+msgid "Display category in a slider view. Category Slider shortcode."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:204
+#: includes/admin/supports/class-pciwgaspro-vc.php:592
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:184
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:540
+msgid "Display category order."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:90
+#: includes/admin/supports/class-pciwgaspro-vc.php:320
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:74
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:292
+msgid "Display category title."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:237
+#: includes/admin/supports/class-pciwgaspro-vc.php:625
+msgid "Display Child Category"
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:212
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:568
+msgid "Display Child Of Category"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:264
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:235
+msgid "Display pagination."
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:204
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:560
+msgid "Display Parent Category"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:228
+#: includes/admin/supports/class-pciwgaspro-vc.php:616
+msgid "Display Parent ID"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:36
+msgid "Display post category in a grid view with various layouts."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:288
+msgid "Display post category in a slider view with various layouts."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:210
+#: includes/admin/supports/class-pciwgaspro-vc.php:598
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:188
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:544
+msgid "Display Specific category"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:234
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:156
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:243
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:589
+msgid "e.g. if you pass 5 then it will skip first five categories."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:274
+#: includes/admin/supports/class-pciwgaspro-vc.php:650
+msgid ""
+"e.g. if you pass 5 then it will skip first five post. Note: This will not "
+"work with pagination=true."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:452
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:415
+msgid "Enable autoplay."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:499
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:454
+msgid ""
+"Enable centered view with partial prev/next slides. Use with odd numbered "
+"`Slides to Scroll` and `Slider Column` counts."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:486
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:443
+msgid "Enable infinite loop for continuous sliding."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:176
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:461
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:422
+msgid "Enter autoplay speed."
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:19
+#: includes/admin/form-field/edit-form.php:28
+msgid "Enter category custom link. Leave empty for default category link."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:213
+#: includes/admin/supports/class-pciwgaspro-vc.php:601
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:192
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:548
+msgid "Enter category id to display categories wise."
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:215
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:571
+msgid ""
+"Enter category id to retrieve child terms of. If multiple taxonomies are "
+"passed, this will be ignored."
+msgstr ""
+
+#: includes/admin/settings/settings.php:156
+msgid "Enter custom CSS. Note: Do not include `style` tag."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:158
+#: includes/admin/supports/class-pciwgaspro-vc.php:388
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:138
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:356
+msgid "Enter extra CSS class for design customization."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:398
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:370
+msgid "Enter number for Slide to show at a time."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:407
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:378
+msgid "Enter number of rows for slider."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:177
+#: includes/admin/supports/class-pciwgaspro-vc.php:565
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:161
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:517
+msgid "Enter number to be displayed."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:416
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:385
+msgid "Enter number to scroll slider at a time."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:240
+#: includes/admin/supports/class-pciwgaspro-vc.php:628
+msgid "Enter parent category ID to retrieve all child terms of."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:231
+#: includes/admin/supports/class-pciwgaspro-vc.php:619
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:208
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:564
+msgid "Enter parent category ID to retrieve direct-child terms of."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:111
+msgid "Enter plugin license key."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:168
+#: includes/admin/supports/class-pciwgaspro-vc.php:556
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:154
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:510
+msgid "Enter registered taxonomy name. You can find it on plugin setting page."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:474
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:433
+msgid "Enter slide speed."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:412
+msgid "Enter valid license key for automatic updates."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:171
+msgid ""
+"Enter your license key into 'License Key' field and press 'Save Changes' "
+"button."
+msgstr ""
+
+#. Author of the plugin
+msgid "Essential Plugin"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:219
+#: includes/admin/supports/class-pciwgaspro-vc.php:607
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:196
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:552
+msgid "Exclude Category"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:274
+#: includes/admin/supports/class-pciwgaspro-vc.php:650
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:243
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:589
+msgid "Exclude number of category from starting."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:222
+#: includes/admin/supports/class-pciwgaspro-vc.php:610
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:200
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:556
+msgid "Exclude post category. Works only if `Category` field is empty."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:155
+#: includes/admin/supports/class-pciwgaspro-vc.php:385
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:134
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:352
+msgid "Extra Class"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:88
+#: includes/admin/supports/class-pciwgaspro-vc.php:99
+#: includes/admin/supports/class-pciwgaspro-vc.php:110
+#: includes/admin/supports/class-pciwgaspro-vc.php:148
+#: includes/admin/supports/class-pciwgaspro-vc.php:250
+#: includes/admin/supports/class-pciwgaspro-vc.php:262
+#: includes/admin/supports/class-pciwgaspro-vc.php:318
+#: includes/admin/supports/class-pciwgaspro-vc.php:329
+#: includes/admin/supports/class-pciwgaspro-vc.php:340
+#: includes/admin/supports/class-pciwgaspro-vc.php:378
+#: includes/admin/supports/class-pciwgaspro-vc.php:426
+#: includes/admin/supports/class-pciwgaspro-vc.php:438
+#: includes/admin/supports/class-pciwgaspro-vc.php:450
+#: includes/admin/supports/class-pciwgaspro-vc.php:484
+#: includes/admin/supports/class-pciwgaspro-vc.php:496
+#: includes/admin/supports/class-pciwgaspro-vc.php:509
+#: includes/admin/supports/class-pciwgaspro-vc.php:525
+#: includes/admin/supports/class-pciwgaspro-vc.php:638
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:72
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:82
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:92
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:128
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:223
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:233
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:290
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:300
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:310
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:346
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:393
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:403
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:413
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:441
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:451
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:462
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:476
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:579
+msgid "False"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:150
+#: includes/admin/supports/class-pciwgaspro-vc.php:380
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:130
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:348
+msgid "Fill the post image in a whole container."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:81
+msgid "Full Preview Mode"
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:24
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:263
+msgid "General Parameters"
+msgstr ""
+
+#: includes/admin/settings/settings.php:65
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:22
+#: includes/admin/pciwgas-how-it-work.php:110
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:22
+msgid "Getting Started - Post Category Image Grid and Slider Pro"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:62
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:47
+msgid "Grid"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:65
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:50
+msgid "Grid 1"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:74
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:59
+msgid "Grid 10"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:75
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:60
+msgid "Grid 11"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:76
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:61
+msgid "Grid 12"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:66
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:51
+msgid "Grid 2"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:67
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:52
+msgid "Grid 3"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:68
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:53
+msgid "Grid 4"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:69
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:54
+msgid "Grid 5"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:70
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:55
+msgid "Grid 6"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:71
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:56
+msgid "Grid 7"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:72
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:57
+msgid "Grid 8"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:73
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:58
+msgid "Grid 9"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:45
+#: includes/admin/supports/class-pciwgaspro-vc.php:297
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:32
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:271
+msgid "Grid Design 1"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:54
+#: includes/admin/supports/class-pciwgaspro-vc.php:306
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:41
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:280
+msgid "Grid Design 10"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:46
+#: includes/admin/supports/class-pciwgaspro-vc.php:298
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:33
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:272
+msgid "Grid Design 2"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:47
+#: includes/admin/supports/class-pciwgaspro-vc.php:299
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:34
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:273
+msgid "Grid Design 3"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:48
+#: includes/admin/supports/class-pciwgaspro-vc.php:300
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:35
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:274
+msgid "Grid Design 4"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:49
+#: includes/admin/supports/class-pciwgaspro-vc.php:301
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:36
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:275
+msgid "Grid Design 5"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:50
+#: includes/admin/supports/class-pciwgaspro-vc.php:302
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:37
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:276
+msgid "Grid Design 6"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:51
+#: includes/admin/supports/class-pciwgaspro-vc.php:303
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:38
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:277
+msgid "Grid Design 7"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:52
+#: includes/admin/supports/class-pciwgaspro-vc.php:304
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:39
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:278
+msgid "Grid Design 8"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:53
+#: includes/admin/supports/class-pciwgaspro-vc.php:305
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:40
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:279
+msgid "Grid Design 9"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:173
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:246
+#: includes/admin/supports/class-pciwgaspro-vc.php:634
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:219
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:575
+msgid "Hide Empty"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:166
+msgid "Hire our experts for any WordPress task."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:70
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:102
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:122
+msgid "How Shortcode Works"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.essentialplugin.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-"
+"slider/"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:197
+msgid "Image"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:144
+#: includes/admin/supports/class-pciwgaspro-vc.php:374
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:124
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:342
+msgid "Image Fit"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:136
+#: includes/admin/supports/class-pciwgaspro-vc.php:366
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:116
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:334
+msgid "Image Size"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:128
+#: includes/admin/supports/class-pciwgaspro-vc.php:358
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:108
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:326
+msgid "Image Wrap Height"
+msgstr ""
+
+#: post-category-image-with-grid-and-slider-pro.php:215
+#, php-format
+msgid ""
+"It looks like you had FREE version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:267
+#, php-format
+msgid ""
+"Kindly <a href=\"%s\" target=\"_blank\">renew</a> it for further updates and "
+"support from your <a href=\"%s\" target=\"_blank\">account page</a>."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:167
+msgid "Know More"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:393
+msgid "License"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:134
+msgid "License Information"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:36 pciwgas-plugin-updater.php:311
+msgid "License is activated successfully."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:107
+msgid "License Key"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:142
+msgid "License Limit"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:147
+msgid "Lifetime"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:117
+#: includes/admin/supports/class-pciwgaspro-vc.php:347
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:98
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:316
+msgid "Link Behaviour"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:480
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:437
+msgid "Loop"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:186
+#: includes/admin/supports/class-pciwgaspro-vc.php:574
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:168
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:524
+msgid "Name"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:163
+msgid "Need PRO Support?"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:152
+msgid "Need Support?"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:121
+#: includes/admin/supports/class-pciwgaspro-vc.php:351
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:102
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:320
+msgid "New Window"
+msgstr ""
+
+#: includes/pciwgas-function.php:326
+msgid "Next"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:178
+msgid "Note : If your license key has expired, please renew your license from"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:168
+#: includes/admin/supports/class-pciwgaspro-vc.php:556
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:154
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:510
+msgid ""
+"Note: Be sure you have added valid taxonomy name otherwise no result will be "
+"displayed."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:158
+#: includes/admin/supports/class-pciwgaspro-vc.php:388
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:138
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:356
+msgid ""
+"Note: Extra class added as parent so using extra class you customize your "
+"design."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:176
+msgid ""
+"Note: If you do not activate the license then you will not get automatic "
+"update of this plugin any more."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:98
+msgid ""
+"Note: Preview will be displayed according to responsive layout mode. Live "
+"preview may display differently when added to your page based on inheritance "
+"from some styles."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:270
+#: includes/admin/supports/class-pciwgaspro-vc.php:646
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:239
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:585
+msgid "Offset"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:149
+msgid ""
+"On purchase of any product 1 Year of Updates, 1 Year of Expert Support. "
+"After 1 Year, use without renewal OR renew manually at discounted price for "
+"further updates and support."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:542
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:491
+msgid "Ondemand"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:258
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:229
+msgid "Pagination"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:521
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:472
+msgid "Pause On Focus"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:505
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:458
+msgid "Pause On Hover"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:515
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:468
+msgid "Pause slider autoplay on hover."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:532
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:479
+msgid "Pause slider autoplay when slider element is focused."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:99
+msgid "Please activate plugin license to get automatic update of plugin."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:59
+msgid "Plugin License"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:95
+msgid "Plugin license is active."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:279
+msgid ""
+"Plugin license is invalid. Please be sure you have entered right plugin "
+"license key."
+msgstr ""
+
+#: post-category-image-with-grid-and-slider-pro.php:100
+#: includes/admin/class-pciwgas-admin.php:40
+msgid "Post Category Designs - Pro"
+msgstr ""
+
+#: includes/shortcode/pciwgas-grid.php:18
+msgid "Post Category Image Grid - Shortcode"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Post Category Image Grid and Slider allows you to upload category (taxonomy) "
+"image and display them in Grid OR Slider view."
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/class-pciwgas-admin.php:40
+msgid "Post Category Image Grid and Slider Pro"
+msgstr ""
+
+#: includes/admin/settings/settings.php:27
+msgid "Post Category Image Grid and Slider Pro - Settings"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:43
+msgid "Post Category Image Grid and Slider Pro - Shortcode Builder"
+msgstr ""
+
+#: includes/shortcode/pciwgas-slider.php:18
+#: includes/shortcode/pciwgas-slider.php:26
+#: includes/shortcode/pciwgas-slider.php:34
+msgid "Post Category Image Slider - Shortcode"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:59
+msgid "Post Category Image With Grid and Slider - Plugin License"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:78
+msgid "Post Category Image With Grid and Slider Pro - License Options"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:28
+msgid "Post Category Image with Grid and Slider Pro - Shortcode Builder"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:235
+msgid "Premium Support"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:235
+msgid "Premium Support - For any Customization"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:173
+msgid ""
+"Press 'Activate License'. If your key is valid then you can see green "
+"'Active' text."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:88
+msgid ""
+"Preview will be displayed according to responsive layout mode. You can check "
+"with `Full Preview` mode beside `Refresh` button for better visualization."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:88
+msgid "Preview Window"
+msgstr ""
+
+#: includes/pciwgas-function.php:325
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:543
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:492
+msgid "Progressive"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:152
+msgid "Purchase ID"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:80
+msgid "Refresh"
+msgstr ""
+
+#: includes/admin/settings/settings.php:48
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:120
+#: includes/admin/supports/class-pciwgaspro-vc.php:350
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:101
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:319
+msgid "Same Window"
+msgstr ""
+
+#: includes/admin/settings/settings.php:56
+#: includes/admin/settings/settings.php:90
+#: includes/admin/settings/settings.php:130
+#: includes/admin/settings/settings.php:161
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:192
+#: includes/admin/supports/class-pciwgaspro-vc.php:580
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:174
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:530
+msgid "Select category order type."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:541
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:490
+msgid "Select Lazyload"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:545
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:494
+msgid "Select option to use lazy loading in slider."
+msgstr ""
+
+#: includes/admin/settings/settings.php:125
+msgid ""
+"Select taxonomy box to enable support. Settings will be enabled for selected "
+"taxonomy on taxonomy listing page."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:77
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:43
+msgid "Shortcode Builder"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:63
+msgid "Shortcode Parameters"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:46
+#: includes/admin/shortcode-mapper/shortcode-preview.php:49
+msgid "Shortcode Preview"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:434
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:399
+msgid "Show Arrows"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:95
+#: includes/admin/supports/class-pciwgaspro-vc.php:325
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:78
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:296
+msgid "Show Count"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:106
+#: includes/admin/supports/class-pciwgaspro-vc.php:336
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:88
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:306
+msgid "Show Description"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:422
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:389
+msgid "Show Dots"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:428
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:395
+msgid "Show pagination dots."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:440
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:405
+msgid "Show Prev - Next arrows."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:84
+#: includes/admin/supports/class-pciwgaspro-vc.php:314
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:68
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:286
+msgid "Show Title"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:142
+msgid "Sites"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:492
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:447
+msgid "Slider Centermode"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:538
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:487
+msgid "Slider Lazyload"
+msgstr ""
+
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:362
+msgid "Slider Parameters"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:399
+#: includes/admin/supports/class-pciwgaspro-vc.php:408
+#: includes/admin/supports/class-pciwgaspro-vc.php:417
+#: includes/admin/supports/class-pciwgaspro-vc.php:429
+#: includes/admin/supports/class-pciwgaspro-vc.php:441
+#: includes/admin/supports/class-pciwgaspro-vc.php:453
+#: includes/admin/supports/class-pciwgaspro-vc.php:466
+#: includes/admin/supports/class-pciwgaspro-vc.php:475
+#: includes/admin/supports/class-pciwgaspro-vc.php:487
+#: includes/admin/supports/class-pciwgaspro-vc.php:500
+#: includes/admin/supports/class-pciwgaspro-vc.php:516
+#: includes/admin/supports/class-pciwgaspro-vc.php:533
+#: includes/admin/supports/class-pciwgaspro-vc.php:546
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:404
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:374
+msgid "Slides Row"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:413
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:382
+msgid "Slides To Scroll"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:395
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:367
+msgid "Slides To Show"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:188
+#: includes/admin/supports/class-pciwgaspro-vc.php:576
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:170
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:526
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:34
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:92
+msgid "Sorry, Something happened wrong."
+msgstr ""
+
+#: includes/class-pciwgas-script.php:88
+msgid ""
+"Sorry, Something happened wrong. Kindly please be sure that you have choosen "
+"relevant shortocde from the dropdown."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:219
+#, php-format
+msgid ""
+"Sorry, Something happened wrong. Please contact <a href=\"%s\">site "
+"administrator</a>."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/shortcode-preview.php:40
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/shortcode-preview.php:73
+msgid "Sorry, You can not visit the link in preview"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:471
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:430
+msgid "Speed"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:113
+msgid "Step-1. Navigate to Plugin Settings > Taxonomy Settings section."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:114
+msgid ""
+"Step-2. Select custom taxonomy for which you want to enable support for Grid "
+"and Slider."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:115
+msgid ""
+"Step-3. Once you save, you can see custom setting box like Image Upload and "
+"Custom Link enabled at relevant category Add / Edit page."
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:116
+msgid "Step-4. You can choose your desired image and etc for category."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:169
+msgid "Steps to Activate the License"
+msgstr ""
+
+#: includes/admin/settings/settings.php:110
+#: includes/admin/supports/class-pciwgaspro-vc.php:165
+#: includes/admin/supports/class-pciwgaspro-vc.php:553
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:150
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:506
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/admin/settings/settings.php:101
+msgid "Taxonomy Settings"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:189
+#: includes/admin/supports/class-pciwgaspro-vc.php:577
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:171
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:527
+msgid "Term Group"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:187
+#: includes/admin/supports/class-pciwgaspro-vc.php:575
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:169
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:525
+msgid "Term ID"
+msgstr ""
+
+#: post-category-image-with-grid-and-slider-pro.php:214
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:174
+msgid "That's it. Now you can get auto update of this plugin."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/pciwgaspro-shortcode-mapper.php:58
+msgid ""
+"The Shortcode Mapper allows you to preview plugin shortcode. You can choose "
+"your desired shortcode from the dropdown and check various parameters from "
+"left panel. \n"
+"\n"
+"You can paste shortocde to below and press Refresh button to preview so each "
+"and every time you do not have to choose each parameters!!!"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:292
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/widgets/shortcode/class-pciwgas-abstract-widget.php:269
+msgid "Title"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:174
+#: includes/admin/supports/class-pciwgaspro-vc.php:562
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:158
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:514
+msgid "Total Items Limit"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:87
+#: includes/admin/supports/class-pciwgaspro-vc.php:98
+#: includes/admin/supports/class-pciwgaspro-vc.php:109
+#: includes/admin/supports/class-pciwgaspro-vc.php:147
+#: includes/admin/supports/class-pciwgaspro-vc.php:249
+#: includes/admin/supports/class-pciwgaspro-vc.php:261
+#: includes/admin/supports/class-pciwgaspro-vc.php:317
+#: includes/admin/supports/class-pciwgaspro-vc.php:328
+#: includes/admin/supports/class-pciwgaspro-vc.php:339
+#: includes/admin/supports/class-pciwgaspro-vc.php:377
+#: includes/admin/supports/class-pciwgaspro-vc.php:425
+#: includes/admin/supports/class-pciwgaspro-vc.php:437
+#: includes/admin/supports/class-pciwgaspro-vc.php:449
+#: includes/admin/supports/class-pciwgaspro-vc.php:483
+#: includes/admin/supports/class-pciwgaspro-vc.php:495
+#: includes/admin/supports/class-pciwgaspro-vc.php:508
+#: includes/admin/supports/class-pciwgaspro-vc.php:524
+#: includes/admin/supports/class-pciwgaspro-vc.php:637
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:71
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:81
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:91
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:127
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:222
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:232
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:289
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:299
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:309
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:345
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:392
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:402
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:412
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:440
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:450
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:461
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:475
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:578
+msgid "True"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:136
+msgid "Try Our Shortcode Builder!!"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:142
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:27
+#: includes/admin/form-field/edit-form.php:40
+msgid "Upload / Choose category image."
+msgstr ""
+
+#: includes/admin/settings/settings.php:80
+msgid ""
+"Upload default category image or provide an external URL of image. If "
+"category does not have featured image then this will be displayed instead of "
+"blank grey box."
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:24
+#: includes/admin/form-field/edit-form.php:37
+#: includes/admin/settings/settings.php:78
+msgid "Upload Image"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:147 pciwgas-plugin-updater.php:149
+msgid "Valid Upto"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:234
+msgid "View Documentation"
+msgstr ""
+
+#: includes/admin/pciwgas-how-it-work.php:157
+msgid "View PRO Designs"
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:252
+#: includes/admin/supports/class-pciwgaspro-vc.php:640
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:225
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:581
+msgid "Whether to hide categories that do not have any posts attached to them."
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:301
+msgid "WPOS Blocks"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:300
+#, php-format
+msgid ""
+"You can manage this from your <a href=\"%s\" target=\"_blank\">account</a> "
+"or Please contact <a href=\"%s\" target=\"_blank\">site administrator</a>."
+msgstr ""
+
+#: includes/admin/supports/class-pciwgaspro-vc.php:213
+#: includes/admin/supports/class-pciwgaspro-vc.php:222
+#: includes/admin/supports/class-pciwgaspro-vc.php:601
+#: includes/admin/supports/class-pciwgaspro-vc.php:610
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:192
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:200
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:548
+#: includes/admin/supports/pciwgaspro-shortcode-fields.php:556
+msgid ""
+"You can pass multiple ids with comma seperated. You can find id at relevant "
+"category listing page."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:177
+msgid ""
+"You will receive license key within your product purchase email. If you do "
+"not have license key then you can get it from your"
+msgstr ""
+
+#: pciwgas-plugin-updater.php:85 includes/admin/settings/settings.php:42
+msgid "Your changes saved successfully."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:286
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:262
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:24
+#, php-format
+msgid ""
+"Your license key expired on %s. Kindly <a href=\"%s\" target=\"_blank\">"
+"renew</a> it for further updates and support from your <a href=\"%s\" "
+"target=\"_blank\">account page</a>."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:273
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:274
+#, php-format
+msgid ""
+"Your license key has been disabled. Please contact <a href=\"%s\">site "
+"administrator</a>."
+msgstr ""
+
+#: pciwgas-plugin-updater.php:298
+msgid "Your license key has reached its activation limit."
+msgstr ""
